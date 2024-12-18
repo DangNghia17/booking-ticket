@@ -17,13 +17,13 @@ const Payments = () => {
   const user = useSelector(userInfoSelector);
   const { data: payments, status } = useGetPaymentListByOrganizerID(user.id);
   const { t } = useTranslation();
-  console.log({ payments });
   const sortedPayments = sortBy(payments, (payment) => {
     if (payment.status === "INPROGRESS") {
       return 1;
     } else if (payment.status === "COMPLETED") {
       return 2;
     }
+    return 3;
   });
   // for table
   const [searchText, setSearchText] = useState("");
@@ -143,6 +143,13 @@ const Payments = () => {
   // end for table
   // const nameColumn = paymentColumns.find((e) => e.dataIndex === "name");
   // Object.assign(nameColumn, getColumnSearchProps("name"));
+  const paymentsWithKeys = sortedPayments?.map((payment, index) => ({
+    ...payment,
+    key: payment.id || 
+         payment._id || 
+         payment.orderId || 
+         `payment-${index}` // Fallback nếu không có ID nào
+  }));
   return (
     <div className="m-2 md:m-10 mt-24 p-2 md:p-10 card">
       <Header category={t("sider.management")} title={t("sider.payment")} />
@@ -151,7 +158,7 @@ const Payments = () => {
           <Spin />
         </div>
       ) : (
-        <Table columns={paymentColumns} dataSource={sortedPayments} />
+        <Table columns={paymentColumns} dataSource={paymentsWithKeys} rowKey={(record) => record.key} locale={{ emptyText: t('table.no_data') }} />
       )}
     </div>
   );

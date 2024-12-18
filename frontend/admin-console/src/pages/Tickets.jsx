@@ -40,8 +40,9 @@ const Tickets = () => {
       <Header category={t("sider.management")} title={t("sider.ticket")} />
       <div className="event-container-grid">
         {isLoading
-          ? [...Array(6)].map((item) => (
+          ? [...Array(6)].map((_, index) => (
               <Skeleton
+                key={`skeleton-${index}`}
                 variant="rectangular"
                 height={200}
                 width={"20vw"}
@@ -49,7 +50,7 @@ const Tickets = () => {
               />
             ))
           : sortedEvents?.slice(firstIndex, lastIndex).map((event) => (
-              <div>
+              <div key={event.id || event._id}>
                 <Event
                   event={event}
                   onClick={() => {
@@ -62,7 +63,7 @@ const Tickets = () => {
       </div>
       <Modal
         title={event?.name}
-        visible={open}
+        open={open}
         width={"60vw"}
         closable={false}
         onCancel={() => dispatch(setOpenTicketModalInTickets(false))}

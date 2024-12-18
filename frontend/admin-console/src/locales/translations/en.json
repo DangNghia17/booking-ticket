@@ -69,16 +69,9 @@
         "menu": "Categories",
         "all": "All categories",
         "music": "Music",
-        "exhibition": "Exhibition",
-        "courses": "Courses",
-        "theater": "Theater",
-        "online": "Online",
-        "nightlife": "Nightlife",
+        "comedy": "Comedy",
         "sport": "Sport",
-        "seminar": "Seminar",
-        "travel": "Travel",
-        "conference": "Conference",
-        "community": "Community"
+        "conference": "Conference"
     },
     "popup": {
         "export-excel": "No data to export",

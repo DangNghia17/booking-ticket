@@ -69,16 +69,9 @@
         "menu": "Danh mục",
         "all": "Tất cả danh mục",
         "music": "Âm nhạc",
-        "exhibition": "Triển lãm",
-        "courses": "Khóa học",
-        "theater": "Sân khấu",
-        "online": "Trực tiếp",
-        "nightlife": "Nightlife",
+        "comedy": "Hài kịch",
         "sport": "Thể thao",
-        "seminar": "Hội thảo",
-        "travel": "Du lịch",
-        "conference": "Hội nghị",
-        "community": "Cộng đồng"
+        "conference": "Hội nghị"
     },
     "popup": {
         "export-excel": "Không có dữ liệu",

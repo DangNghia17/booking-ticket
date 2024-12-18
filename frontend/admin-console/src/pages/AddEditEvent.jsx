@@ -314,8 +314,18 @@ function AddEditEvent(props) {
   const categoryOptions = status === "success" && categories ? 
     categories.map(category => ({
       label: t(category),
-      value: category
+      value: category,
+      key: category
     })) : [];
+
+  const currencyOptions = [
+    { value: "USD", label: "USD", key: "USD" },
+    { value: "VND", label: "VND", key: "VND" }
+  ].map((field) => ({
+    value: field.value,
+    name: field.label,
+    key: field.key
+  }));
 
   return (
     <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
@@ -393,6 +403,7 @@ function AddEditEvent(props) {
                     }}
                     className="w-full rounded-md"
                     optionFilterProp="label"
+                    key={`category-select-${formik.values.eventCategoryList.length}`}
                   />
                   {formik.touched.eventCategoryList && formik.errors.eventCategoryList && (
                     <div className="text-red-500 text-sm mt-1">
@@ -461,6 +472,7 @@ function AddEditEvent(props) {
                   options={Object.values(provinces).map((field) => ({
                     value: field.name,
                     name: field.name,
+                    key: field.name
                   }))}
                 />
               </Col>
@@ -528,13 +540,7 @@ function AddEditEvent(props) {
                             name="currency"
                             component={SelectHorizonal}
                             label={t("event.currency")}
-                            options={Object.values([
-                              { value: "USD", label: "USD" },
-                              { value: "VND", label: "VND" },
-                            ]).map((field) => ({
-                              value: field.value,
-                              name: field.label,
-                            }))}
+                            options={currencyOptions}
                           />
                         </div>
                       </Col>
@@ -552,63 +558,66 @@ function AddEditEvent(props) {
                         </div>
                       </Col>
                     </Row>
-                    {values.ticketList?.map((ticket, index) => (
-                      <div 
-                        key={ticket.id || index}
-                        className="p-3 border-gray-400 border-4 border-dashed my-2 rounded-lg bg-gray-200 relative"
-                      >
-                        <Row gutter={[4, 24]} className="flex items-start">
-                          <Col span={10}>
-                            <Field
-                              name={`ticketList[${index}].ticketName`}
-                              component={Input}
-                              label={t("event.ticketList.ticketName", {
-                                val: index + 1,
-                              })}
+                    {values.ticketList?.map((ticket, index) => {
+                      const ticketKey = ticket.id || ticket._id || `ticket-${index}-${Date.now()}`;
+                      return (
+                        <div 
+                          key={ticketKey}
+                          className="p-3 border-gray-400 border-4 border-dashed my-2 rounded-lg bg-gray-200 relative"
+                        >
+                          <Row gutter={[4, 24]} className="flex items-start">
+                            <Col span={10}>
+                              <Field
+                                name={`ticketList[${index}].ticketName`}
+                                component={Input}
+                                label={t("event.ticketList.ticketName", {
+                                  val: index + 1,
+                                })}
+                              />
+                            </Col>
+                            <Col span={6}>
+                              <Field
+                                name={`ticketList[${index}].price`}
+                                component={Input}
+                                label={t("event.ticketList.price", {
+                                  val: index + 1,
+                                })}
+                              />
+                            </Col>
+                            <Col span={6}>
+                              <Field
+                                name={`ticketList[${index}].quantity`}
+                                component={Input}
+                                label={t("event.ticketList.quantity", {
+                                  val: index + 1,
+                                })}
+                              />
+                            </Col>
+                          </Row>
+                          <Row gutter={[8, 24]}>
+                            <Col span={22}>
+                              <Editor
+                                name={`ticketList[${index}].description`}
+                                label={t("event.ticketList.description", {
+                                  val: index + 1,
+                                })}
+                              />
+                            </Col>
+                          </Row>
+                          {values.ticketList.length > 1 && (
+                            <FaTrashAlt
+                              className="text-red-600 text-2xl absolute bottom-5 right-5 hover:animate-bounce cursor-pointer"
+                              type="button"
+                              onClick={() => {
+                                if (values.ticketList.length > 1) {
+                                  remove(index);
+                                }
+                              }}
                             />
-                          </Col>
-                          <Col span={6}>
-                            <Field
-                              name={`ticketList[${index}].price`}
-                              component={Input}
-                              label={t("event.ticketList.price", {
-                                val: index + 1,
-                              })}
-                            />
-                          </Col>
-                          <Col span={6}>
-                            <Field
-                              name={`ticketList[${index}].quantity`}
-                              component={Input}
-                              label={t("event.ticketList.quantity", {
-                                val: index + 1,
-                              })}
-                            />
-                          </Col>
-                        </Row>
-                        <Row gutter={[8, 24]}>
-                          <Col span={22}>
-                            <Editor
-                              name={`ticketList[${index}].description`}
-                              label={t("event.ticketList.description", {
-                                val: index + 1,
-                              })}
-                            />
-                          </Col>
-                        </Row>
-                        {values.ticketList.length > 1 && (
-                          <FaTrashAlt
-                            className="text-red-600 text-2xl absolute bottom-5 right-5 hover:animate-bounce cursor-pointer"
-                            type="button"
-                            onClick={() => {
-                              if (values.ticketList.length > 1) {
-                                remove(index);
-                              }
-                            }}
-                          />
-                        )}
-                      </div>
-                    ))}
+                          )}
+                        </div>
+                      );
+                    })}
                   </>
                 );
               }}
