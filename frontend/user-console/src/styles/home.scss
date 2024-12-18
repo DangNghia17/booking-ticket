@@ -1,0 +1,71 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.home {
+  &-container {
+    display: block;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+    padding: 0 !important;
+    margin-top: 0;
+    .sider {
+      display: block;
+      padding-left: 0;
+      position: sticky;
+      overflow-y: auto;
+      top: 4.5rem;
+      @include for-phone {
+        display: none !important;
+      }
+      @include for-tablet {
+        display: none !important;
+      }
+      &-item {
+        font-size: 0.875rem !important;
+      }
+    }
+  }
+  &-content {
+    position: relative;
+    width: 81vw;
+    // max-width: 1254px;
+    @include for-phone {
+      width: 100vw !important;
+    }
+    @include for-tablet {
+      width: 100vw !important;
+    }
+  }
+  &-popular,
+  &-event-near-you {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    &-content {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 5px;
+      @include for-tablet {
+        grid-template-columns: auto auto auto !important;
+      }
+      @include for-phone {
+        grid-template-columns: auto auto !important;
+        justify-content: center;
+      }
+    }
+  }
+}
+.typo {
+  font-weight: 800;
+  color: $primary-color;
+}
+.organizer-registration {
+  background-image: linear-gradient(
+    112.1deg,
+    rgba(32, 38, 57, 1) 11.4%,
+    rgba(63, 76, 119, 1) 70.2%
+  );
+}

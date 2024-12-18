@@ -1,0 +1,16 @@
+@use "variables" as vars;
+
+// Custom styles for sweetalert2
+:root {
+  --swal2-white: #fff;
+  --swal2-black: #000;
+  --swal2-background: #fff;
+}
+
+.swal2-popup {
+  font-family: "Quicksand", sans-serif !important;
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: vars.$primary-color !important;
+}

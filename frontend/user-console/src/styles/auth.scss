@@ -1,0 +1,209 @@
+@use "variables" as vars;
+@use "mixin";
+@use "mixins" as mixins;
+
+.auth {
+  &-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding-right: 3rem;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: vars.$primary-color;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23091225' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%231F3E82' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%231e3b7c' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%231e3876' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%231d3471' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%231c316b' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%231a2e66' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23192b60' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%2318285b' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23172555' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23152250' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23141f4b' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23121c45' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23111a40' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%230f173b' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%230d1436' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%230c1131' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%230b0d2d' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%230A0828' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+
+    @include mixins.for-phone {
+      padding-right: 0 !important;
+    }
+  }
+  &-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      @include mixins.for-phone {
+        display: none;
+      }
+    }
+    @include mixins.for-phone {
+      margin-right: 0 !important;
+    }
+  }
+
+  &-form {
+    width: 500px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+      6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+      12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+      22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+      41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+      100px 100px 80px rgba(0, 0, 0, 0.07);
+
+    /*button {
+      background: $primary-color;
+      padding: 0.5rem;
+      color: white;
+      font-weight: 700;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      &:hover {
+        filter: brightness(80%);
+      }
+    }*/
+    &-forget-password {
+      position: absolute;
+      left: 50%;
+      margin-top: 1rem;
+      transform: translateX(-50%);
+      font-weight: 700;
+    }
+    input {
+      font-family: Verdana;
+    }
+    input[type="password"] {
+      font-family: Verdana;
+      letter-spacing: 0.125em;
+    }
+  }
+  &-title {
+    font-size: 2rem;
+    color: vars.$primary-color;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  &-google {
+    border-radius: 5px;
+    span {
+      font-weight: 700;
+    }
+  }
+}
+.error-message {
+  color: red;
+  font-style: italic;
+  font-size: 1rem;
+}
+.PhoneInputInput {
+  outline: none !important;
+}
+.otp-input {
+  border-radius: 5px;
+  padding: 0.2rem;
+  border: 1px solid gray;
+}
+@keyframes slide {
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  40% {
+    transform: scale(1.2);
+  }
+}
+.otp-group {
+  display: none;
+}
+
+.otp-input {
+  display: none;
+}
+.otp-modal {
+  &__body {
+    font-size: 1.125rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__input-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 0;
+    
+    > div {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__input {
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0;
+    border: 2px solid #d9d9d9;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    background: white;
+
+    &:focus {
+      border-color: vars.$primary-color;
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+    }
+
+    // Ẩn mũi tên tăng giảm của input number
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    &[type=number] {
+      -moz-appearance: textfield;
+    }
+  }
+
+  &__resend {
+    color: rgb(9, 255, 0);
+  }
+
+  &__countdown-resend {
+    width: 100%;
+  }
+
+  &__btn {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    &--disabled {
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__error-message {
+    font-size: 0.875rem;
+    text-align: center;
+    background: red;
+    margin-top: 0.75rem;
+    width: 100%;
+  }
+}

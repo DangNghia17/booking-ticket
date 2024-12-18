@@ -1,0 +1,154 @@
+@import "./variables.scss";
+@import "./auth.scss";
+@import "./calendar.scss";
+@import "./loading.scss";
+@import "./login.scss";
+@import "./event.scss";
+@import "./user-profile.scss";
+@import "./upload.scss";
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.secondary-button {
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+  z-index: 10;
+  border-radius: 0.25rem;
+}
+.ant-select-selector {
+  height: 2.5rem !important;
+}
+.primary-button {
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  background: linear-gradient(
+    53deg,
+    rgba(31, 62, 130, 1) 0%,
+    rgba(0, 39, 125, 1) 100%
+  ) !important;
+  border-radius: 0.25rem;
+  z-index: 10;
+  color: white;
+}
+.error-message {
+  color: red;
+  font-style: italic;
+  font-size: 1rem;
+}
+.ant-image-preview-img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  transform: scaleX(1);
+  margin: 0 auto;
+  cursor: grab;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: auto;
+  transform: scale3d(1, 1, 1) rotate(0deg) translate(0px, -256px);
+}
+.ant-btn.ant-btn-primary.ant-btn-sm {
+  border-color: $primary-color !important;
+  background: $primary-color !important;
+}
+.ant-picker {
+  height: 2.5rem !important;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+.gradient-button {
+  background-color: #4caf50; /* Màu nền của nút */
+  color: white; /* Màu chữ của nút */
+  border: none; /* Bỏ viền của nút */
+  padding: 0.5rem; /* Khoảng cách giữa nội dung của nút và viền của nút */
+  font-size: 16px; /* Cỡ chữ của nút */
+  margin-bottom: 0.5rem;
+  border-radius: 5px; /* Đường cong của góc nút */
+  position: relative; /* Tạo một không gian tương đối cho phần tử con */
+  background: linear-gradient(to right, #4caf50 0%, #2e8b57 100%);
+}
+.gradient-button:hover {
+  opacity: 0.5; /* Giảm độ trong suốt của phần tử con khi nút được bấm */
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #1a2980 0%,
+    #002249 51%,
+    #1a2980 100%
+  );
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.neumorphism {
+  border-radius: 10px;
+  background: #ededed;
+  box-shadow: 5px 5px 20px #c9c9c9, -5px -5px 20px #414141;
+}
+
+.card {
+  --bg: #ffffff;
+  --contrast: #e2e0e0;
+  --grey: #c9cfcf;
+  position: relative;
+  padding: 1rem;
+  background-color: var(--bg);
+  border-radius: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.card-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-conic-gradient(
+      var(--bg) 0.0000001%,
+      var(--grey) 0.000104%
+    )
+    60% 60%/600% 600%;
+  filter: opacity(10%) contrast(105%);
+}
+
+.card-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 190px;
+  height: 254px;
+  background-color: var(--contrast);
+  border-radius: 30px;
+  /* Content style */
+  font-size: 30px;
+  font-weight: 900;
+  color: #c7c4c4;
+  text-align: center;
+  font-family: monospace;
+}

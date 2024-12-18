@@ -1,0 +1,21 @@
+@mixin for-phone {
+  @media (max-width: 599px) { @content; }
+}
+
+@mixin for-tablet {
+  @media (min-width: 600px) and (max-width: 899px) { @content; }
+}
+
+@mixin for-desktop {
+  @media (min-width: 900px) { @content; }
+}
+
+@mixin hardwareAccel() {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+}
+
+@mixin improveAntiAlias() {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+} 

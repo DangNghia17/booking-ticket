@@ -1,0 +1,13 @@
+@use "variables" as vars;
+
+.carousel-indicators [data-bs-target] {
+  background-color: vars.$primary-color !important;
+  height: 0.4rem !important;
+  border-radius: 0.5rem;
+}
+.carousel-indicators {
+  bottom: -2.5rem !important;
+}
+.swiper-slide img {
+  max-height: 68vh;
+}

@@ -1,0 +1,344 @@
+{
+  "language": {
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt"
+  },
+  "pages": {
+    "home": "Trang chủ",
+    "events": "Sự kiện",
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "forgot-password": "Quên mật khẩu",
+    "ticket-booking": "Đặt vé"
+  },
+  "event": {
+    "title": "Sự kiện",
+    "best-seller": "Top 10 Sự kiện bán chạy",
+    "all": "Tất cả trạng thái",
+    "list": "Danh sách sự kiện",
+    "trending": "Sự kiện nổi bật",
+    "address": "Bản đồ nơi tổ chức",
+    "near-you": "{{val, string}} có gì vui?",
+    "hero-slogan": "Thế giới giải trí đặc sắc",
+    "placeholder-searchbox": "Tìm kiếm sự kiện theo tên, địa chỉ, thể loại",
+    "book-now": "Đặt vé ngay",
+    "available": "Chưa diễn ra",
+    "sold-out": "Hết vé",
+    "completed": "Đã kết thúc",
+    "interest": "Quan tâm",
+    "interested": "Đã quan tâm",
+    "view-more": "Xem thêm",
+    "recommend-for-you": "Sự kiện dành cho bạn",
+    "remain": "Còn lại",
+    "ticket": "vé",
+    "not-found": "Không có sự kiện nào !?",
+    "not-found-description": "Tụi mình không tìm thấy bất kỳ kết quả nào phù hợp, bạn thử chỉnh sửa lại bộ lọc nhé!",
+    "remaining-days": "Còn {{remainingDays}} ngày nữa",
+    "feedback-avalable": "Có thể nhận định về sự kiện này."
+  },
+  "search": {
+    "result": "Kết quả tìm kiếm: {{val, number}} sự kiện",
+    "empty": "Không tìm thấy",
+    "view-all": "Xem tất cả kết quả"
+  },
+  "category": {
+    "menu": "Danh mục thể loại",
+    "all": "Tất cả thể loại",
+    "music": "Âm nhạc",
+    "comedy": "Hài kịch",
+    "sport": "Thể thao",
+    "conference": "Hội nghị"
+  },
+  "org": {
+    "name": "Tên của nhà tổ chức",
+    "menu": "Dành cho doanh nghiệp",
+    "contact": "Liên hệ",
+    "about": "Về chúng tôi",
+    "faq": "Câu hỏi thường gặp",
+    "become-an-org": "Trở thành nhà tổ chức",
+    "follow": "Theo dõi",
+    "followed": "Đang theo dõi",
+    "all-events": "Tất cả sự kiện",
+    "completed-events": "Sự kiện đã kết thúc",
+    "featured-events": "Sự kiện nổi bật"
+  },
+  "home": "Trang chủ",
+  "signin": "Đăng nhập",
+  "introduce": "Giới thiệu",
+  "ticket-info": "Thông tin vé",
+  "review": "Đánh giá",
+  "organizer": "Nhà tổ chức",
+  "user": {
+    "order-title": "Đơn hàng",
+    "payment-success": "Cảm ơn bạn! Bạn đã thanh toán thành công.",
+    "profile": "Thông tin cá nhân",
+    "my-ticket": "Đơn hàng đã mua",
+    "language": "Chuyển đổi ngôn ngữ",
+    "forgot-password": "Quên mật khẩu",
+    "wishlist": "Sự kiện yêu thích",
+    "logout": "Đăng xuất",
+    "name": "Họ và tên",
+    "phone": "Số điện thoại",
+    "password": "Mật khẩu",
+    "phone-placeholder": "Nhập số điện thoại của bạn",
+    "login-by-email": "Đăng nhập bằng email/password",
+    "login-by-google": "Đăng nhập bằng Google",
+    "unauthenticated": {
+      "title": "Chưa đăng nhập",
+      "text": "Vui lòng đăng nhập"
+    },
+    "authentication": "Đăng ký | Đăng nhập",
+    "confirmPassword": "Nhập lại mật khẩu",
+    "create-account": "Chưa có tài khoản?",
+    "signup": "Đăng ký",
+    "already-account": "Đã có tài khoản?",
+    "forgot-password-tip": "Vui lòng điền email của bạn. Một mã OTP sẽ được gửi đến email.",
+    "oauth": {
+      "success": "Đăng nhập thành công, đang chuyển hướng về Trang chủ trong...",
+      "failed": "Đăng nhập thất bại, chuyển về trang đăng nhập trong..."
+    },
+    "changePassword": "Cập nhật mật khẩu",
+    "currentPassword": "Mật khẩu hiện tại",
+    "newPassword": "Mật khẩu mới",
+    "payment": {
+      "success": "Thanh toán hóa đơn thành công...Đang chuyển hướng",
+      "error": "Thanh toán hóa đơn thất bại...Đang chuyển hướng"
+    }
+  },
+  "location": {
+    "all": "Tất cả địa điểm",
+    "HCM": "Thành phố Hồ Chí Minh",
+    "HN": "Hà Nội",
+    "LD": "Lâm Đồng",
+    "DN": "Đà Nẵng",
+    "CT": "Cần Thơ",
+    "others": "Địa điểm khác"
+  },
+  "date": {
+    "today": "Hôm nay",
+    "all": "Tất cả các ngày",
+    "tomorrow": "Ngày mai",
+    "this-week": "Tuần này",
+    "this-month": "Tháng này",
+    "range": "Tùy chỉnh khoảng thời gian"
+  },
+  "wishlist": {
+    "add": {
+      "title": "Thêm sự kiện thành công",
+      "text": "Sự kiện đã được thêm vào danh sách yêu thích"
+    },
+    "remove": {
+      "title": "Bỏ yêu thích thành công",
+      "text": "Sự kiện đã được loại bỏ khỏi danh sách yêu thích"
+    }
+  },
+  "submit": "Hoàn thành",
+  "remove-all": "Xóa tất cả",
+  "404": {
+    "title": "Nội dung không tồn tại hoặc đã bị xóa?",
+    "go-back": "Trở về trang trước đó"
+  },
+  "validate": {
+    "email": {
+      "required": "Email không được trống",
+      "invalid": "Email không hợp lệ"
+    },
+    "password": {
+      "required": "Mật khẩu không được để trống",
+      "invalid": "Mật khẩu không hợp lệ",
+      "upper": "Phải chứa ký tự in hoa",
+      "number": "Phải chứa ký tự số",
+      "min": "Mật khẩu ít nhất 8 ký tự"
+    },
+    "confirmPassword": {
+      "invalid": "Nhập lại mật khẩu không trùng khớp"
+    },
+    "name": {
+      "required": "Tên không được để trống",
+      "max": "Tối đa 64 ký tự",
+      "number-not-allowed": "Tên không chứa số"
+    },
+    "otp": {
+      "required": "OTP không được để trống",
+      "min": "Vui lòng nhập đủ OTP 6 số"
+    },
+    "phone": {
+      "invalid": "Số điện thoại không hợp lệ",
+      "error": "Số điện thoại không thuộc Việt Nam"
+    }
+  },
+  "status": {
+    "register": {
+      "400": "Email đã được đăng ký",
+      "200": "Đăng ký thành công!"
+    },
+    "login": {
+      "200": "Đăng nhập thành công",
+      "400": "Email hoặc mật khẩu sai",
+      "unauthorized": "Không được phép: Quyền truy cập bị từ chối"
+    },
+    "forgot": {
+      "404": "Email không tồn tại"
+    },
+    "verify": {
+      "404": "OTP không tồn tại",
+      "200": "Xác thực OTP thành công"
+    }
+  },
+  "lotus": {
+    "big-slogan": "KÊNH ĐẶT VÉ SỰ KIỆN SỐ 1 Đà Nẵng",
+    "description": "Với sự am hiểu về công nghệ và ngành công nghiệp bán vé, Lotus Ticket là hệ thống quản lý và phân phối vé sự kiện giúp bạn mua và bán vé sự kiện thật dễ dàng.",
+    "slogan": "Hệ thống đặt vé sự kiện số 1 Đà Nẵng",
+    "follow-us": "Kết nối với chúng tôi",
+    "introduce": "Lotus Ticket cung cấp giải pháp cho việc quản lý và bán vé trực tuyến sự kiện",
+    "hotline-title": "Đường dây nóng",
+    "email-title": "Email hỗ trợ",
+    "hotline": "Đà Nẵng: T.2 - T.6 (8:30 ~ 18:30)",
+    "intro": {
+      "1": {
+        "title": "Soát vé tại cổng",
+        "content": "Phục vụ > 100,000 vé"
+      },
+      "2": {
+        "title": "Cập nhật và xem báo cáo doanh thu  trực tyến",
+        "content": "Dễ dàng truy cập để xem báo cáo số lượng vé bán"
+      },
+      "3": {
+        "title": "Chăm sóc khách hàng",
+        "content": "Messenger trò chuyện trực tiếp, email phản hồi nhanh, gọi lại theo yêu cầu"
+      },
+      "4": {
+        "title": "Phương thức thanh toán",
+        "content": "Thanh toán trực tuyến hoặc thanh toán khi nhận hàng"
+      },
+      "5": {
+        "title": "Ứng dụng check in bằng mã vạch",
+        "content": "Dễ dàng kiểm soát lượng người tham dự sự kiện"
+      },
+      "6": {
+        "title": "Tìm kiếm sự kiện dễ dàng",
+        "content": "Sự kiện đa dạng và đa thể loại"
+      }
+    },
+    "partners": "Đối tác của chúng tôi"
+  },
+  "ticket-booking": {
+    "step1": "Chọn vé",
+    "step2": "Thông tin thanh toán",
+    "step3": "Hoàn thành"
+  },
+  "popup": {
+    "organizer": {
+      "success": "Đã gửi yêu cầu",
+      "success-text": "Vui lòng kiểm tra email và làm theo hướng dẫn",
+      "error": "Gửi yêu cầu thất bại",
+      "error-text": "Có lỗi xảy ra!"
+    },
+    "check-order": {
+      "400": "Vé '{{val, string}}' không đủ hàng!"
+    },
+    "email": {
+      "title": "Đã gửi email",
+      "content": "OTP đã được gửi đến email của bạn. Kiểm tra lại hộp thư (xem xét mục spam)!"
+    },
+    "language": {
+      "success": "Đã chuyển ngôn ngữ thành {{lang, string}}"
+    },
+    "changePassword": {
+      "success": "Thay đổi mật khẩu thành công",
+      "error": "Thay đổi mật khẩu thất bại"
+    },
+    "update-account": {
+      "account": {
+        "200": "Cập nhật thông tin tài khoản thành công",
+        "400": "Cập nhật thông tin tài khoản thất bại"
+      }
+    },
+    "logout": {
+      "success": "Đăng xuất thành công"
+    },
+    "payment": {
+      "success": "Thanh toán thành công",
+      "error": "Thanh toán thất bại"
+    },
+    "review": {
+      "delete": "Bạn muốn xóa đánh giá này?",
+      "delete-success": "Đánh giá đã được xóa thành công",
+      "delete-failed": "Xóa đánh giá thất bại.",
+      "submit-success": "Cảm ơn bạn đã đánh giá!",
+      "submit-failed": "Gửi đánh giá thất bại.",
+      "update-success": "Đánh giá của bạn đã được cập nhật.",
+      "update-failed": "Cập nhật đánh giá thất bại.",
+      "event-incompleted": "Chỉ có thể đánh giá khi sự kiện kết thúc"
+    }
+  },
+  "ticket": {
+    "placeholder-searchbox": "Tìm kiếm vé bằng tên sự kiện",
+    "download": "Tải vé xuống",
+    "ticket-detail": "Chi tiết vé",
+    "print-your-ticket": "In vé",
+    "order-info": "Chi tiết đơn hàng",
+    "buyer-info": "Thông tin người mua hàng",
+    "orderTime": "Thời gian thanh toán",
+    "paymentMethod": "Phương thức thanh toán",
+    "createdAt": "Vé được thanh toán lúc",
+    "not-found": "Danh sách vé đã mua trống",
+    "booking": "Mã đặt vé: {{val,string}}",
+    "booking-id": "Mã đặt vé",
+    "customer": "Khách hàng",
+    "organizer": "BTC",
+    "cart": "Giỏ hàng",
+    "type": "Loại vé",
+    "price": "Giá vé",
+    "quantity": "Số lượng",
+    "total": "Tổng cộng",
+    "submit": "Thanh toán",
+    "best-seller": "Bán chạy",
+    "sold-out": "Hết vé"
+  },
+  "ticket.cart.empty": "Giỏ hàng không được trống",
+  "Ho Chi Minh City": "Sài Gòn",
+  "Hanoi": "Hà Nội",
+  "price-from": "Từ ",
+  "customer": {
+    "name": "Tên khách hàng"
+  },
+  "coming-soon": "Sắp ra mắt ...",
+  "sold-ticket": "Đã bán: {{val, number}}",
+  "ticket-remaining": "Còn lại {{val, number}} vé",
+  "update-avatar": {
+    "success": "Cập nhật ảnh đại diện thành công",
+    "error": "Cập nhật ảnh đại diện thất bại"
+  },
+  "rate": {
+    "bad": "Tệ!",
+    "avg": "Bình thường.",
+    "good": "Hay!",
+    "excellent": "Rất thú vị!",
+    "perfect": "Hoàn hảo!"
+  },
+  "unauthenticated": "Vui lòng đăng nhập để đánh giá sự kiện",
+  "rating-review": "Đánh giá và xếp hạng",
+  "ratings": "đánh giá",
+  "your-feedback": "Đánh giá của bạn",
+  "empty-feedbacks": "Chưa có đánh giá nào.",
+  "cancel": "Hủy bỏ",
+  "free-ticket": "Miễn phí",
+  "followers": "Người theo dõi",
+  "only-comment-orders": "Chỉ người dùng mua vé mới có thể đánh giá sự kiện.",
+  "payment": {
+    "select_method": "Chọn phương thức thanh toán",
+    "paypal": {
+      "title": "Thanh toán qua PayPal",
+      "description": "Thanh toán an toàn bằng USD"
+    },
+    "vnpay": {
+      "title": "Thanh toán qua VNPay",
+      "description": "Thanh toán an toàn bằng VND"
+    },
+    "processing": "Đang xử lý thanh toán...",
+    "success": "Thanh toán thành công",
+    "error": "Thanh toán thất bại",
+    "cancel": "Hủy thanh toán"
+  }
+}

@@ -1,0 +1,377 @@
+{
+    "sider": {
+        "account": "Tài khoản",
+        "category": "Thể loại",
+        "dashboard": "Bảng điều khiển",
+        "overview": "Tổng quan",
+        "management": "Quản lý",
+        "order": "Đơn hàng",
+        "event": "Sự kiện",
+        "ticket": "Vé sự kiện",
+        "utilities": "Tiện ích",
+        "calendar": "Lịch",
+        "payment": "Thanh toán"
+    },
+    "org": {
+        "profile": "Hồ sơ tổ chức"
+    },
+    "event": {
+        "preview-text": "Xem trước",
+        "preview": "Xem trước: <b>{{name}}</b>",
+        "totalPrice": "Tổng tiền",
+        "totalQuantity": "Tổng lượng",
+        "ticketTotal": "Tổng vé",
+        "ticketRemaining": "Vé còn lại",
+        "createDate": "Được tạo lúc ",
+        "updateDate": "Cập nhật lần cuối lúc ",
+        "background": "Ảnh bìa",
+        "name": "Tiêu đề",
+        "currency": "Chọn loại tiền:",
+        "category": "Thể loại",
+        "startingDate": "Ngày bắt đầu",
+        "endingDate": "Ngày kết thúc",
+        "startingTime": "Thời gian bắt đầu",
+        "endingTime": "Thời gian kết thúc",
+        "description": "Giới thiệu sự kiện",
+        "venue": "Địa điểm",
+        "venue_address": "Địa chỉ chi tiết",
+        "province": "Tỉnh/TP",
+        "date": "Thời gian",
+        "status": {
+            "title": "Trạng thái",
+            "available": "Chưa diễn ra",
+            "completed": "Đã kết thúc",
+            "soldout": "Hết vé"
+        },
+        "create": "Tạo sự kiện mới",
+        "edit": "Cập nhật sự kiện",
+        "upload": {
+            "text": "Nhấn vào hoặc kéo thả ảnh vào đây",
+            "hint": "Kích cỡ đề nghị 1560 x 600",
+            "validate": {
+                "success": "Cập nhật ảnh thành công",
+                "error": "Ảnh lớn hơn {{val, number}}KB"
+            }
+        },
+        "ticketList": {
+            "ticketName": "Loại vé số {{val, number}}",
+            "price": "Giá loại {{val, number}}",
+            "quantity": "Số lượng loại {{val, number}}",
+            "currency": "Currency No.{{val, number}}",
+            "description": "Mô tả loại {{val, number}}"
+        },
+        "modify": "Tùy chọn"
+    },
+    "category": {
+        "title": "Tên thể loại",
+        "new": "Danh mục mới",
+        "edit": "Cập nhật danh mục",
+        "menu": "Danh mục",
+        "all": "Tất cả danh mục",
+        "music": "Âm nhạc",
+        "exhibition": "Triển lãm",
+        "courses": "Khóa học",
+        "theater": "Sân khấu",
+        "online": "Trực tiếp",
+        "nightlife": "Nightlife",
+        "sport": "Thể thao",
+        "seminar": "Hội thảo",
+        "travel": "Du lịch",
+        "conference": "Hội nghị",
+        "community": "Cộng đồng"
+    },
+    "popup": {
+        "export-excel": "Không có dữ liệu",
+        "email": {
+            "title": "Đã gửi email",
+            "content": "OTP đã được gửi đến email của bạn. Kiểm tra lại hộp thư (xem xét mục spam)!"
+        },
+        "changePassword": {
+            "success": "Thay đổi mật khẩu thành công",
+            "error": "Thay đổi mật khẩu thất bại"
+        },
+        "edit-event": {
+            "success": "Cập nhật sự kiện thành công",
+            "error": "Cập nhật sự kiện thất bại",
+            "exceed-modify": "Bạn đã vượt quá số lần chỉnh sửa cho phép của sự kiện này"
+        },
+        "register": {
+            "error": "Email đã được đăng ký",
+            "success": "Đăng ký tài khoản thành công!"
+        },
+        "account": {
+            "approve": "Phê duyệt tài khoản này?",
+            "approve-success": "Phê duyệt thành công",
+            "approve-fail": "Phê duyệt thất bại",
+            "refuse": "Từ chối tài khoản này?",
+            "refuse-success": "Từ chối tài khoản thành công",
+            "refuse-fail": "Từ chối tài khoản thất bại"
+        },
+        "login": {
+            "success": "Đăng nhập thành công",
+            "error": "Email hoặc mật khẩu không đúng",
+            "unauthorized": "Không được phép: Quyền truy cập bị từ chối"
+        },
+        "forgot": {
+            "error": "Email không tồn tại"
+        },
+        "verify": {
+            "error": "OTP không tồn tại"
+        },
+        "event": {
+            "delete": "Bạn muốn xóa sự kiện này?",
+            "delete-success": "Xóa sự kiện thành công"
+        },
+        "create-event": {
+            "success": "Tạo sự kiện thành công",
+            "error": "Tạo sự kiện thất bại"
+        },
+        "update-account": {
+            "account": {
+                "200": "Cập nhật thông tin tài khoản thành công!",
+                "400": "Cập nhật thông tin tài khoản thất bại"
+            }
+        }
+    },
+    "user": {
+        "biography": "Mô tả",
+        "profile": "Hồ sơ người dùng",
+        "my-ticket": "My ticket",
+        "forgot-password": "Quên mật khẩu",
+        "wishlist": "Sự kiện yêu thích",
+        "logout": "Đăng xuất",
+        "name": "Họ và tên",
+        "phone": "Số điện thoại",
+        "password": "Mật khẩu",
+        "phone-placeholder": "Nhập số điện thoại",
+        "login-by-email": "Đăng nhập bằng email",
+        "login-by-google": "Đăng nhập bằng Google",
+        "unauthenticated": {
+            "title": "Chưa đăng nhập",
+            "text": "Vui lòng đăng nhập để thêm sự kiện vào danh sách yêu thích"
+        },
+        "authentication": "Đăng nhập | Đăng ký",
+        "confirmPassword": "Xác nhận mật khẩu mới",
+        "create-account": "Bạn chưa có tài khoản?",
+        "signup": "Đăng ký",
+        "already-account": "Bạn đã có tài khoản?",
+        "forgot-password-tip": "Vui lòng nhập email của bạn. Một OTP sẽ được gửi đến email của bạn.",
+        "oauth": {
+            "success": "Đăng nhập thành công. Chuyển hướng đến trang chủ trong...",
+            "failed": "Đăng nhập thất bại. Chuyển hướng đến trang đăng nhập trong..."
+        },
+        "changePassword": "Đổi mật khẩu",
+        "currentPassword": "Mật khẩu hiện tại",
+        "newPassword": "Mật khẩu mới",
+        "payment": {
+            "success": "Thanh toán đơn hàng thành công. Chuyển hướng...",
+            "error": "Thanh toán đơn hàng thất bại. Chuyển hướng..."
+        }
+    },
+    "pages": {
+        "login": "Login"
+    },
+    "validate": {
+        "background": "Ảnh bìa không được bỏ trống",
+        "email": {
+            "required": "Email không được để trống",
+            "invalid": "Email không hợp lệ"
+        },
+        "phone": {
+            "error": "Số điện thoại không ở khu vực Việt Nam"
+        },
+        "name": {
+            "required": "Tên không được để trống",
+            "max": "Chiều dài tối đa của tên không được quá 64 k�� tự"
+        },
+        "venue": {
+            "required": "Địa điểm không được để trống",
+            "max": "Chiều dài tối đa của địa điểm không được quá 128 kí tự"
+        },
+        "province": {
+            "required": "Tỉnh/TP không được để trống"
+        },
+        "address": {
+            "required": "Địa chỉ không được để trống",
+            "max": "Chiều dài tối đa là 255 kí tự"
+        },
+        "password": {
+            "required": "Mật khẩu không được để trống",
+            "notMatch": "Mật khẩu phải chứa cả chữ và số",
+            "max": "Tối đa 32 kí tự"
+        },
+        "confirmPassword": {
+            "invalid": "Mật khẩu không khớp",
+            "required": "Nhập lại mật khẩu không được để trống",
+            "notMatch": "Nhập lại mật khẩu phải chứa cả chữ và số",
+            "max": "Tối đa 32 kí tự"
+        },
+        "otp": {
+            "required": "OTP không được để trống",
+            "min": "Chiều dài 6 kí tự"
+        },
+        "description": {
+            "required": "Mô tả không được để trống",
+            "max": "Mô tả quá dài ( phải ít hơn 10.000 kí tự )"
+        },
+        "categories": {
+            "required": "Thể loại không được để trống",
+            "max": "Tối đa 2 thể loại"
+        },
+        "startingDate": {
+            "required": "Ngày bắt đầu không được để trống",
+            "min": "Ngày tối thiểu là hôm nay",
+            "max": "Ngày tối đa không lớn hơn ngày kết thúc"
+        },
+        "startingTime": {
+            "required": "Thời gian bắt đầu không được để trống",
+            "min": "Thời gian tối thiểu là 0:00",
+            "max": "Thời gian tối đa bằng với thời gian kết thúc"
+        },
+        "endingDate": {
+            "required": "Ngày kết thúc không được để trống",
+            "min": "Ngày tối thiểu bằng với ngày bắt đầu"
+        },
+        "endingTime": {
+            "required": "Thời gian kết thúc không được để trống",
+            "min": "Thời gian tối thiểu bằng với thời gian bắt đầu"
+        },
+        "ticket": {
+            "currency": {
+                "required": "Currency không được để trống"
+            },
+            "quantity": {
+                "number": "Số lượng phải là số",
+                "required": "Số lượng không được để trống",
+                "min": "Tối thiểu 30 vé"
+            },
+            "price": {
+                "number": "Giá phải là số",
+                "required": "Giá không được để trống",
+                "min": "Giá tối thiểu phải lớn hơn 0"
+            },
+            "name": {
+                "required": "Tên loại vé không được để trống"
+            },
+            "unique": "Vé bị trùng"
+        }
+    },
+    "ticket": {
+        "create": "Create new ticket",
+        "remove": "Remove this ticket",
+        "list": "Danh sách vé",
+        "type": "Loại vé",
+        "price": "Giá",
+        "totalQuantity": "Tổng lượng",
+        "totalRemaining": "Còn lại",
+        "status": "Trạng  Thái",
+        "available": "Có sẵn",
+        "sold-out": "Hết vé",
+        "best-seller": "Bán chạy"
+    },
+    "template-ticket": "Sử dụng mẫu vé đã lưu",
+    "save-template-ticket": "Lưu mẫu vé này",
+    "default-address": "Sử dụng địa chỉ mặc định",
+    "account": {
+        "role": "Role",
+        "customer": "Tài khoản khách hàng",
+        "organization": "Tài khoản nhà tổ chức",
+        "email": "Email",
+        "events": "Số lượng sự kiện",
+        "status": "Trạng thái tài khoản",
+        "pending-status": "Đang chờ",
+        "disabled": "Từ chối",
+        "accepted": "Đã chấp nhận",
+        "approve": "Approve",
+        "options": "Option",
+        "all": "Danh sách tài khoản",
+        "pending-accounts": "Danh sách tài khoản Nhà tổ chức chờ duyệt"
+    },
+    "view-detail": "Xem chi tiết",
+    "default-currency": "Currency unit: US Dollar",
+    "choose-language": "Chọn ngôn ngữ: ",
+    "role": {
+        "user": "Khách hàng",
+        "organizer": "Nhà tổ chức",
+        "admin": "Quản trị viên"
+    },
+    "order": {
+        "by-event": "Danh sách hóa đơn",
+        "by-account": "Danh sách hóa đơn (không trùng tài khoản)"
+    },
+    "orders-of-event": "Danh sách hóa đơn của <b>{{val, string}}</b>",
+    "update-avatar": {
+        "success": "Cập nhật ảnh đại diện thành công",
+        "error": "Cập nhật ảnh đại diện thất bại"
+    },
+    "usdRevenue": "Doanh thu USD",
+    "vndRevenue": "Doanh thu VND",
+    "ticketSold": "Vé đã bán",
+    "payment": {
+        "vndbalanceLock": "Doanh thu tạm tính (VND)",
+        "usdbalanceLock": "Doanh thu tạm tính (USD)",
+        "inprogress": "ĐANG XỬ LÝ",
+        "completed": "HOÀN THÀNH",
+        "cancel": "HỦY BỎ"
+    },
+    "stats": {
+        "ticket": "Thống kê vé đã bán được các mốc thời gian",
+        "period": "Thời gian",
+        "numTickets": "Số lượng vé",
+        "revenue": "Doanh thu",
+        "order": "Tổng doanh thu đang chờ xử lý theo các mốc thời gian"
+    },
+    "time": {
+        "day": {
+            "mon": "Thứ 2",
+            "tue": "Thứ 3",
+            "wed": "Thứ 4",
+            "thu": "Thứ 5",
+            "fri": "Thứ 6",
+            "sat": "Thứ 7",
+            "sun": "Chủ nhật"
+        },
+        "month": {
+            "jan": "Tháng 1",
+            "feb": "Tháng 2",
+            "mar": "Tháng 3",
+            "apr": "Tháng 4",
+            "may": "Tháng 5",
+            "jun": "Tháng 6",
+            "jul": "Tháng 7",
+            "aug": "Tháng 8",
+            "sep": "Tháng 9",
+            "oct": "Tháng 10",
+            "nov": "Tháng 11",
+            "dec": "Tháng 12"
+        }
+    },
+    "goodMorning": "Chào buổi sáng,",
+    "goodAfternoon": "Chào buổi chiều,",
+    "goodEvening": "Chào buổi tối,",
+    "title": {
+        "account": "Thống kê tài khoản theo vai trò",
+        "event": "Thống kê sự kiện theo tỉnh/tp"
+    },
+    "province": {
+        "hcm": "Thành phố Hồ Chí Minh",
+        "hn": "Hà Nội",
+        "ld": "Lâm Đồng",
+        "others": "Tỉnh thành khác"
+    },
+    "one-day": "Sự kiện diễn ra trong 1 ngày",
+    "sold-ticket": "Đã bán: {{val, number}}",
+    "eventsByCategory": "Thống kê sự kiện theo từng thể loại",
+    "vndbalanceLock": "Số tiền đang chờ xử lý (VND)",
+    "usdbalanceLock": "Số tiền đang chờ xử lý (USD)",
+    "vndbalance": "Số dư thực tế (VND)",
+    "usdbalance": "Số dư thực tế (USD)",
+    "limited-modify-times": "Xin lưu ý rằng bạn chỉ có một số lần chỉnh sửa giới hạn đặc biệt để chỉnh sửa ngày của sự kiện này. Bạn còn lại <b className='text-2xl'>{{remainingTimes}}</b> lần chỉnh sửa cho ngày sự kiện.\nSau khi bạn đã sử dụng hết tất cả các lần chỉnh sửa cho phép, sẽ không thể tiến hành thay đổi ngày sự kiện nữa.",
+    "edit-event-info": "Thông tin về việc chỉnh sửa Sự kiện",
+    "introduce": "GiớI thiệu",
+    "ticket-info": "Thông tin vé",
+    "rating-review": "Đánh giá và xếp hạng",
+    "review": "Đánh giá",
+    "empty-feedbacks": "Chưa có đánh giá nào.",
+    "review-event-incompleted": "Chưa có phản hồi vì sự kiện chưa kết thúc"
+}
