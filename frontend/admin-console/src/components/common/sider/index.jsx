@@ -51,7 +51,6 @@ function SiderBar(props) {
             setTimeout(() => {
               navigate("/organizer-registration");
             }, 200);
-            // window.open(process.env.REACT_APP_ORGANIZER_URL, "_blank");
           }}
         >
           <GoOrganization color="#FFD933" />
