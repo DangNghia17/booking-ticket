@@ -29,8 +29,6 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 
 @EnableGlobalMethodSecurity(
-        securedEnabled = true,
-        jsr250Enabled = true,
         prePostEnabled = true
 )
 @Configuration
@@ -96,7 +94,11 @@ public class SecurityConfig {
         http.cors().and().csrf().disable()
                 .exceptionHandling().authenticationEntryPoint(unauthorizedHandler).and()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
-                .authorizeRequests().antMatchers(ALLOWED_LIST_URLS).permitAll()
+                .authorizeRequests()
+                .antMatchers("/api/chat/**").permitAll()
+                .antMatchers("/api/auth/**").permitAll()
+                .antMatchers("/api/event/findAll").permitAll()
+                .antMatchers(ALLOWED_LIST_URLS).permitAll()
                 .and()
                 .authorizeRequests().antMatchers( HttpMethod.GET,ALLOWED_GET_LIST_URLS).permitAll()
                 .and()

@@ -14,6 +14,7 @@ import routes, { authorizedRoutes, unauthorizedRoute } from "./configs/routes";
 import { UserActionContextProvider } from "./context/UserActionContext";
 import { UserAuthContextProvider } from "./context/UserAuthContext";
 import { tokenSelector } from "./redux/slices/accountSlice";
+import ChatBot from './components/chat/ChatBot';
 const queryClient = new QueryClient({
   defaultOptions: {
     staleTime: 30000,
@@ -73,6 +74,7 @@ function App() {
         </UserAuthContextProvider>
       </BrowserRouter>
       <ScrollToTopPage top={1500} />
+      <ChatBot />
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );
