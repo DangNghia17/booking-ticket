@@ -822,6 +822,16 @@ export const OrganizerRoute = [
       },
     ],
   },
+  {
+    title: "sider.utilities",
+    links: [
+      {
+        name: "sider.calendar",
+        route: "calendar", 
+        icon: <AiOutlineCalendar />,
+      },
+    ],
+  },
 ];
 export const AdminRoute = [
   {

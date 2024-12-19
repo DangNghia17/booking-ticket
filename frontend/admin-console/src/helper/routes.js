@@ -16,6 +16,7 @@ const TicketPage = lazy(() => import("../pages/Tickets"));
 const NewPasswordPage = lazy(() => import("../pages/NewPassword"));
 const AdminDashboardPage = lazy(() => import("../pages/AdminDashboard"));
 const PaymentRedirectPage = lazy(() => import("../pages/PaymentRedirect"));
+const CalendarPage = lazy(() => import("../pages/Calendar"));
 
 export const routes = [
   {
@@ -101,6 +102,10 @@ export const organizerRoutes = [
   {
     element: <TicketPage />,
     path: "/tickets",
+  },
+  {
+    element: <CalendarPage />,
+    path: "/calendar",
   },
 ];
 export { EventsPage, OverviewPage, OrderPage, AddEditEventPage, TicketPage };
