@@ -32,5 +32,6 @@ public interface IOrganizationService {
      ResponseEntity<?> findAllPaymentStatus();
      ResponseEntity<?> getFollowedList(String email);
      ResponseEntity<?> getStatistics(String email);
+     ResponseEntity<?> getOrderStatistics(String email);
 
 }
