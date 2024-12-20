@@ -31,7 +31,7 @@ function Event(props) {
   }
   return (
     <div
-      className="event-item-container float"
+      className="event-item-container float relative"
       onClick={(e) => {
         e.preventDefault();
         goToEventDetail();
@@ -94,7 +94,7 @@ function Event(props) {
         </span>
       </div>
       <Calendar
-        className="absolute right-2 bottom-5"
+        className="absolute left-3 bottom-[-13px]"
         calendar={
           moment(event?.startingDate, "DD/MM/YYYY", true).isValid()
             ? event?.startingDate
