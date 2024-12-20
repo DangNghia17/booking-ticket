@@ -23,7 +23,7 @@ const getOrderListByUserId = async (userId) => {
 export const createOrderByFetchAPI = async (userId, data) => {
   try {
     const response = await fetch(
-      `${process.env.REACT_APP_API_URL_BASE}/api/customer/order/${userId}`,
+      `${process.env.REACT_APP_API_URL}/api/customer/order/${userId}`,
       {
         method: "POST",
         mode: "cors",
