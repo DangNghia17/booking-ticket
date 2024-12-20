@@ -138,10 +138,8 @@ public class MailService {
 
     public void sendMailWhenCreatingEvent(List<Account> accountList, Map<String, String> map, String organizationName,
             EMailType type) throws MessagingException, TemplateException, IOException {
-        // String testHtml = " Click <a
-        // href=\"https://lotusticket-vn.netlify.app/event/" + map.get("id") +
-        // "\">here</a> to visit new event";
-        String testHtml = " Click  <a href=\"http://localhost:3000/event/" + map.get("id")
+        // String testHtml = " Click  <a href=\"http://localhost:3000/event/" + map.get("id")
+        String testHtml = " Click  <a href=\"https://bookingticketvn.netlify.app/event/" + map.get("id")
                 + "\">here</a> to visit new event";
         String NEW_EVENT = "We want to notify you that <span style=\"color:black;font-weight: 700;\">"
                 + organizationName
@@ -155,18 +153,13 @@ public class MailService {
     public void sendMailWhenUpdatingEvent(List<Account> accountList, Map<String, String> map, String organizationName,
             EMailType type) throws MessagingException, TemplateException, IOException {
         StringBuilder htmlBuilder = new StringBuilder();
-        // htmlBuilder.append("We want to notify you that <span
-        // style=\"color:black;font-weight:
-        // 700;\">").append(organizationName).append("</span> has just changed a event
-        // called <span style=\"color:black;font-weight: 700; font-family:Calibri
-        // \">").append(map.get("eventName")).append("</span> <br>").append(" Click <a
-        // href=\"https://lotusticket-vn.netlify.app/event/").append(map.get("id")).append("\">here</a>
-        // to visit this event");
         htmlBuilder.append("We want to notify you that <span style=\"color:black;font-weight: 700;\">")
                 .append(organizationName)
                 .append("</span> has just changed a event called <span style=\"color:black;font-weight: 700; font-family:Calibri \">")
                 .append(map.get("eventName")).append("</span> <br>")
-                .append(" Click  <a href=\"http://localhost:3000/event/").append(map.get("id"))
+                // .append(" Click  <a href=\"http://localhost:3000/event/").append(map.get("id"))
+                .append(" Click  <a href=\"https://bookingticketvn.netlify.app/event/").append(map.get("id"))
+
                 .append("\">here</a> to visit this event");
 
         for (Account account : accountList) {
@@ -193,10 +186,9 @@ public class MailService {
         StringBuilder htmlBuilder = new StringBuilder(
                 "Thank you for your purchase of tickets for the <span style=\"color:black;font-weight: 700;\">"
                         + map.get("eventName") + "</span>. Your payment has been successfully processed. <br><br> Below is the detailed information about your order <br>");
-        // htmlBuilder.append("Click <a
-        // href=\"https://lotusticket-vn.netlify.app/event/").append(map.get("id")).append("\">here</a>
-        // for more details <br>");
-        htmlBuilder.append("Click  <a href=\"http://localhost:3000/event/").append(map.get("id"))
+
+        // htmlBuilder.append("Click  <a href=\"http://localhost:3000/event/").append(map.get("id"))
+        htmlBuilder.append("Click  <a href=\"https://bookingticketvn.netlify.app/event/").append(map.get("id"))
                 .append("\">here</a> for more details the events<br><br>");
 
         htmlBuilder.append("Your order number is <strong>").append(order.getId()).append("</strong> <br><br>");
@@ -248,8 +240,8 @@ public class MailService {
                     + "</div>";
         }
         htmlBuilder.append(totalPriceOfOrder);
-
-        htmlBuilder.append("<br>Note: Your tickets have been confirmed and will be available in your account. You can log in to <a href=\"http://localhost:3000/my-orders\"> <bold>Ticket Download Link</bold></a> to view and download your tickets. If you have any questions, please feel free to contact us.\r\n" + //
+        // htmlBuilder.append("<br>Note: Your tickets have been confirmed and will be available in your account. You can log in to <a href=\"http://localhost:3000/my-orders\"> <bold>Ticket Download Link</bold></a> to view and download your tickets. If you have any questions, please feel free to contact us.\r\n" + //
+        htmlBuilder.append("<br>Note: Your tickets have been confirmed and will be available in your account. You can log in to <a href=\"https://bookingticketvn.netlify.app/my-orders\"> <bold>Ticket Download Link</bold></a> to view and download your tickets. If you have any questions, please feel free to contact us.\r\n" + //
                         "\r\n" + //
                         "Thank you for trusting us and supporting the event. We look forward to welcoming you at the event!");
         htmlBuilder.append("<br><b style=\"font-size: large; font-style: oblique; color: #2d3142;\">Lotus Ticket</b>");
