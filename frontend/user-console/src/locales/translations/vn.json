@@ -340,5 +340,11 @@
     "success": "Thanh toán thành công",
     "error": "Thanh toán thất bại",
     "cancel": "Hủy thanh toán"
+  },
+  "footer": {
+    "customer_support": "Hỗ trợ khách hàng",
+    "refund_policy": "Chính sách hoàn tiền/đổi vé",
+    "booking_guide": "Hướng dẫn đặt vé",
+    "payment_partners": "Đối tác thanh toán"
   }
 }

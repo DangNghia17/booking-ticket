@@ -342,5 +342,11 @@
     "success": "Payment successful",
     "error": "Payment failed",
     "cancel": "Cancel payment"
+  },
+  "footer": {
+    "customer_support": "Customer Support",
+    "refund_policy": "Refund/Exchange Policy",
+    "booking_guide": "Booking Guide",
+    "payment_partners": "Payment Partners"
   }
 }
