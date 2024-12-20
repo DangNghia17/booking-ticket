@@ -4,7 +4,7 @@ import Stomp from "stompjs";
 const WebSocketUtils = {};
 
 WebSocketUtils.initializeWebSocketConnection = (topic, callback) => {
-  const socket = new SockJS("http://localhost:8080/eventStatusSocket"); // Replace with your WebSocket endpoint URL
+  const socket = new SockJS("https://booking-ticket.up.railway.app/eventStatusSocket"); // Replace with your WebSocket endpoint URL
   const stompClient = Stomp.over(socket);
 
   stompClient.connect({}, () => {

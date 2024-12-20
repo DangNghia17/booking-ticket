@@ -1,7 +1,7 @@
 import axios from "axios";
 import { store } from "../redux/store";
 const axiosClient = axios.create({
-  baseURL: `${process.env.REACT_APP_API_URL_BASE}/api/`,
+  baseURL: `${process.env.REACT_APP_API_URL}/api/`,
   withCredentials: true,
   headers: {
     "Content-Type": "application/json",
