@@ -32,7 +32,10 @@ public class MailService {
     // private final Constants constants;
     final String MAIL_TEMPLATE = "newmail-template.ftl";
 
-    final String OTP_CONTENT = "Please enter this code to verify your action with LotusTicket. This code use only once. Please do not share this code to with anyone else due to security for yourself. The code is only valid for 5 minutes. ";
+    final String OTP_CONTENT = "Please enter this code to verify your action with LotusTicket. This code use only once. Please do not share this code to with anyone else due to security for yourself. The code is only valid for 5 minutes.<br><br>" +
+        "<div style='text-align: center; padding: 15px; background-color: #f5f5f5; border-radius: 5px; margin: 10px 0;'>" +
+        "<h2 style='color: #2d3142; margin: 0;'>Your OTP Code: <span style='color: #e63946;'>%s</span></h2>" +
+        "</div>";
     // "<br>Regards,\n";
     final String NEWPASSWORD_CONTENT = "You are receiving this email because we received a password reset request for your account. Please visit our website to change your new password. You should keep a secure record of your password and not disclose it to any unauthorized party.";
     // "<br>Regards,";
@@ -68,23 +71,9 @@ public class MailService {
             Template template = configuration.getTemplate(MAIL_TEMPLATE);
 
             if (type.equals(EMailType.OTP)) {
-                // String testHtml = " Click <a
-                // href=\"https://lotusticket-vn.netlify.app/event/" +
-                // "gm-vietnam---vietnam-blockchain-week-28120" + "\">here</a> to visit new
-                // event";
-                // String NEW_EVENT ="We want to notify you that <span
-                // style=\"color:black;font-weight: 700;\">"+ "ST.319 Entertainment" +"</span>
-                // has just created a new event called " +" <span
-                // style=\"color:black;font-weight: 700;\"> ILIZA SHLESINGER - Back In Action
-                // Tour - Standup Comedy in HCMC </span>" + "<br>" + testHtml;
-                //
-                // model.put("header", "Upcoming event");
-                // model.put("content", NEW_EVENT);
-                // model.put("contentColor", "1234");
                 model.put("header", "[Lotus Ticket] - Account Verification Request");
-                model.put("content", OTP_CONTENT);
-                model.put("contentColor", messageContent);
-
+                model.put("content", String.format(OTP_CONTENT, messageContent));
+                model.put("contentColor", "");
             } else if (type.equals(EMailType.NEW_PASSWORD)) {
                 model.put("header", "[Lotus Ticket] - New Password Request Confirmation");
                 model.put("content", NEWPASSWORD_CONTENT);

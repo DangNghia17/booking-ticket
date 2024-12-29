@@ -36,25 +36,39 @@ function ForgotPassword() {
     validateOnChange: true,
     validateOnBlur: true,
     onSubmit: async (values) => {
-      const { email } = values;
-      setLoading(true);
-      dispatch(setEmail(email));
-      const response = await forgotPassword({ email });
-      if (isNotEmpty(response)) {
-        setLoading(false);
-      }
-      if (response.status === 404) {
+      try {
+        const { email } = values;
+        setLoading(true);
+        dispatch(setEmail(email));
+        const response = await forgotPassword({ email });
+        
+        if (isNotEmpty(response)) {
+          setLoading(false);
+        }
+        
+        if (response.status === 404) {
+          AlertErrorPopup({
+            title: t("status.forgot.404"),
+            text: response.message || "Email không tồn tại"
+          });
+        }
+        
+        if (response.status === 200) {
+          setShowOTPInput(true);
+          AlertPopup({
+            title: t("popup.email.title"),
+            text: "Mã OTP đã được gửi đến email của bạn. Vui lòng kiểm tra hộp thư (bao gồm cả thư rác).",
+            timer: 5000,
+          });
+        }
+      } catch (error) {
+        console.error('Error during forgot password:', error);
         AlertErrorPopup({
-          title: t("status.forgot.404"),
+          title: "Lỗi",
+          text: "Có lỗi xảy ra khi gửi mã OTP. Vui lòng thử lại sau."
         });
-      }
-      if (response.status === 200) {
-        setShowOTPInput(true);
-        AlertPopup({
-          title: t("popup.email.title"),
-          text: t("popup.email.content"),
-          timer: 3000,
-        });
+      } finally {
+        setLoading(false);
       }
     },
   });

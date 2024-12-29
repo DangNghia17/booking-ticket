@@ -44,7 +44,13 @@ const findUser = async (params) => {
     );
     return response;
   } catch (err) {
-    return err.response.data;
+    if (err.response && err.response.data) {
+      return err.response.data;
+    }
+    return {
+      status: 'error',
+      message: err.message || 'Có lỗi xảy ra khi tìm kiếm người dùng'
+    };
   }
 };
 const findUserById = async (params) => {
@@ -52,7 +58,13 @@ const findUserById = async (params) => {
     const response = await httpRequest(AccountAPI.findAccountById(params));
     return response;
   } catch (err) {
-    return err.response.data;
+    if (err.response && err.response.data) {
+      return err.response.data;
+    }
+    return {
+      status: 'error',
+      message: err.message || 'Có lỗi xảy ra khi tìm kiếm người dùng theo ID'
+    };
   }
 };
 

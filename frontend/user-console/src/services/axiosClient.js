@@ -43,16 +43,27 @@ axiosClient.interceptors.response.use(
     return response.data;
   },
   function (error) {
-    console.error('API Error:', {
-      url: error.config?.url, 
-      baseURL: error.config?.baseURL,
-      fullUrl: `${error.config?.baseURL}${error.config?.url}`,
-      method: error.config?.method,
-      status: error.response?.status,
-      data: error.response?.data,
-      message: error.message
-    });
-    return Promise.reject(error);
+    // Đảm bảo luôn trả về một đối tượng lỗi có cấu trúc
+    const errorResponse = {
+      status: 'error',
+      message: 'Có lỗi xảy ra',
+      data: null
+    };
+
+    if (error.response) {
+      // Nếu server trả về response
+      errorResponse.status = error.response.status;
+      errorResponse.message = error.response.data?.message || 'Lỗi từ server';
+      errorResponse.data = error.response.data;
+    } else if (error.request) {
+      // Nếu request được gửi nhưng không nhận được response
+      errorResponse.message = 'Không thể kết nối đến server';
+    } else {
+      // Lỗi khi thiết lập request
+      errorResponse.message = error.message;
+    }
+
+    return Promise.reject(errorResponse);
   }
 );
 
