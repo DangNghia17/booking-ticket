@@ -19,15 +19,21 @@ import PurchaseTicketItem from "./purchased-ticket-item";
 const PurchasedTickets = () => {
   const user = useSelector(userInfoSelector);
   const ticketSearchList = useSelector(ticketSearchListSelector);
-  const { data: tickets, status, isLoading } = useGetOrderListByUserId(user.id);
-  const { data: allEvents, status: allEventsStatus } = useFetchEvents();
+  const { data: tickets = [], status, isLoading } = useGetOrderListByUserId(user?.id);
+  const { data: allEvents = [], status: allEventsStatus } = useFetchEvents();
 
-  const ticketListWithEventName = tickets?.map((ticket) => {
-    const { idEvent, ...rest } = ticket;
-    const event = isNotEmpty(allEvents) ? allEvents?.find((event) => event.id === idEvent) : null;
-    const name = event?.name || '';
-    return { idEvent, eventName: name, ...rest };
-  }) || [];
+  const ticketListWithEventName = React.useMemo(() => {
+    if (!tickets || !Array.isArray(tickets)) return [];
+    
+    return tickets.map((ticket) => {
+      if (!ticket) return null;
+      
+      const { idEvent, ...rest } = ticket;
+      const event = allEvents?.find((event) => event?.id === idEvent);
+      const name = event?.name || 'Unknown Event';
+      return { idEvent, eventName: name, ...rest };
+    }).filter(Boolean); // Lọc bỏ các giá trị null/undefined
+  }, [tickets, allEvents]);
 
   const [currentPage, setCurrentPage] = useState(0);
   
@@ -45,30 +51,31 @@ const PurchasedTickets = () => {
 
   // Sửa đổi cách xử lý dữ liệu tìm kiếm
   const displayedTickets = React.useMemo(() => {
-    if (isLoading) {
-      return null;
+    if (isLoading || !ticketListWithEventName) {
+      return [];
     }
 
-
-    let tickets;
+    let filteredTickets;
     if (ticketSearchList && ticketSearchList.length > 0) {
-      tickets = ticketSearchList.map(searchResult => {
-        const originalTicket = ticketListWithEventName.find(
-          ticket => ticket.id === searchResult.item.id
-        );
-        return originalTicket || null;
-      }).filter(Boolean);
+      filteredTickets = ticketSearchList
+        .map(searchResult => {
+          if (!searchResult?.item?.id) return null;
+          return ticketListWithEventName.find(
+            ticket => ticket?.id === searchResult.item.id
+          );
+        })
+        .filter(Boolean);
     } else {
-      tickets = ticketListWithEventName;
+      filteredTickets = ticketListWithEventName;
     }
 
-    // Sắp xếp theo thời gian mua (createdDate) mới nhất lên đầu
-    return tickets.sort((a, b) => {
+    // Sắp xếp theo thời gian mua
+    return filteredTickets.sort((a, b) => {
+      if (!a?.createdDate || !b?.createdDate) return 0;
       const dateA = new Date(a.createdDate);
       const dateB = new Date(b.createdDate);
-      return dateB - dateA; // Sắp xếp giảm dần (mới nhất lên đầu)
+      return dateB - dateA;
     });
-
   }, [ticketSearchList, ticketListWithEventName, isLoading]);
 
   // Log để debug
@@ -95,7 +102,7 @@ const PurchasedTickets = () => {
               displayedTickets
                 .slice(firstIndex, lastIndex)
                 .map((ticket) => 
-                  ticket ? ( // Thêm kiểm tra null/undefined
+                  ticket ? (
                     <PurchaseTicketItem 
                       key={ticket.id} 
                       data={ticket} 

@@ -33,11 +33,18 @@ function PurchaseTicketItem(props) {
   const isMobile = useMedia("(max-width: 767px)");
   const navigate = useNavigate();
 
-  if (!data || !data.customerTicketList) {
+  if (!data || !data.customerTicketList || !user) {
     return null;
   }
 
   const { customerTicketList } = data;
+
+  const organizerName = organizer?.name || 'Unknown Organizer';
+  const eventName = event?.name || 'Unknown Event';
+  const eventBackground = event?.background || '';
+  const eventVenue = event?.venue || '';
+  const eventStartingDate = event?.startingDate || '';
+  const eventStartingTime = event?.startingTime || '';
 
   const HeadingList = [
     {
@@ -125,7 +132,7 @@ function PurchaseTicketItem(props) {
               }
             >
               <img
-                src={event?.background}
+                src={eventBackground}
                 className="h-[10rem] w-auto p-4 rounded-full cursor-pointer	"
                 alt="event background"
                 onClick={() => navigate(`/organizer-profile/${organizer.id}`)}
@@ -135,28 +142,28 @@ function PurchaseTicketItem(props) {
                   className="text-base text-[#1f3e82] uppercase tracking-[0.5rem] mb-1 hover:underline hover:cursor-pointer"
                   onClick={() => navigate(`/organizer-profile/${organizer.id}`)}
                 >
-                  {organizer.name}
+                  {organizerName}
                 </p>
                 <h1
                   className="font-medium text-3xl  text-[#1f3e82] mb-2  gap-x-3 flex items-center"
                   onClick={() => navigate(`/event/${data.idEvent}`)}
                 >
                   <span className="text-ellipsis overflow-hidden whitespace-nowrap max-w-[80vw] hover:underline hover:cursor-pointer">
-                    {event?.name}
+                    {eventName}
                   </span>{" "}
                   {/* <EventBadge status={event.status} date={event.startingDate} /> */}
                 </h1>
                 <p className="text-base text-[#1f3e82] text-ellipsis overflow-hidden flex items-center gap-x-3">
                   <BsFillCalendarCheckFill />
                   <p>
-                    {event.startingDate} - {event.startingTime}
+                    {eventStartingDate} - {eventStartingTime}
                   </p>
                   {/* {convertMongodbTimeToString(data.createdDate)} */}
                 </p>
                 <span className="text-base text-[#1f3e82] text-ellipsis overflow-hidden flex items-center gap-x-3">
                   <IoLocationSharp fontSize={isMobile ? "2rem" : undefined} />
                   <p>
-                    {event.venue} - {event.venue_address}
+                    {eventVenue} - {event.venue_address}
                   </p>
                 </span>
               </div>

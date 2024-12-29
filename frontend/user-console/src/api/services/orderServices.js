@@ -15,9 +15,10 @@ const createOrder = async (userId, body) => {
 const getOrderListByUserId = async (userId) => {
   try {
     const response = await httpRequest(OrderAPI.getOrderListByUserId(userId));
-    return response.data;
+    return response?.data || [];
   } catch (error) {
-    return error.response.data;
+    console.error('Error fetching orders:', error);
+    return [];
   }
 };
 export const createOrderByFetchAPI = async (userId, data) => {
@@ -49,6 +50,12 @@ export const useGetOrderListByUserId = (id) => {
     () => getOrderListByUserId(id),
     {
       staleTime: 0,
+      retry: 3,
+      retryDelay: 1000,
+      onError: (error) => {
+        console.error('Error fetching orders:', error);
+      },
+      select: (data) => data || []
     }
   );
 };
