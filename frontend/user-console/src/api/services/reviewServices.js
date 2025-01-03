@@ -70,9 +70,24 @@ const checkExistReview = async (userId, eventId) => {
     const response = await httpRequest(
       ReviewAPI.checkExistReview(userId, eventId)
     );
-    return response.status;
-  } catch (err) {
-    return err.response.data;
+    
+    return {
+      exists: response?.status === 200,
+      status: response?.status || 404,
+      message: response?.message || 'Error checking review existence'
+    };
+  } catch (error) {
+    console.error('Check review existence error:', {
+      userId,
+      eventId,
+      error: error?.response?.data || error.message
+    });
+    
+    return {
+      exists: false,
+      status: error?.response?.status || 404,
+      message: error?.response?.data?.message || 'Error checking review'
+    };
   }
 };
 // React Query

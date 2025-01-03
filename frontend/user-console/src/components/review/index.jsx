@@ -72,15 +72,40 @@ function Review() {
     }
   }, [allReviewsStatus]);
   useEffect(() => {
-    if (token) {
+    if (token && user) {
       const checkExistFeedback = async () => {
-        const response = await checkExistReview(user.id, eventId);
-        const isFeedBackTemp = response.status === 400 ? true : false;
-        dispatch(setIsFeedback(isFeedBackTemp));
+        try {
+          const response = await checkExistReview(user.id, eventId);
+          
+          // Cập nhật logic kiểm tra feedback tồn tại
+          const hasFeedback = response.status === 404; // Đảo ngược logic vì 404 nghĩa là đã có feedback
+          dispatch(setIsFeedback(hasFeedback));
+          
+          if (hasFeedback) {
+            // Nếu có feedback, cập nhật state để hiển thị
+            const existingFeedback = allReviews?.data?.find(
+              review => review.email === user.email
+            );
+            if (existingFeedback) {
+              setUserFeedback([existingFeedback]);
+            }
+          }
+        } catch (error) {
+          console.error('Error checking feedback:', error);
+          dispatch(setIsFeedback(false));
+        }
       };
+      
       checkExistFeedback();
     }
-  }, [allReviews, allReviewsStatus]);
+  }, [token, user, eventId, allReviews]);
+
+  // Thêm useEffect để log reviews khi có thay đổi
+  useEffect(() => {
+    if (allReviews?.data) {
+     
+    }
+  }, [allReviews, userFeedback]);
 
   // count stars
   useEffect(() => {
@@ -121,27 +146,47 @@ function Review() {
   };
   // submit feedback
   const handleSubmit = async () => {
-    const response = await submitReview(user.id, {
-      avatar: user.avatar,
-      name: user.name,
-      email: user.email,
-      idEvent: eventId,
-      message: ratingInfo.message,
-      rate: ratingInfo.star,
-    });
-    if (response.status === 200) {
-      AlertPopup({
-        title: t("popup.review.submit-success"),
+    try {
+      const response = await submitReview(user.id, {
+        avatar: user.avatar,
+        name: user.name,
+        email: user.email,
+        idEvent: eventId,
+        message: ratingInfo.message,
+        rate: ratingInfo.star,
       });
-    } else {
+
+      if (response.status === 200) {
+        AlertPopup({
+          title: t("popup.review.submit-success"),
+        });
+        
+        // Cập nhật state để hiển thị feedback mới
+        const newFeedback = {
+          avatar: user.avatar,
+          name: user.name,
+          email: user.email,
+          message: ratingInfo.message,
+          rate: ratingInfo.star,
+          createdAt: new Date().toISOString()
+        };
+        
+        setUserFeedback([newFeedback]);
+        dispatch(setIsFeedback(true));
+      } else {
+        AlertError({ title: t("popup.review.submit-failed") });
+      }
+      
+      dispatch(
+        updateRating({
+          star: 5,
+          message: "",
+        })
+      );
+    } catch (error) {
+      console.error('Submit review error:', error);
       AlertError({ title: t("popup.review.submit-failed") });
     }
-    dispatch(
-      updateRating({
-        star: 5,
-        message: "",
-      })
-    );
   };
 
   // edit feedback
@@ -176,7 +221,7 @@ function Review() {
       <div className="mx-4">{!token && <Unauthenticated />}</div>
 
       <div className="mx-4">
-        {token && isFeedback && userFeedback && paidTicket && !isEdit && (
+        {token && isFeedback && userFeedback?.length > 0 && paidTicket && !isEdit && (
           <>
             <p className="text-[#1f3e82] font-bold text-2xl py-2">
               {t("your-feedback")}
