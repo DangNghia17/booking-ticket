@@ -35,38 +35,54 @@ public class VNPayService implements IPaymentService {
     @Override
     //@Qualifier("VNPayService")
     public ResponseEntity<?> createPayment(PriceRes priceRes, HttpServletRequest request) {
-        //Config.getIpAddress(req)
-        Map<String, Object> vnp_Params = mapVnPayParam(priceRes, request);
-        //Build data to hash and querystring
-        List<String> fieldNames = new ArrayList<>(vnp_Params.keySet());
-        Collections.sort(fieldNames);
-        StringBuilder hashData = new StringBuilder();
-        StringBuilder query = new StringBuilder();
-        Iterator<String> itr = fieldNames.iterator();
-        while (itr.hasNext()) {
-            String fieldName = itr.next();
-            String fieldValue = vnp_Params.get(fieldName) + "";
-            if (!fieldValue.isBlank() && fieldValue.length() > 0) {
-                //Build hash data
-                hashData.append(fieldName);
-                hashData.append('=');
-                hashData.append(URLEncoder.encode(fieldValue, StandardCharsets.US_ASCII));
-                //Build query
-                query.append(URLEncoder.encode(fieldName, StandardCharsets.US_ASCII));
-                query.append('=');
-                query.append(URLEncoder.encode(fieldValue, StandardCharsets.US_ASCII));
-                if (itr.hasNext()) {
-                    query.append('&');
-                    hashData.append('&');
+        try {
+            Map<String, Object> vnp_Params = mapVnPayParam(priceRes, request);
+            
+            // Build data to hash and querystring
+            List<String> fieldNames = new ArrayList<>(vnp_Params.keySet());
+            Collections.sort(fieldNames);
+            StringBuilder hashData = new StringBuilder();
+            StringBuilder query = new StringBuilder();
+            Iterator<String> itr = fieldNames.iterator();
+            
+            while (itr.hasNext()) {
+                String fieldName = itr.next();
+                String fieldValue = vnp_Params.get(fieldName) + "";
+                if (!fieldValue.isBlank() && fieldValue.length() > 0) {
+                    //Build hash data
+                    hashData.append(fieldName);
+                    hashData.append('=');
+                    hashData.append(URLEncoder.encode(fieldValue, StandardCharsets.US_ASCII));
+                    //Build query
+                    query.append(URLEncoder.encode(fieldName, StandardCharsets.US_ASCII));
+                    query.append('=');
+                    query.append(URLEncoder.encode(fieldValue, StandardCharsets.US_ASCII));
+                    if (itr.hasNext()) {
+                        query.append('&');
+                        hashData.append('&');
+                    }
                 }
             }
+            
+            String queryUrl = query.toString();
+            String vnp_SecureHash = VNPayConfig.hmacSHA512(VNPayConfig.vnp_HashSecret, hashData.toString());
+            queryUrl += VNPayConfig.vnp_SecureHash + vnp_SecureHash;
+            String paymentUrl = VNPayConfig.vnp_PayUrl + "?" + queryUrl;
+
+            // Thêm script jQuery vào response
+            Map<String, Object> response = new HashMap<>();
+            response.put("paymentUrl", paymentUrl);
+            response.put("scripts", Arrays.asList(
+                "https://code.jquery.com/jquery-3.6.0.min.js"
+            ));
+
+            return ResponseEntity.status(HttpStatus.OK).body(
+                new ResponseObject(true, "Payment Complete", response, 200));
+
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(
+                new ResponseObject(false, "Payment failed: " + e.getMessage(), null, 500));
         }
-        String queryUrl = query.toString();
-        String vnp_SecureHash = VNPayConfig.hmacSHA512(VNPayConfig.vnp_HashSecret, hashData.toString());
-        queryUrl += VNPayConfig.vnp_SecureHash + vnp_SecureHash;
-        String paymentUrl = VNPayConfig.vnp_PayUrl + "?" + queryUrl;
-        return ResponseEntity.status(HttpStatus.OK).body(
-                new ResponseObject(true, "Payment Complete", paymentUrl, 200));
     }
     public Map<String, Object> mapVnPayParam(PriceRes priceRes, HttpServletRequest request) {
         String vnp_IpAddr = VNPayConfig.getIpAddress(request);
