@@ -8,6 +8,8 @@ import com.nghia.bookingevent.payload.response.ResponseObject;
 import com.nghia.bookingevent.utils.StringUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
+
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -26,8 +28,9 @@ import java.util.*;
 //@Qualifier("VNPayService")
 public class VNPayService implements IPaymentService {
 
-    // public static final String MAIN_URL = "http://localhost:3000/payment/redirect?";
-    public static final String MAIN_URL = "https://bookingticketvn.netlify.app/payment/redirect?";
+    @Value("${app.payment.redirect-url}")
+    private String MAIN_URL;
+    
     @SneakyThrows
     @Override
     //@Qualifier("VNPayService")

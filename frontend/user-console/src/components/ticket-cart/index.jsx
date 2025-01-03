@@ -47,7 +47,8 @@ function TicketCart() {
       setLoading(true);
       
       let paymentData = {
-        price: cartTotalPrice.toString()
+        price: cartTotalPrice.toString(),
+        currency: currency
       };
 
       // Chuyển đổi sang USD nếu thanh toán qua PayPal
@@ -75,7 +76,7 @@ function TicketCart() {
     } catch (error) {
       console.error("Payment error:", error);
       AlertErrorPopup({
-        text: error.message || "Error processing payment"
+        text: "Error processing payment. Please try again."
       });
     } finally {
       setShowPaymentModal(false);
