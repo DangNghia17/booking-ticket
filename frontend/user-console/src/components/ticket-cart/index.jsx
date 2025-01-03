@@ -51,7 +51,6 @@ function TicketCart() {
         currency: currency
       };
 
-      // Chuyển đổi sang USD nếu thanh toán qua PayPal
       if (method === "PAYPAL" && currency === "VND") {
         paymentData = {
           price: convertToUSD(cartTotalPrice),
@@ -62,13 +61,32 @@ function TicketCart() {
       let paymentResponse;
       if (method === "PAYPAL") {
         paymentResponse = await payOrder(paymentData);
+        if (paymentResponse.success && paymentResponse.data) {
+          window.location.href = paymentResponse.data;
+        }
       } else if (method === "VNPAY") {
         paymentResponse = await payOrderVNPay(paymentData);
+        if (paymentResponse.success && paymentResponse.data) {
+          // Load required scripts
+          if (paymentResponse.data.scripts) {
+            await Promise.all(
+              paymentResponse.data.scripts.map(src => {
+                return new Promise((resolve, reject) => {
+                  const script = document.createElement('script');
+                  script.src = src;
+                  script.onload = resolve;
+                  script.onerror = reject;
+                  document.head.appendChild(script);
+                });
+              })
+            );
+          }
+          // Redirect to payment URL
+          window.location.href = paymentResponse.data.paymentUrl;
+        }
       }
 
-      if (paymentResponse.success && paymentResponse.data) {
-        window.location.href = paymentResponse.data;
-      } else {
+      if (!paymentResponse.success) {
         AlertErrorPopup({
           text: paymentResponse.message || "Payment initialization failed"
         });
