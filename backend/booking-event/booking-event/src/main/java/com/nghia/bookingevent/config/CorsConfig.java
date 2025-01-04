@@ -22,18 +22,14 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(getOrigin())
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-                        .allowedHeaders("*")
-                        .exposedHeaders("*")
                         .allowCredentials(true)
-                        .maxAge(3600L);
+                        .allowedHeaders("*");
             }
         };
     }
-
-    private String[] getOrigin() {
-        return allowedOriginList.stream()
-                .map(String::trim)
-                .filter(origin -> !origin.endsWith("/"))
-                .toArray(String[]::new);
+    public String[] getOrigin() {
+        int size = allowedOriginList.size();
+        String[] originArray = new String[size];
+        return allowedOriginList.toArray(originArray);
     }
 }
