@@ -130,6 +130,11 @@ public class SecurityConfig {
                 ;
 
         http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
+        http.headers()
+            .frameOptions().sameOrigin()
+            .xssProtection()
+            .and()
+            .contentSecurityPolicy("frame-ancestors 'self'");
         return http.build();
     }
 

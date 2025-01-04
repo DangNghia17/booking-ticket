@@ -37,10 +37,28 @@ const payOrder = async (data) => {
 
 const payOrderVNPay = async (data) => {
   try {
+    // Log request details
+    console.log('VNPay request:', {
+      url: PaymentAPI.payOrderVNPay(data).url,
+      method: PaymentAPI.payOrderVNPay(data).method,
+      data: data
+    });
+
     const response = await httpRequest(PaymentAPI.payOrderVNPay(data));
+    
+    if (!response) {
+      throw new Error('No response received from server');
+    }
+
     return response;
   } catch (error) {
-    console.error('VNPay error:', error);
+    console.error('VNPay error details:', {
+      message: error.message,
+      status: error?.response?.status,
+      data: error?.response?.data,
+      headers: error?.response?.headers
+    });
+
     return {
       success: false,
       message: error?.response?.data?.message || 'VNPay payment failed',
