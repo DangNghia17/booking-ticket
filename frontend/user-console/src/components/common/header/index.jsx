@@ -150,7 +150,7 @@ function Header(props) {
             />
           ) : null}
         </div>
-        <div className="hidden md:flex items-center gap-x-8">
+        <div className="md:w-[40%] hidden md:flex items-center gap-x-8">
           <button 
             onClick={() => navigate("/")}
             className="text-white hover:text-gray-200 transition-colors text-base font-medium"
