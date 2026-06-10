@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trạng Thái Vé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Trạng Thái Vé Sự Kiện</h1>
+</header>
+<main>
+    <section id="ticket-status">
+        <h2>Kết Quả Xác Thực</h2>
+        <div id="status-message">
+            <!-- Tin nhắn kết quả sẽ được hiển thị ở đây sau khi kiểm tra vé -->
+            <p id="valid-ticket" style="display: none; color: green;">Vé hợp lệ! Xin mời vào.</p>
+            <p id="invalid-ticket" style="display: none; color: red;">Vé không hợp lệ! Xin kiểm tra lại mã vé.</p>
+        </div>
+    </section>
+</main>
+
+<script>
+    // Đây chỉ là đoạn mã demo, để kiểm tra tình trạng vé từ cơ sở dữ liệu hoặc blockchain
+    const ticketCode = new URLSearchParams(window.location.search).get('ticket-code');
+    const isValidTicket = checkTicketValidity(ticketCode);  // Hàm này cần tích hợp backend để kiểm tra blockchain
+
+    if (isValidTicket) {
+        document.getElementById('valid-ticket').style.display = 'block';
+    } else {
+        document.getElementById('invalid-ticket').style.display = 'block';
+    }
+
+    function checkTicketValidity(code) {
+        // Giả lập kiểm tra mã vé. Thực tế, bạn cần gọi API để kiểm tra trên blockchain hoặc cơ sở dữ liệu.
+        const validCodes = ['ABC123', 'DEF456', 'GHI789'];  // Những mã vé hợp lệ giả định
+        return validCodes.includes(code);
+    }
+</script>
+</body>
+</html>

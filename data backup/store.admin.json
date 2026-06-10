@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "676051666e1631f609b68dd3"
+  },
+  "email": "lotusticket.vn@gmail.com",
+  "passWord": "$2a$10$2acQqsVbvOgxJ4hAN1hecOcrs30fbDLv9Wh8CqS1r7JRMBaOgijNq",
+  "name": "Admin",
+  "role": "ROLE_ADMIN",
+  "status": "ACTIVE",
+  "loginType": null,
+  "phone": "",
+  "avatar": "https://example.com/avatar3.jpg",
+  "USDBalance": "12311000",
+  "VNDBalance": "43800000",
+  "USDBalanceLock": "172781",
+  "VNDBalanceLock": "11371"
+}]

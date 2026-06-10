@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "6764372feba9cc2d17b974e6"
+  },
+  "userId": "test_user",
+  "createdAt": {
+    "$date": "2024-12-19T15:09:35.556Z"
+  },
+  "lastMessageAt": {
+    "$date": "2024-12-19T15:09:39.096Z"
+  },
+  "status": "active",
+  "_class": "com.nghia.bookingevent.models.chat.ChatSession"
+},
+{
+  "_id": {
+    "$oid": "6764399ceba9cc2d17b974ec"
+  },
+  "userId": "user1",
+  "createdAt": {
+    "$date": "2024-12-19T15:19:56.132Z"
+  },
+  "lastMessageAt": {
+    "$date": "2024-12-19T15:20:26.615Z"
+  },
+  "status": "active",
+  "_class": "com.nghia.bookingevent.models.chat.ChatSession"
+},
+{
+  "_id": {
+    "$oid": "67643b07eba9cc2d17b974f1"
+  },
+  "userId": "anonymous",
+  "createdAt": {
+    "$date": "2024-12-19T15:25:59.320Z"
+  },
+  "lastMessageAt": {
+    "$date": "2024-12-19T15:26:01.713Z"
+  },
+  "status": "active",
+  "_class": "com.nghia.bookingevent.models.chat.ChatSession"
+},
+{
+  "_id": {
+    "$oid": "67643b73eba9cc2d17b974f4"
+  },
+  "userId": "anonymous",
+  "createdAt": {
+    "$date": "2024-12-19T15:27:47.178Z"
+  },
+  "lastMessageAt": {
+    "$date": "2024-12-19T15:27:54.672Z"
+  },
+  "status": "active",
+  "_class": "com.nghia.bookingevent.models.chat.ChatSession"
+},
+{
+  "_id": {
+    "$oid": "67643cc0eba9cc2d17b974f7"
+  },
+  "userId": "anonymous",
+  "createdAt": {
+    "$date": "2024-12-19T15:33:20.968Z"
+  },
+  "lastMessageAt": {
+    "$date": "2024-12-19T15:33:24.375Z"
+  },
+  "status": "active",
+  "_class": "com.nghia.bookingevent.models.chat.ChatSession"
+},
+{
+  "_id": {
+    "$oid": "67643d69eba9cc2d17b974fa"
+  },
+  "userId": "anonymous",
+  "createdAt": {
+    "$date": "2024-12-19T15:36:09.455Z"
+  },
+  "lastMessageAt": {
+    "$date": "2024-12-19T15:58:39.787Z"
+  },
+  "status": "active",
+  "_class": "com.nghia.bookingevent.models.chat.ChatSession"
+}]

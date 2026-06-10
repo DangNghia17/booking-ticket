@@ -1,0 +1,48 @@
+{"prompt": "Lotus Ticket là gì?", "completion": "Lotus Ticket là hệ thống quản lý và phân phối vé sự kiện số 1 Đà Nẵng. Với sự am hiểu về công nghệ và ngành công nghiệp bán vé, Lotus Ticket giúp bạn mua và bán vé sự kiện thật dễ dàng."}
+
+{"prompt": "Làm thế nào để đặt vé trên Lotus Ticket?", "completion": "Để đặt vé trên Lotus Ticket, bạn cần thực hiện 3 bước: 1. Chọn loại vé muốn mua, 2. Điền thông tin thanh toán, 3. Hoàn tất đặt vé. Hệ thống hỗ trợ thanh toán qua VNPay (VND) và PayPal (USD)."}
+
+{"prompt": "Lotus Ticket có những phương thức thanh toán nào?", "completion": "Lotus Ticket hỗ trợ 2 phương thức thanh toán: 1. VNPay - thanh toán an toàn bằng VND, 2. PayPal - thanh toán an toàn bằng USD."}
+
+{"prompt": "Làm thế nào để trở thành nhà tổ chức sự kiện trên Lotus Ticket?", "completion": "Để trở thành nhà tổ chức sự kiện, bạn cần đăng ký tài khoản tổ chức và chờ admin phê duyệt. Sau khi được chấp nhận, bạn có thể tạo và quản lý các sự kiện của mình."}
+
+{"prompt": "Tôi có thể tìm kiếm sự kiện theo những tiêu chí nào?", "completion": "Bạn có thể tìm kiếm sự kiện theo: 1. Tên sự kiện, 2. Địa điểm (Hà Nội, HCM, Đà Nẵng, Cần Thơ, Lâm Đồng), 3. Thể loại (Âm nhạc, Hài kịch, Thể thao, Hội nghị), 4. Thời gian diễn ra."}
+
+{"prompt": "Làm sao để đánh giá một sự kiện?", "completion": "Để đánh giá sự kiện, bạn cần: 1. Đã mua vé và tham gia sự kiện, 2. Sự kiện đã kết thúc, 3. Đăng nhập vào tài khoản, 4. Vào trang chi tiết sự kiện và để lại đánh giá kèm số sao (1-5)."}
+
+{"prompt": "Tôi muốn xem lại các vé đã mua thì làm thế nào?", "completion": "Bạn có thể xem lại vé đã mua bằng cách: 1. Đăng nhập vào tài khoản, 2. Vào mục 'Đơn hàng đã mua' trong profile, 3. Tại đây bạn có thể xem chi tiết vé và tải về vé điện tử."}
+
+{"prompt": "Nhà tổ chức có thể theo dõi doanh thu như thế nào?", "completion": "Nhà tổ chức có thể theo dõi doanh thu thông qua: 1. Báo cáo doanh thu trực tuyến, 2. Thống kê số lượng vé đã bán, 3. Xem số dư thực tế (VND/USD), 4. Theo dõi các giao dịch đang chờ xử lý."}
+
+{"prompt": "Có bao nhiêu loại tài khoản trên hệ thống?", "completion": "Hệ thống có 3 loại tài khoản: 1. Tài khoản khách hàng - dùng để mua vé và đánh giá sự kiện, 2. Tài khoản nhà tổ chức - quản lý và tạo sự kiện, 3. Tài khoản admin - quản lý toàn bộ hệ thống."}
+
+{"prompt": "Làm sao để liên hệ hỗ trợ từ Lotus Ticket?", "completion": "Bạn có thể liên hệ Lotus Ticket qua: 1. Hotline Đà Nẵng (Thứ 2 - Thứ 6, 8:30 ~ 18:30), 2. Email hỗ trợ, 3. Live chat qua Messenger."}
+{"prompt": "Làm sao để xem tất cả sự kiện?", "completion": "Bạn có thể truy cập đường dẫn '/events' để xem danh sách tất cả sự kiện hiện có trên hệ thống."}
+
+{"prompt": "Tôi muốn xem chi tiết sự kiện?", "completion": "Bạn có thể truy cập đường dẫn '/events/{event-id}' để xem chi tiết một sự kiện cụ thể, trong đó {event-id} là mã định danh của sự kiện."}
+
+{"prompt": "Làm sao để đến trang đăng nhập?", "completion": "Bạn có thể truy cập đường dẫn '/auth/login' để đến trang đăng nhập hệ thống."}
+
+{"prompt": "Tôi muốn đăng ký tài khoản mới thì vào đâu?", "completion": "Bạn có thể truy cập đường dẫn '/auth/register' để đăng ký tài khoản mới."}
+
+{"prompt": "Làm sao để xem thông tin cá nhân của tôi?", "completion": "Bạn có thể truy cập đường dẫn '/profile' để xem và chỉnh sửa thông tin cá nhân của mình."}
+
+{"prompt": "Tôi muốn xem lịch sử đặt vé thì vào đâu?", "completion": "Bạn có thể truy cập đường dẫn '/profile/orders' để xem lịch sử đặt vé của mình."}
+
+{"prompt": "Làm sao để xem các sự kiện tôi đã lưu?", "completion": "Bạn có thể truy cập đường dẫn '/profile/saved-events' để xem danh sách các sự kiện bạn đã lưu."}
+
+{"prompt": "Tôi là nhà tổ chức, làm sao để tạo sự kiện mới?", "completion": "Bạn có thể truy cập đường dẫn '/organizer/events/create' để tạo sự kiện mới."}
+
+{"prompt": "Làm sao để xem thống kê doanh thu?", "completion": "Bạn có thể truy cập đường dẫn '/organizer/dashboard' để xem thống kê doanh thu và các báo cáo khác."}
+
+{"prompt": "Tôi muốn quản lý các sự kiện đã tạo thì vào đâu?", "completion": "Bạn có thể truy cập đường dẫn '/organizer/events' để xem và quản lý tất cả sự kiện bạn đã tạo."}
+
+{"prompt": "Làm sao để xem danh sách vé đã bán?", "completion": "Bạn có thể truy cập đường dẫn '/organizer/events/{event-id}/tickets' để xem danh sách vé đã bán của một sự kiện cụ thể."}
+
+{"prompt": "Tôi muốn xem các đánh giá của khách hàng thì vào đâu?", "completion": "Bạn có thể truy cập đường dẫn '/events/{event-id}/reviews' để xem tất cả đánh giá của một sự kiện."}
+
+{"prompt": "Làm sao để tìm kiếm sự kiện?", "completion": "Bạn có thể truy cập đường dẫn '/search?q={từ khóa}&category={thể loại}&location={địa điểm}' để tìm kiếm sự kiện theo các tiêu chí mong muốn."}
+
+{"prompt": "Tôi muốn xem các sự kiện theo thể loại?", "completion": "Bạn có thể truy cập đường dẫn '/events/category/{category-name}' để xem các sự kiện theo thể loại cụ thể."}
+
+{"prompt": "Làm sao để xem các sự kiện sắp diễn ra?", "completion": "Bạn có thể truy cập đường dẫn '/events/upcoming' để xem danh sách các sự kiện sắp diễn ra."}

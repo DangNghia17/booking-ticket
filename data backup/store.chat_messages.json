@@ -1,0 +1,494 @@
+[{
+  "_id": {
+    "$oid": "6764372feba9cc2d17b974e7"
+  },
+  "sessionId": "6764372feba9cc2d17b974e6",
+  "userId": "test_user",
+  "role": "user",
+  "content": "XIn chào , bạn là ai ?",
+  "timestamp": {
+    "$date": "2024-12-19T15:09:35.866Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643732eba9cc2d17b974e8"
+  },
+  "sessionId": "6764372feba9cc2d17b974e6",
+  "userId": "test_user",
+  "role": "assistant",
+  "content": "Xin chào, tôi là Lotus Ticket Assistant, chatbot hỗ trợ cho nền tảng đặt vé Lotus Ticket. Tôi có thể giúp bạn tìm kiếm và đặt vé cho sự kiện mong muốn.",
+  "timestamp": {
+    "$date": "2024-12-19T15:09:36.380Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "6764399ceba9cc2d17b974ed"
+  },
+  "sessionId": "6764399ceba9cc2d17b974ec",
+  "userId": "user1",
+  "role": "user",
+  "content": "Xin chào , bạn là ai vậy ?",
+  "timestamp": {
+    "$date": "2024-12-19T15:19:56.375Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "6764399eeba9cc2d17b974ee"
+  },
+  "sessionId": "6764399ceba9cc2d17b974ec",
+  "userId": "user1",
+  "role": "assistant",
+  "content": "Chào bạn, mình là Lotus Ticket Assistant - chatbot hỗ trợ đặt vé và cung cấp thông tin về sự kiện. Nếu có bất kỳ thắc mắc nào, hãy thoải mái hỏi mình!",
+  "timestamp": {
+    "$date": "2024-12-19T15:19:56.838Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "676439b6eba9cc2d17b974ef"
+  },
+  "sessionId": "6764399ceba9cc2d17b974ec",
+  "userId": "user1",
+  "role": "user",
+  "content": "Lặp lại câu hỏi trước đó tôi hỏi là gì vậy ?",
+  "timestamp": {
+    "$date": "2024-12-19T15:20:22.719Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "676439baeba9cc2d17b974f0"
+  },
+  "sessionId": "6764399ceba9cc2d17b974ec",
+  "userId": "user1",
+  "role": "assistant",
+  "content": "Câu hỏi trước đó bạn hỏi về vai trò của Lotus Ticket Assistant.",
+  "timestamp": {
+    "$date": "2024-12-19T15:20:23.183Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643b07eba9cc2d17b974f2"
+  },
+  "sessionId": "67643b07eba9cc2d17b974f1",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"Xin chào , bạn là ai ?\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:25:59.559Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643b09eba9cc2d17b974f3"
+  },
+  "sessionId": "67643b07eba9cc2d17b974f1",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Chào bạn, mình là Lotus Ticket Assistant - chatbot hỗ trợ đặt vé sự kiện. Nếu có thắc mắc gì về việc đặt vé, thông tin sự kiện, đừng ngần ngại hỏi mình nhé!",
+  "timestamp": {
+    "$date": "2024-12-19T15:26:00.031Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643b73eba9cc2d17b974f5"
+  },
+  "sessionId": "67643b73eba9cc2d17b974f4",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"Xin chào, bạn là ai vậy ?\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:27:47.415Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643b7aeba9cc2d17b974f6"
+  },
+  "sessionId": "67643b73eba9cc2d17b974f4",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Chào bạn, mình là Lotus Ticket Assistant - chatbot hỗ trợ đặt vé và cung cấp thông tin về sự kiện. Nếu có bất kỳ thắc mắc nào, đừng ngần ngại hỏi mình nhé!",
+  "timestamp": {
+    "$date": "2024-12-19T15:27:47.873Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643cc1eba9cc2d17b974f8"
+  },
+  "sessionId": "67643cc0eba9cc2d17b974f7",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"Xin chào , bạn là ai vậy\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:33:21.204Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643cc4eba9cc2d17b974f9"
+  },
+  "sessionId": "67643cc0eba9cc2d17b974f7",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Chào bạn, tôi là Lotus Ticket Assistant, chatbot hỗ trợ đặt vé và cung cấp thông tin về sự kiện trên nền tảng Lotus Ticket. Tôi có thể giúp bạn tìm kiếm, đặt vé và trả lời các câu hỏi liên quan đến sự kiện.",
+  "timestamp": {
+    "$date": "2024-12-19T15:33:21.674Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643d69eba9cc2d17b974fb"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"Chào bạn\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:36:09.686Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643d6beba9cc2d17b974fc"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Chào bạn, nếu có bất kỳ thắc mắc nào liên quan đến việc đặt vé sự kiện, hãy inbox cho Lotus Ticket để được hỗ trợ kịp thời nhé!",
+  "timestamp": {
+    "$date": "2024-12-19T15:36:10.140Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643d83eba9cc2d17b974fd"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"Hiện tại có sự kiện gì vậy\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:36:35.577Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643d86eba9cc2d17b974fe"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Lotus Ticket đang phân phối vé cho nhiều sự kiện hấp dẫn. Tại thời điểm hiện tại, chúng tôi đang chủ động bán vé cho nhiều chương trình âm nhạc, biểu diễn nghệ thuật và sự kiện thể thao. Bạn có thể truy cập fanpage Lotus Ticket để cập nhật tin tức và đặt vé cho các sự kiện đang diễn ra.",
+  "timestamp": {
+    "$date": "2024-12-19T15:36:36.044Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643db7eba9cc2d17b974ff"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"Hài kịch : yêu ông thầy diễn ra ngày mấy vậy\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:37:27.846Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643dbaeba9cc2d17b97500"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Chương trình \"Hài Kịch: Yêu Ông Thầy\" diễn ra vào ngày 25/12/2024, tại Cung Văn hóa Hữu nghị Việt Xô.",
+  "timestamp": {
+    "$date": "2024-12-19T15:37:28.302Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643dc4eba9cc2d17b97501"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"tại đâu\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:37:40.357Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643dc6eba9cc2d17b97502"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Sự kiện diễn ra tại Cung Văn hóa Hữu nghị Việt Xô, 91 Trần Hưng Đạo, Quận Hoàn Kiếm, Hà Nội.",
+  "timestamp": {
+    "$date": "2024-12-19T15:37:40.843Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643ebaeba9cc2d17b97503"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"thông tin này bạn lấy ở đâu vậy ?\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:41:46.844Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643ebceba9cc2d17b97504"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Thông tin về sự kiện và địa điểm tổ chức được cung cấp bởi Lotus Ticket, dựa trên các nguồn tin đáng tin cậy và xác thực.",
+  "timestamp": {
+    "$date": "2024-12-19T15:41:47.317Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643f91eba9cc2d17b97505"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"Bạn biết tôi là ai không ?\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:45:21.170Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643f93eba9cc2d17b97506"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Lotus Ticket Assistant hiện chưa nhận diện được bạn. Tuy nhiên, nếu có bất kỳ thông tin nào cần hỗ trợ, đừng ngần ngại để lại yêu cầu, mình sẽ giúp bạn!",
+  "timestamp": {
+    "$date": "2024-12-19T15:45:21.644Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643fceeba9cc2d17b97507"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"ôi muốn xem lại các vé đã mua thì làm thế nào?\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:46:22.387Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643fd1eba9cc2d17b97508"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Để xem lại các vé đã mua, bạn có thể truy cập đường dẫn '/profile/orders' sau khi đã đăng nhập. Tại đây, bạn sẽ thấy danh sách đơn hàng và chi tiết vé tương ứng.",
+  "timestamp": {
+    "$date": "2024-12-19T15:46:22.851Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643fedeba9cc2d17b97509"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"Sự kiện 'MT Fest Concert Tour' tổ chức ở đâu?\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:46:53.261Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67643fefeba9cc2d17b9750a"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Sự kiện 'MT Fest Concert Tour' diễn ra tại Cung Văn hóa Hữu nghị Việt Xô, địa chỉ 91 Trần Hưng Đạo, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh.",
+  "timestamp": {
+    "$date": "2024-12-19T15:46:53.727Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67644007eba9cc2d17b9750b"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"nó ở cần thơ mà ?\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:47:19.740Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67644009eba9cc2d17b9750c"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Là Lotus Ticket Assistant, tôi xin lỗi vì sự nhầm lẫn. Sự kiện 'MT Fest Concert Tour' diễn ra tại Cung Văn hóa Hữu nghị Việt Xô, địa chỉ 91 Trần Hưng Đạo, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh.",
+  "timestamp": {
+    "$date": "2024-12-19T15:47:20.202Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67644161eba9cc2d17b9750d"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"Nó ở cần thơ\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:53:05.818Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67644164eba9cc2d17b9750e"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Là Lotus Ticket Assistant, tôi xin lỗi vì sự nhầm lẫn. Sự kiện 'MT Fest Concert Tour' diễn ra tại Cung Văn hóa Hữu nghị Việt Xô, địa chỉ 91 Trần Hưng Đạo, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh.",
+  "timestamp": {
+    "$date": "2024-12-19T15:53:06.285Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "6764428feba9cc2d17b9750f"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"có sự kiện nào ở đà nẵng trong tháng 12 này\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:58:07.722Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "67644292eba9cc2d17b97510"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Hiện tại, Lotus Ticket chưa có sự kiện nào tại Đà Nẵng trong tháng 12. Tuy nhiên, bạn có thể tham khảo các sự kiện tại các địa điểm khác hoặc theo dõi Lotus Ticket để cập nhật thông tin mới nhất.",
+  "timestamp": {
+    "$date": "2024-12-19T15:58:08.194Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "676442a2eba9cc2d17b97511"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"Vậy hồ chí minh\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:58:26.988Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "676442a5eba9cc2d17b97512"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Có sự kiện 'MT Fest Concert Tour' tại Cung Văn hóa Hữu nghị Việt Xô, địa chỉ 91 Trần Hưng Đạo, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh.",
+  "timestamp": {
+    "$date": "2024-12-19T15:58:27.450Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "676442adeba9cc2d17b97513"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "user",
+  "content": "\"Hà nội thì sao\"",
+  "timestamp": {
+    "$date": "2024-12-19T15:58:37.130Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+},
+{
+  "_id": {
+    "$oid": "676442afeba9cc2d17b97514"
+  },
+  "sessionId": "67643d69eba9cc2d17b974fa",
+  "userId": "anonymous",
+  "role": "assistant",
+  "content": "Tại Hà Nội, sự kiện 'Hà Nội Music Run - Chạy Vì Yêu Thương' diễn ra tại Công viên Thống Nhất, số 3 ngõ 9 Lê Lai, Phan Chu Trinh, Hai Bà Trưng.",
+  "timestamp": {
+    "$date": "2024-12-19T15:58:37.599Z"
+  },
+  "_class": "com.nghia.bookingevent.models.chat.ChatMessage"
+}]

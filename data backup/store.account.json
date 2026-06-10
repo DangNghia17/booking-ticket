@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "675943d21425fb6d77452a0b"
+  },
+  "name": "Admin Test",
+  "phone": "0901234569",
+  "email": "lotusticket.vn@gmail.com",
+  "avatar": "https://cdn-icons-png.flaticon.com/512/3781/3781986.png",
+  "passWord": "$2a$10$2acQqsVbvOgxJ4hAN1hecOcrs30fbDLv9Wh8CqS1r7JRMBaOgijNq",
+  "role": "ROLE_ADMIN",
+  "otp": {},
+  "loginTime": {
+    "$date": "2024-12-18T08:59:19.733Z"
+  },
+  "_class": "com.nghia.bookingevent.models.account.Account"
+},
+{
+  "_id": {
+    "$oid": "675943d21425fb6d77452a0a"
+  },
+  "name": "Sân Khấu Kịch Quốc Thảo",
+  "phone": "0901234568",
+  "email": "org789@gmail.com",
+  "avatar": "https://salt.tkbcdn.com/ts/ds/01/a3/dc/1c0f8c577c32481faccd5984cf9c4371.png",
+  "passWord": "$2a$10$2acQqsVbvOgxJ4hAN1hecOcrs30fbDLv9Wh8CqS1r7JRMBaOgijNq",
+  "role": "ROLE_ORGANIZATION",
+  "otp": {},
+  "loginTime": {
+    "$date": "2024-12-18T10:47:50.515Z"
+  },
+  "_class": "com.nghia.bookingevent.models.account.Account"
+},
+{
+  "_id": {
+    "$oid": "675b1d72232bd5310a5d17ae"
+  },
+  "name": "SUPER DREAM ENTERTAINMENT",
+  "phone": "0123456789",
+  "email": "org123@gmail.com",
+  "avatar": "https://salt.tkbcdn.com/ts/ds/5b/a3/ed/46e8ff2309c6b56d923ad7aa0d1ad1ef.png",
+  "passWord": "$2a$10$2acQqsVbvOgxJ4hAN1hecOcrs30fbDLv9Wh8CqS1r7JRMBaOgijNq",
+  "role": "ROLE_ORGANIZATION",
+  "otp": {},
+  "loginTime": {
+    "$date": "2024-12-18T08:06:00.669Z"
+  },
+  "_class": "com.nghia.bookingevent.models.account.Account"
+},
+{
+  "_id": {
+    "$oid": "675be7324cb6c5e0dd879c73"
+  },
+  "name": "Công ty Luật Phước & Cộng sự",
+  "phone": "0901235668",
+  "email": "org101@gmail.com",
+  "avatar": "https://salt.tkbcdn.com/Upload/organizerlogo/2023/12/11/C48CD1.jpg",
+  "passWord": "$2a$10$2acQqsVbvOgxJ4hAN1hecOcrs30fbDLv9Wh8CqS1r7JRMBaOgijNq",
+  "role": "ROLE_ORGANIZATION",
+  "otp": {},
+  "loginTime": {
+    "$date": "2024-12-18T10:54:13.627Z"
+  },
+  "_class": "com.nghia.bookingevent.models.account.Account"
+},
+{
+  "_id": {
+    "$oid": "675be7634cb6c5e0dd879c74"
+  },
+  "name": "Shadow Entertainment",
+  "phone": "0223456789",
+  "email": "org222@gmail.com",
+  "avatar": "https://salt.tkbcdn.com/ts/ds/73/e9/10/b634bf886fe20f43b78fc42a15749614.jpg",
+  "passWord": "$2a$10$2acQqsVbvOgxJ4hAN1hecOcrs30fbDLv9Wh8CqS1r7JRMBaOgijNq",
+  "role": "ROLE_ORGANIZATION",
+  "otp": {},
+  "loginTime": {
+    "$date": "2024-12-18T10:58:24.528Z"
+  },
+  "_class": "com.nghia.bookingevent.models.account.Account"
+},
+{
+  "_id": {
+    "$oid": "675d4437ea336051c29121ed"
+  },
+  "name": "Dang Nghia",
+  "phone": "0914629031",
+  "email": "dnghia2002@gmail.com",
+  "avatar": "https://res.cloudinary.com/meaning17/image/upload/v1734361165/lotus/user/nmaogg67l5jnmg40alxa.png",
+  "passWord": "$2a$10$2acQqsVbvOgxJ4hAN1hecOcrs30fbDLv9Wh8CqS1r7JRMBaOgijNq",
+  "role": "ROLE_USER",
+  "otp": {
+    "otpCode": "587780",
+    "timeExisting": {
+      "$date": "2024-12-15T07:09:15.002Z"
+    }
+  },
+  "loginTime": {
+    "$date": "2024-12-18T09:06:56.252Z"
+  },
+  "_class": "com.nghia.bookingevent.models.account.Account"
+},
+{
+  "_id": {
+    "$oid": "675d4ce7ea336051c29121ef"
+  },
+  "name": "Đặng Chí Nghĩa",
+  "email": "dang.chi.nghia2002@gmail.com",
+  "avatar": "https://st4.depositphotos.com/4329009/19956/v/600/depositphotos_199564354-stock-illustration-creative-vector-illustration-default-avatar.jpg",
+  "passWord": "$2a$10$2KOtL/DjiH/I1p9rROj4g.VxdLL4XKeJ9OwFsDX0QJ9DaBYzYcWtK",
+  "role": "ROLE_USER",
+  "loginTime": {
+    "$date": "2024-12-15T07:09:21.447Z"
+  },
+  "_class": "com.nghia.bookingevent.models.account.Account"
+},
+{
+  "_id": {
+    "$oid": "675e8e519ea56142ec22e400"
+  },
+  "name": "Nghia Dang",
+  "email": "dnghia1710@gmail.com",
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKVGOwXxGqbw6won6s2zZlVDS2FNw2bKZH8npiA_XjrcrDhTTE=s96-c",
+  "passWord": "",
+  "role": "ROLE_USER",
+  "loginType": "GOOGLE",
+  "_class": "com.nghia.bookingevent.models.account.Account"
+}]

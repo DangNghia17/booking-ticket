@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "6755db15573d6173e7b42e14"
+  },
+  "timestamp": {
+    "$date": "2024-12-08T17:44:53.491Z"
+  },
+  "numEvents": 10,
+  "numOrders": 50,
+  "numTickets": 200,
+  "revenue": 50000000
+},
+{
+  "_id": {
+    "$oid": "6755db15573d6173e7b42e15"
+  },
+  "timestamp": {
+    "$date": "2024-12-07T17:44:53.491Z"
+  },
+  "numEvents": 8,
+  "numOrders": 40,
+  "numTickets": 150,
+  "revenue": 40000000
+},
+{
+  "_id": {
+    "$oid": "67586a997f6796775c05ac16"
+  },
+  "eventId": "EVENT002",
+  "totalTickets": 500,
+  "soldTickets": 300,
+  "revenue": 30000000,
+  "date": {
+    "$date": "2024-12-10T16:21:45.811Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67586a997f6796775c05ac17"
+  },
+  "eventId": "EVENT003",
+  "totalTickets": 2000,
+  "soldTickets": 1000,
+  "revenue": 100000000,
+  "date": {
+    "$date": "2024-12-10T16:21:45.811Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67586a997f6796775c05ac15"
+  },
+  "eventId": "EVENT001",
+  "totalTickets": 1000,
+  "soldTickets": 500,
+  "revenue": 50000000,
+  "date": {
+    "$date": "2024-12-10T16:21:45.811Z"
+  }
+}]

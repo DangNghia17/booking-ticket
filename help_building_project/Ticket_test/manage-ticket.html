@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Vé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Quản Lý Vé Sự Kiện</h1>
+</header>
+<main>
+    <section id="manage-ticket">
+        <h2>Xác Thực Vé</h2>
+        <p>Nhập mã vé hoặc quét mã QR để xác thực tính hợp lệ.</p>
+        <form action="ticket-status.html" method="post">
+            <label for="ticket-code">Mã Vé:</label>
+            <input type="text" id="ticket-code" name="ticket-code" required><br><br>
+
+            <button type="submit">Xác Thực</button>
+        </form>
+
+        <h3>Hoặc quét mã QR:</h3>
+        <button onclick="scanQRCode()">Quét Mã QR</button>
+
+        <div id="qr-scanner-container"></div>
+    </section>
+</main>
+
+<script src="qr-scanner.umd.min.js"></script>
+<script>
+    function scanQRCode() {
+        const video = document.createElement('video');
+        const qrScanner = new QrScanner(video, result => {
+            document.getElementById('ticket-code').value = result;
+            qrScanner.stop();
+        });
+        document.getElementById('qr-scanner-container').appendChild(video);
+        qrScanner.start();
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "675d4ce7ea336051c29121f0"
+  },
+  "email": "dnghia2002@gmail.com",
+  "eventWishList": [
+    "6755df38573d6173e7b42e1d"
+  ],
+  "followList": [],
+  "_class": "com.nghia.bookingevent.models.Customer"
+},
+{
+  "_id": {
+    "$oid": "675d51b3890bd23fd07dddb2"
+  },
+  "email": "dang.chi.nghia2002@gmail.com",
+  "eventWishList": [],
+  "followList": [],
+  "_class": "com.nghia.bookingevent.models.Customer"
+},
+{
+  "_id": {
+    "$oid": "675e8e519ea56142ec22e3ff"
+  },
+  "email": "dnghia1710@gmail.com",
+  "eventWishList": [],
+  "followList": [],
+  "_class": "com.nghia.bookingevent.models.Customer"
+}]

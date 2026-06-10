@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "6755daf5573d6173e7b42e10"
+  },
+  "name": "Nguyễn Văn A",
+  "email": "user2@example.com",
+  "avatar": "https://st4.depositphotos.com/4329009/19956/v/600/depositphotos_199564354-stock-illustration-creative-vector-illustration-default-avatar.jpg",
+  "idEvent": "67596b2cc2c48ebbc411d2a3",
+  "message": "Sự kiện rất tuyệt vời!",
+  "rate": 5,
+  "createdAt": {
+    "$date": "2024-12-08T17:44:21.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6755daf5573d6173e7b42e11"
+  },
+  "name": "Trần Thị B",
+  "email": "userb@example.com",
+  "avatar": "https://st3.depositphotos.com/9468312/12912/v/600/depositphotos_129128184-stock-illustration-avatar-icon-design-for-woman.jpg",
+  "idEvent": "67596b2cc2c48ebbc411d2a3",
+  "message": "Tổ chức chuyên nghiệp",
+  "rate": 4,
+  "createdAt": {
+    "$date": "2024-12-08T17:44:21.052Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "675ffa88abfd994648ee3dd1"
+  },
+  "name": "Dang Nghia",
+  "email": "dnghia2002@gmail.com",
+  "avatar": "https://res.cloudinary.com/lotus-ticket-2022/image/upload/v1734242431/booking/zv4imyobk0138ibbbxkl.png",
+  "idEvent": "675b0b9d4de9cfb6f2d9d3c9",
+  "message": "Tôi vừa tham gia sự kiện Galaxy Day do Dream Entertaiment tổ chức và thật sự rất ấn tượng. Từ cách tổ chức chuyên nghiệp, không gian sự kiện đến nội dung chia sẻ đều rất chất lượng và hữu ích. Các diễn giả rất am hiểu và lôi c*ốn, mang lại nhiều thông tin bổ ích. Tuy nhiên, tôi nghĩ có thể cải thiện một chút về phần đăng ký để mọi thứ diễn ra thuận lợi hơn. Tuy nhiên, overall, tôi rất hài lòng và sẽ tiếp tục tham gia các sự kiện của Dream trong tương lai.",
+  "rate": 5,
+  "createdAt": {
+    "$date": "2024-12-16T10:02:24.712Z"
+  },
+  "_class": "com.nghia.bookingevent.models.Review"
+}]

@@ -1,0 +1,1064 @@
+[{
+  "_id": {
+    "$oid": "6755df38573d6173e7b42e1d"
+  },
+  "name": "Music Festival 2024",
+  "province": "Thành phố Hồ Chí Minh",
+  "venue": "Sân vận động Thống Nhất",
+  "venue_address": "123 Nguyễn Thị Minh Khai",
+  "startingTime": "19:00",
+  "endingTime": "22:00",
+  "startingDate": "07/01/2025",
+  "endingDate": "07/01/2025",
+  "host_id": "org123",
+  "description": "PHA+PHN0cm9uZz5TT05HIE1VU0lDIEZFU1RJVkFMPC9zdHJvbmc+IC08c3Ryb25nPsKgTeG7mFQgxJDhuqBJIE5I4bqgQyBI4buYSTwvc3Ryb25nPiA8c3Ryb25nPsSQQU5HIENI4bucIMSQw5NOIELhuqBOIFThuqBJIEjhuqJJIFBIw5JORzwvc3Ryb25nPjwvcD4KPHA+VuG7m2kgc+G7sSBnw7NwIG3hurd0IGPhu6dhIG5oaeG7gXUgbmdo4buHIHPhu7ksIGJhbiBuaOG6oWMgxJHGsOG7o2MgY8OhYyB0aOG6vyBo4buHIDcsOCw5LDEweCB5w6p1IG3hur9uIGfhu5NtOjwvcD4KPHVsPgo8bGk+PHN0cm9uZz5OZ+G7jXTCoDwvc3Ryb25nPmzDoCBt4buZdCB0cm9uZyBuaOG7r25nIGJhbiBuaOG6oWMgaW5kaWUgxJHGsOG7o2MgZ2nhu5tpIHRy4bq7IHnDqnUgdGjDrWNoLiBOaMOzbSBuaOG6oWMgbsOgeSBu4buVaSB0aeG6v25nIHRyb25nIGdp4bubaSBVbmRlcmdyb3VuZCB2w6AgdHLDqm4gbeG6oW5nIHjDoyBo4buZaSBuaMawOiAiQ2hvIFTDtGkgTGFuZyBUaGFuZyIsICJFbSBE4bqhbyBOw6B5IiwgIkzhuqduIEN14buRaSIsICJYYW5oIiwgIkNodcO0bmcgQsOhbyBUaOG7qWMiLi4uPC9saT4KPGxpPjxzdHJvbmc+TWljcm93YXZlIEJhbmQ6PC9zdHJvbmc+IEJhbmQgbmjhuqFjIGh1eeG7gW4gdGhv4bqhaSwgdGhhbmggeHXDom4gY+G7p2Egbmjhu69uZyB0csOhaSB0aW0gecOqdSBSb2NrLiBCYW5kIGtodeG6pXkgxJHhuqNvIGzDoG5nIG5o4bqhYyB24bubaSBsb+G6oXQgYuG6o24gcm9jayBuaMawIOKAnFBoYWnigJ0sIOKAnELDo2/CoMSQw6pt4oCdLCDigJxUw6xtIEzhuqFp4oCdLCDigJxDaOG7iSBMw6AgR2nhuqVjIE3GoeKAnSw8L2xpPgo8bGk+PHN0cm9uZz5UaOG7p3kgVHJp4buBdSDEkOG7jzwvc3Ryb25nPiBsw6AgbeG7mXQgYmFuIG5o4bqhYyBoZWF2eSBtZXRhbCBuZ8aw4budaSBWaeG7h3QgTmFtIMSRxrDhu6NjIHRow6BuaCBs4bqtcCB2w6BvIG7Eg20gMTk5OS4gTmjDs20gxJHDoyBwaMOhdCBow6BuaCBoYWkgYWxidW0gbOG6p24gbMaw4bujdCBsw6AgTuG6r25nIG3hu5tpICgyMDAzKSB2w6AgU2F1IGPGoW4gbcawYSAoMjAwNikuIE5ow7NtIHThu6tuZyDEkcaw4bujYyB0cmFuZyBNVFYgVmnhu4d0IE5hbSB44bq/cCBsw6AgbeG7mXQgdHJvbmcgbmjhu69uZyBiYW4gbmjhuqFjIHJvY2sgbuG7lWkgdGnhur9uZyBuaOG6pXQgVmnhu4d0IE5hbS48L2xpPgo8bGk+PHN0cm9uZz5DaGlja2VuIEJhbmQ8L3N0cm9uZz4gIiBuaOG7r25nIGPDtCBj4bqtdSBiw6kgxJHhur9uIHThu6sgVFAgSG9hIFBoxrDhu6NuZyDEkOG7jyIgbWFuZyB0cm9uZyBtw6xuaCBuaOG7r25nIGtow6F0IGtoYW8gY2jDoXkgYuG7j25nIHbDoCDEkcaw4bujYyDEkcOgbyB04bqhbyBy4bqldCBiw6BpIGLhuqNuIHbhu4Egw6JtIG5o4bqhYy4gTmjhu69uZyBo4buNYyB0csOyIGPGsG5nIGPhu6dhIHRo4bqneSBHaWFuZyBHdWl0YXI8L2xpPgo8bGk+PHN0cm9uZz5TdHJpZGVywqBCYW5kPC9zdHJvbmc+IMSR4bq/biB04burIFRQSENNLCBt4buZdCB0cm9uZyBuaOG7r25nIGJhbmQgUm9jayBuaOG6oWMgdGhhbSBnaWEgUm9jayBWaeG7h3QgbcO5YSAyMDIxIHbDoCBn4bq3dCBow6FpIMSRxrDhu6NjIG5oaeG7gXUgdGjDoG5oIGPDtG5nLjwvbGk+CjwvdWw+CjxwPjxzdHJvbmc+PGVtPlF1w6EgdHV54buHdCB24budaSBjaG8gMSDEkOG6oEkgTkjhuqBDIEjhu5hJLiDEkOG7gyB0aeG6v24gZ+G6p24gaMahbiB04bubaSBi4buvYSB0aeG7h2Mgw6JtIG5o4bqhYyBuw6B5LCBj4bqjIG5ow6AgaMOjeSByaW5oIG5nYXkgduG7gSB0YXkgbmjhu69uZyBjaGnhur9jIHbDqSDEkcaw4bujYyBt4bufIGLDoW4gduG7m2kgbeG7qWMgZ2nDoSBzacOqdSDGsHUgxJHDo2kgbmjDqSE8L2VtPjwvc3Ryb25nPjwvcD4K",
+  "background": "https://salt.tkbcdn.com/ts/ds/a0/6e/1d/bb2e61db62f2c83b1a07311adc1eea49.png",
+  "status": "event.available",
+  "ticketTotal": 1000,
+  "ticketRemaining": 603,
+  "createdDate": {
+    "$date": "2024-12-08T18:02:32.437Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-18T10:43:55.487Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Music"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": {
+        "$oid": "675997476d6dc1f70c8e3382"
+      },
+      "ticketName": "VIP",
+      "price": "1000000",
+      "description": "Vé VIP",
+      "quantity": 100,
+      "quantityRemaining": 97,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "67596b2cc2c48ebbc411d2a5"
+  },
+  "name": "Live Show ca sĩ ABC",
+  "province": "Hà Nội",
+  "venue": "Cung Văn hóa Hữu nghị Việt Xô",
+  "venue_address": "91 Trần Hưng Đạo, Hoàn Kiếm",
+  "startingTime": "20:00",
+  "endingTime": "23:00",
+  "startingDate": "08/01/2025",
+  "endingDate": "08/01/2025",
+  "host_id": "org123",
+  "description": "PHA+PHN0cm9uZz5TT05HIE1VU0lDIEZFU1RJVkFMPC9zdHJvbmc+IC08c3Ryb25nPsKgTeG7mFQgxJDhuqBJIE5I4bqgQyBI4buYSTwvc3Ryb25nPiA8c3Ryb25nPsSQQU5HIENI4bucIMSQw5NOIELhuqBOIFThuqBJIEjhuqJJIFBIw5JORzwvc3Ryb25nPjwvcD4KPHA+VuG7m2kgc+G7sSBnw7NwIG3hurd0IGPhu6dhIG5oaeG7gXUgbmdo4buHIHPhu7ksIGJhbiBuaOG6oWMgxJHGsOG7o2MgY8OhYyB0aOG6vyBo4buHIDcsOCw5LDEweCB5w6p1IG3hur9uIGfhu5NtOjwvcD4KPHVsPgo8bGk+PHN0cm9uZz5OZ+G7jXTCoDwvc3Ryb25nPmzDoCBt4buZdCB0cm9uZyBuaOG7r25nIGJhbiBuaOG6oWMgaW5kaWUgxJHGsOG7o2MgZ2nhu5tpIHRy4bq7IHnDqnUgdGjDrWNoLiBOaMOzbSBuaOG6oWMgbsOgeSBu4buVaSB0aeG6v25nIHRyb25nIGdp4bubaSBVbmRlcmdyb3VuZCB2w6AgdHLDqm4gbeG6oW5nIHjDoyBo4buZaSBuaMawOiAiQ2hvIFTDtGkgTGFuZyBUaGFuZyIsICJFbSBE4bqhbyBOw6B5IiwgIkzhuqduIEN14buRaSIsICJYYW5oIiwgIkNodcO0bmcgQsOhbyBUaOG7qWMiLi4uPC9saT4KPGxpPjxzdHJvbmc+TWljcm93YXZlIEJhbmQ6PC9zdHJvbmc+IEJhbmQgbmjhuqFjIGh1eeG7gW4gdGhv4bqhaSwgdGhhbmggeHXDom4gY+G7p2Egbmjhu69uZyB0csOhaSB0aW0gecOqdSBSb2NrLiBCYW5kIGtodeG6pXkgxJHhuqNvIGzDoG5nIG5o4bqhYyB24bubaSBsb+G6oXQgYuG6o24gcm9jayBuaMawIOKAnFBoYWnigJ0sIOKAnELDo2/CoMSQw6pt4oCdLCDigJxUw6xtIEzhuqFp4oCdLCDigJxDaOG7iSBMw6AgR2nhuqVjIE3GoeKAnSw8L2xpPgo8bGk+PHN0cm9uZz5UaOG7p3kgVHJp4buBdSDEkOG7jzwvc3Ryb25nPiBsw6AgbeG7mXQgYmFuIG5o4bqhYyBoZWF2eSBtZXRhbCBuZ8aw4budaSBWaeG7h3QgTmFtIMSRxrDhu6NjIHRow6BuaCBs4bqtcCB2w6BvIG7Eg20gMTk5OS4gTmjDs20gxJHDoyBwaMOhdCBow6BuaCBoYWkgYWxidW0gbOG6p24gbMaw4bujdCBsw6AgTuG6r25nIG3hu5tpICgyMDAzKSB2w6AgU2F1IGPGoW4gbcawYSAoMjAwNikuIE5ow7NtIHThu6tuZyDEkcaw4bujYyB0cmFuZyBNVFYgVmnhu4d0IE5hbSB44bq/cCBsw6AgbeG7mXQgdHJvbmcgbmjhu69uZyBiYW4gbmjhuqFjIHJvY2sgbuG7lWkgdGnhur9uZyBuaOG6pXQgVmnhu4d0IE5hbS48L2xpPgo8bGk+PHN0cm9uZz5DaGlja2VuIEJhbmQ8L3N0cm9uZz4gIiBuaOG7r25nIGPDtCBj4bqtdSBiw6kgxJHhur9uIHThu6sgVFAgSG9hIFBoxrDhu6NuZyDEkOG7jyIgbWFuZyB0cm9uZyBtw6xuaCBuaOG7r25nIGtow6F0IGtoYW8gY2jDoXkgYuG7j25nIHbDoCDEkcaw4bujYyDEkcOgbyB04bqhbyBy4bqldCBiw6BpIGLhuqNuIHbhu4Egw6JtIG5o4bqhYy4gTmjhu69uZyBo4buNYyB0csOyIGPGsG5nIGPhu6dhIHRo4bqneSBHaWFuZyBHdWl0YXI8L2xpPgo8bGk+PHN0cm9uZz5TdHJpZGVywqBCYW5kPC9zdHJvbmc+IMSR4bq/biB04burIFRQSENNLCBt4buZdCB0cm9uZyBuaOG7r25nIGJhbmQgUm9jayBuaOG6oWMgdGhhbSBnaWEgUm9jayBWaeG7h3QgbcO5YSAyMDIxIHbDoCBn4bq3dCBow6FpIMSRxrDhu6NjIG5oaeG7gXUgdGjDoG5oIGPDtG5nLjwvbGk+CjwvdWw+CjxwPjxzdHJvbmc+PGVtPlF1w6EgdHV54buHdCB24budaSBjaG8gMSDEkOG6oEkgTkjhuqBDIEjhu5hJLiDEkOG7gyB0aeG6v24gZ+G6p24gaMahbiB04bubaSBi4buvYSB0aeG7h2Mgw6JtIG5o4bqhYyBuw6B5LCBj4bqjIG5ow6AgaMOjeSByaW5oIG5nYXkgduG7gSB0YXkgbmjhu69uZyBjaGnhur9jIHbDqSDEkcaw4bujYyBt4bufIGLDoW4gduG7m2kgbeG7qWMgZ2nDoSBzacOqdSDGsHUgxJHDo2kgbmjDqSE8L2VtPjwvc3Ryb25nPjwvcD4K",
+  "background": "https://salt.tkbcdn.com/ts/ds/d4/b1/14/438605131b15244247828f90db71720c.png",
+  "status": "event.available",
+  "ticketTotal": 500,
+  "ticketRemaining": 29,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Music"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": "675997476d6dc1f70c8e3383",
+      "ticketName": "VIP",
+      "price": "3000000",
+      "description": "Vé VIP",
+      "quantity": 500,
+      "quantityRemaining": 30,
+      "currency": "VND",
+      "status": "ticket.soldout"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "67596b2cc2c48ebbc411d2a3"
+  },
+  "name": "Concert K-Pop 2024",
+  "province": "Thành phố Hồ Chí Minh",
+  "venue": "Sân vận động Thống Nhất",
+  "venue_address": "123 Nguyễn Thị Minh Khai",
+  "startingTime": "19:00",
+  "endingTime": "22:00",
+  "startingDate": "25/10/2024",
+  "endingDate": "25/10/2024",
+  "host_id": "org123",
+  "description": "PHA+PHN0cm9uZz5TT05HIE1VU0lDIEZFU1RJVkFMPC9zdHJvbmc+IC08c3Ryb25nPsKgTeG7mFQgxJDhuqBJIE5I4bqgQyBI4buYSTwvc3Ryb25nPiA8c3Ryb25nPsSQQU5HIENI4bucIMSQw5NOIELhuqBOIFThuqBJIEjhuqJJIFBIw5JORzwvc3Ryb25nPjwvcD4KPHA+VuG7m2kgc+G7sSBnw7NwIG3hurd0IGPhu6dhIG5oaeG7gXUgbmdo4buHIHPhu7ksIGJhbiBuaOG6oWMgxJHGsOG7o2MgY8OhYyB0aOG6vyBo4buHIDcsOCw5LDEweCB5w6p1IG3hur9uIGfhu5NtOjwvcD4KPHVsPgo8bGk+PHN0cm9uZz5OZ+G7jXTCoDwvc3Ryb25nPmzDoCBt4buZdCB0cm9uZyBuaOG7r25nIGJhbiBuaOG6oWMgaW5kaWUgxJHGsOG7o2MgZ2nhu5tpIHRy4bq7IHnDqnUgdGjDrWNoLiBOaMOzbSBuaOG6oWMgbsOgeSBu4buVaSB0aeG6v25nIHRyb25nIGdp4bubaSBVbmRlcmdyb3VuZCB2w6AgdHLDqm4gbeG6oW5nIHjDoyBo4buZaSBuaMawOiAiQ2hvIFTDtGkgTGFuZyBUaGFuZyIsICJFbSBE4bqhbyBOw6B5IiwgIkzhuqduIEN14buRaSIsICJYYW5oIiwgIkNodcO0bmcgQsOhbyBUaOG7qWMiLi4uPC9saT4KPGxpPjxzdHJvbmc+TWljcm93YXZlIEJhbmQ6PC9zdHJvbmc+IEJhbmQgbmjhuqFjIGh1eeG7gW4gdGhv4bqhaSwgdGhhbmggeHXDom4gY+G7p2Egbmjhu69uZyB0csOhaSB0aW0gecOqdSBSb2NrLiBCYW5kIGtodeG6pXkgxJHhuqNvIGzDoG5nIG5o4bqhYyB24bubaSBsb+G6oXQgYuG6o24gcm9jayBuaMawIOKAnFBoYWnigJ0sIOKAnELDo2/CoMSQw6pt4oCdLCDigJxUw6xtIEzhuqFp4oCdLCDigJxDaOG7iSBMw6AgR2nhuqVjIE3GoeKAnSw8L2xpPgo8bGk+PHN0cm9uZz5UaOG7p3kgVHJp4buBdSDEkOG7jzwvc3Ryb25nPiBsw6AgbeG7mXQgYmFuIG5o4bqhYyBoZWF2eSBtZXRhbCBuZ8aw4budaSBWaeG7h3QgTmFtIMSRxrDhu6NjIHRow6BuaCBs4bqtcCB2w6BvIG7Eg20gMTk5OS4gTmjDs20gxJHDoyBwaMOhdCBow6BuaCBoYWkgYWxidW0gbOG6p24gbMaw4bujdCBsw6AgTuG6r25nIG3hu5tpICgyMDAzKSB2w6AgU2F1IGPGoW4gbcawYSAoMjAwNikuIE5ow7NtIHThu6tuZyDEkcaw4bujYyB0cmFuZyBNVFYgVmnhu4d0IE5hbSB44bq/cCBsw6AgbeG7mXQgdHJvbmcgbmjhu69uZyBiYW4gbmjhuqFjIHJvY2sgbuG7lWkgdGnhur9uZyBuaOG6pXQgVmnhu4d0IE5hbS48L2xpPgo8bGk+PHN0cm9uZz5DaGlja2VuIEJhbmQ8L3N0cm9uZz4gIiBuaOG7r25nIGPDtCBj4bqtdSBiw6kgxJHhur9uIHThu6sgVFAgSG9hIFBoxrDhu6NuZyDEkOG7jyIgbWFuZyB0cm9uZyBtw6xuaCBuaOG7r25nIGtow6F0IGtoYW8gY2jDoXkgYuG7j25nIHbDoCDEkcaw4bujYyDEkcOgbyB04bqhbyBy4bqldCBiw6BpIGLhuqNuIHbhu4Egw6JtIG5o4bqhYy4gTmjhu69uZyBo4buNYyB0csOyIGPGsG5nIGPhu6dhIHRo4bqneSBHaWFuZyBHdWl0YXI8L2xpPgo8bGk+PHN0cm9uZz5TdHJpZGVywqBCYW5kPC9zdHJvbmc+IMSR4bq/biB04burIFRQSENNLCBt4buZdCB0cm9uZyBuaOG7r25nIGJhbmQgUm9jayBuaOG6oWMgdGhhbSBnaWEgUm9jayBWaeG7h3QgbcO5YSAyMDIxIHbDoCBn4bq3dCBow6FpIMSRxrDhu6NjIG5oaeG7gXUgdGjDoG5oIGPDtG5nLjwvbGk+CjwvdWw+CjxwPjxzdHJvbmc+PGVtPlF1w6EgdHV54buHdCB24budaSBjaG8gMSDEkOG6oEkgTkjhuqBDIEjhu5hJLiDEkOG7gyB0aeG6v24gZ+G6p24gaMahbiB04bubaSBi4buvYSB0aeG7h2Mgw6JtIG5o4bqhYyBuw6B5LCBj4bqjIG5ow6AgaMOjeSByaW5oIG5nYXkgduG7gSB0YXkgbmjhu69uZyBjaGnhur9jIHbDqSDEkcaw4bujYyBt4bufIGLDoW4gduG7m2kgbeG7qWMgZ2nDoSBzacOqdSDGsHUgxJHDo2kgbmjDqSE8L2VtPjwvc3Ryb25nPjwvcD4K",
+  "background": "https://images.tkbcdn.com/2/1560/600/Upload/eventcover/2023/10/11/CEEE87.jpg",
+  "status": "event.completed",
+  "ticketTotal": 1000,
+  "ticketRemaining": 200,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.560Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-11T10:36:28.560Z"
+  },
+  "modifyTimes": 0,
+  "organizationTickets": [
+    {
+      "id": {
+        "$oid": "675997476d6dc1f70c8e3382"
+      },
+      "ticketName": "VIP",
+      "price": "2000000",
+      "description": "Vé VIP",
+      "quantity": 1000,
+      "quantityRemaining": 1000,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "eventCategoryList": [
+    {
+      "id": {
+        "$oid": "675997506d6dc1f70c8e3383"
+      },
+      "name": "Music"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67596b2cc2c48ebbc411d2a6"
+  },
+  "name": "Festival Âm nhạc Đà Lạt",
+  "province": "Lâm Đồng",
+  "venue": "Quảng trường Lâm Viên",
+  "venue_address": "Trần Quốc Toản, P.10",
+  "startingTime": "16:00",
+  "endingTime": "23:00",
+  "startingDate": "08/01/2025",
+  "endingDate": "08/01/2025",
+  "host_id": "org123",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzMiwzMywzNik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IHRhaG9tYSwgZ2VuZXZhLCBzYW5zLXNlcmlmOyI+VHLhu4sgbGnhu4d1IENodcO0bmcgeG9heSBUw6J5IFThuqFuZyBsw6AgbeG7mXQgdHJvbmcgbmjhu69uZyBwaMawxqFuZyBwaMOhcCBjaOG7r2EgbMOgbmggYuG6sW5nIMOibSB0aGFuaC4gTmjhu69uZyBydW5nIMSR4buZbmcgdsOgIHThuqduZyBz4buRIMOibSB0aGFuaCBj4bunYSBjaHXDtG5nIMSR4buTbmcgYuG7mSBow7NhIHbhu5tpIHPDs25nIG7Do2/CoMSRxrBhIGPGoSB0aOG7gyDEkeG6v24gdHLhuqFuZyB0aMOhaSB0aMawIGdpw6NuIHPDonUgdsOgIHTDoWMgxJHhu5luZyDEkeG6v24gY8OhYyB0cnVuZyB0w6JtIG7Eg25nIGzGsOG7o25nIGPhu6dhIGPGoSB0aOG7gyBuaOG6sW0gZ2nhuqNpIHBow7NuZyBuaOG7r25nIHThuq9jIG5naOG6vW4gY2hvIGPGoSB0aOG7gyB24bqtdCBsw70sIGvDrWNoIGhv4bqhdCBjxqEgY2jhur8gY2jhu69hIGzDoG5oIGPGoSB0aOG7gyBj4bqjbSB4w7pjIHbDoCB0aW5oIHRo4bqnbi48L3NwYW4+PGJyPjxicj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzMiwzMywzNik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IHRhaG9tYSwgZ2VuZXZhLCBzYW5zLXNlcmlmOyI+VOG6r20gw6JtIHRoYW5oIGzDoCBob+G6oXQgxJHhu5luZyBu4bqxbSBob+G6t2Mgbmfhu5NpIMSR4buDIGPGoSB0aOG7gyB2w6AgdMOibSB0csOtIGLhuqFuIMSRxrDhu6NjIHTGsOG7m2kgdOG6qW0gYuG7n2kgbmjhu69uZyB0aGFuaCDDom0gY+G7p2EgY2h1w7RuZyB4b2F5IFTDonkgVOG6oW5nLCBnacO6cCBi4bqhbiB0aGFuaCBs4buNYyB0w6JtLCB0aMawIGdpw6NuLCBj4bqjaSB0aGnhu4duIGdp4bqlYyBuZ+G7pywgZ2nhuqNtIMSRYXUsIGdp4bqjbSBzdHJlc3MsIGNo4buvYSBsw6BuaCwuLi48L3NwYW4+PGJyPjxicj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IHRhaG9tYSwgZ2VuZXZhLCBzYW5zLXNlcmlmOyI+PHN0cm9uZz5O4buZaSBkdW5nOjwvc3Ryb25nPjwvc3Bhbj48L3A+Cjx1bD4KPGxpPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij5HaeG7m2kgdGhp4buHdSBjaHXDtG5nIHhvYXk8L3NwYW4+PC9saT4KPGxpPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij5U4bqvbSDDom0gdGhhbmggduG7m2kgY2h1w7RuZyB4b2F5PC9zcGFuPjwvbGk+CjxsaT48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+VMSpbmggdMOibSB0aMaw4bufbmcgdHLDoCBiw6FuaDwvc3Bhbj48L2xpPgo8L3VsPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogdGFob21hLCBnZW5ldmEsIHNhbnMtc2VyaWY7Ij48c3Ryb25nPlRo4budaSBnaWFuOjwvc3Ryb25nPjwvc3Bhbj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzMiwzMywzNik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IHRhaG9tYSwgZ2VuZXZhLCBzYW5zLXNlcmlmOyI+wqAwOTowMCAtIDExOjAwPC9zcGFuPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogdGFob21hLCBnZW5ldmEsIHNhbnMtc2VyaWY7Ij7CoG5nw6B5IDE1wqB2w6AgMjIvMDcvMjAyMzwvc3Bhbj48YnI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiB0YWhvbWEsIGdlbmV2YSwgc2Fucy1zZXJpZjsiPjxzdHJvbmc+xJDhu4thIMSRaeG7g206PC9zdHJvbmc+PC9zcGFuPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDMyLDMzLDM2KTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogdGFob21hLCBnZW5ldmEsIHNhbnMtc2VyaWY7Ij7CoEx1bWlMb3R1cyAtIE5ow6AgY2jhu69hIGzDoG5oLCBI4bq7bSAyLCDEkOG6t25nIFRow6FpIFRow6JuLCBQaMaw4budbmcgMywgVGjDoG5oIHBo4buRIMSQw6AgTOG6oXQ8L3NwYW4+Jm5ic3A7PC9wPgo=",
+  "background": "https://salt.tkbcdn.com/ts/ds/7c/9e/e9/573f9a55794e30964908a20f06d629a2.jpg",
+  "status": "event.available",
+  "ticketTotal": 2000,
+  "ticketRemaining": 1497,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-18T10:30:35.721Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Music"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": {
+        "$oid": "67718b143112a05bfa6b433e"
+      },
+      "ticketName": "VIP 2 ngày",
+      "price": "2500000",
+      "description": "Vé VIP tham dự 2 ngày",
+      "quantity": 1000,
+      "quantityRemaining": 747,
+      "currency": "VND",
+      "status": "ticket.available"
+    },
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "Thường 1 ngày",
+      "price": "800000",
+      "description": "Vé thường tham dự 1 ngày",
+      "quantity": 1000,
+      "quantityRemaining": 747,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "67598fa1653648515f98f7d5"
+  },
+  "name": "LULULOLA SHOW TRUNG QUÂN | NGƯỜI BÀN NỖI BUỒN",
+  "province": "Lâm Đồng",
+  "venue": "Đầu đèo Prenn",
+  "venue_address": "Số 32/2 Đường 3/4, Đồi Cà Ri Dê, Phường 3",
+  "startingTime": "16:00",
+  "endingTime": "23:00",
+  "startingDate": "08/01/2025",
+  "endingDate": "08/01/2025",
+  "host_id": "675b1d72232bd5310a5d17ae",
+  "description": "PHA+SS4gxJBJ4buAVSBLSeG7hk4gVsOAIMSQSeG7gFUgS0hP4bqiTiBNVUEgVsOJOjwvcD4KPHA+4pePwqDCoMKgwqDCoMKgS2hpIG11YSB2w6ksIHThu6ljIGzDoCBuZ8aw4budaSBtdWEgxJHDoyDEkeG7k25nIMO9IHbhu5tpIGPDoWMgxJBp4buBdSBLaeG7h24gdsOgIMSQaeG7gXUgS2hv4bqjbiBj4bunYSBCVEMgdsOgIFF1eSDEkOG7i25oIFRoYW0gR2lhIENoxrDGoW5nIFRyw6xuaCDEkcaw4bujYyBnaGkgcsO1IHThuqFpIGxpbmsgYsOhbiB2w6kuPC9wPgo8cD7il4/CoMKgwqDCoFRpY2tldGJveCBsw6AgxJHGoW4gduG7iyBwaMOibiBwaOG7kWkgdsOpIGPhu6dhIHPhu7Ega2nhu4duIEPhuqZOIFRIxqAgWOKAmU1BUyBNVCBGRVNULiBCVEMga2jDtG5nIGdp4bqjaSBxdXnhur90IGPDoWMgdHJhbmggY2jhuqVwIGxpw6puIHF1YW4gxJHhur9uIHbDqSB0cmFvIHThurduZywgY2h1eeG7g24gbmjGsOG7o25nIGdp4buvYSBjw6FjIGLDqm4uPC9wPgo8cD7il4/CoMKgwqDCoMKgwqBN4buXaSB0w6BpIGtob+G6o24gxJHGsOG7o2MgbXVhIHThu5FpIMSRYSBtxrDhu51pICgxMCkgVsOpLiBN4buZdCAoMSkgTcOjIFbDqSBjw7MgZ2nDoSB0cuG7iyBz4butIGThu6VuZyBjaG8gbeG7mXQgKDEpIG5nxrDhu51pIHbDoCBt4buZdCAoMSkgbOG6p24gZHV5IG5o4bqldC48L3A+CjxwPuKXj8KgwqDCoMKgwqDCoFF1eSDEkeG7i25oIHbhu4EgxJHhu5kgdHXhu5VpOiBEw6BuaCBjaG8gbeG7jWkgbOG7qWEgdHXhu5VpLiBOZ8aw4budaSBUaGFtIEThu7EgZMaw4bubaSAxNCB0deG7lWkgcGjhuqNpIG1hbmcgZ2nhuqV5IHThu50gdMO5eSB0aMOibiAoY8SDbiBjxrDhu5tjIGPDtG5nIGTDom4sIGtoYWkgc2luaCwg4oCmwqAoYuG6o24gcGhvdG9jb3B5IGhv4bq3YyBow6xuaCDhuqNuaCkgdsOgIGPDsyBuZ8aw4budaSB0aMOibiBnacOhbSBo4buZICh0csOqbiAxOCB0deG7lWkpIMSRaSBjw7luZyDEkeG7gyBxdeG6o24gbMO9IHbDoCBjaOG7i3UgaG/DoG4gdG/DoG4gdHLDoWNoIG5oaeG7h20gbuG6v3UgY8OzIGLhuqV0IGvhu7Mgc+G7sSBj4buRIG7DoG8geOG6o3kgcmEgdHJvbmcgc+G7sSBraeG7h24uIE3hu5dpIHbDqSBjaOG7iSBkw6BuaCBjaG8gbeG7mXQga2jDoW4gZ2nhuqMgdGhhbSBk4buxIC4gTmfGsOG7nWkgZ2nDoW0gaOG7mSDEkWkga8OobSB0aGVvIGtow6FuIGdp4bqjIHbhu4sgdGjDoG5oIG5pw6puIHBo4bqjaSBtdWEgdsOpIMSR4buDIHRoYW0gZOG7sS4gS2h1IHbhu7FjIFZWSVAga2jDtG5nIHBo4bulYyB24bulIGtow6FuIGdp4bqjIGTGsOG7m2kgMTggdHXhu5VpLjwvcD4KPHA+4pePIFBo4bulIG7hu68gbWFuZyB0aGFpIHbDoCBuZ8aw4budaSBjw7MgduG6pW4gxJHhu4EgduG7gSBz4bupYyBraG/hursgdOG7sSBjw6JuIG5o4bqvYyBraGkgdGhhbSBnaWEgY2jGsMahbmcgdHLDrG5oLiBCVEMga2jDtG5nIGNo4buLdSB0csOhY2ggbmhp4buHbSBjaG8gc+G7sSBj4buRIG7DoG8geOG6o3kgcmEuPC9wPgo8cD7il4/CoMKgwqDCoMKgwqBWw6kgxJHDoyBtdWEgS0jDlE5HIMSR4buVaSwgdHLhuqMsIG7Dom5nIGPhuqVwLCBo4buneSBoYXkgaG/DoG4gdGnhu4FuIHRyb25nIGLhuqV0IGvDrCB0csaw4budbmcgaOG7o3AgbsOgby4gVsOpIGLhu4sgbeG6pXQgS0jDlE5HIMSRxrDhu6NjIHh14bqldCBs4bqhaS4gWGluIGPhuqNtIMahbjwvcD4K",
+  "background": "https://salt.tkbcdn.com/ts/ds/36/4d/06/63465e961f67499afb2b895212f0bca9.jpg",
+  "status": "event.available",
+  "ticketTotal": 2000,
+  "ticketRemaining": 1499,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-29T17:12:28.016Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Music"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": {
+        "$oid": "67718b1a3112a05bfa6b433f"
+      },
+      "ticketName": "VIP 2 ngày",
+      "price": "2500000",
+      "description": "Vé VIP tham dự 2 ngày",
+      "quantity": 1000,
+      "quantityRemaining": 749,
+      "currency": "VND",
+      "status": "ticket.available"
+    },
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "Thường 1 ngày",
+      "price": "800000",
+      "description": "Vé thường tham dự 1 ngày",
+      "quantity": 1000,
+      "quantityRemaining": 749,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "67599015653648515f98f7d6"
+  },
+  "name": "Đêm nhạc Tuấn Ngọc - Lê Hiếu",
+  "province": "Thành phố Hồ Chí Minh",
+  "venue": "Lầu 3, Nhà hát Bến Thành",
+  "venue_address": "Số 6 Mạc Đỉnh Chi, Phường Bến Nghé, Quận 1",
+  "startingTime": "20:00",
+  "endingTime": "23:00",
+  "startingDate": "10/01/2025",
+  "endingDate": "10/01/2025",
+  "host_id": "org123",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+SS4gxJBJ4buAVSBLSeG7hk4gVsOAIMSQSeG7gFUgS0hP4bqiTiBNVUEgVsOJOjwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPuKXj8KgwqDCoMKgwqDCoEtoaSBtdWEgdsOpLCB04bupYyBsw6AgbmfGsOG7nWkgbXVhIMSRw6MgxJHhu5NuZyDDvSB24bubaSBjw6FjIMSQaeG7gXUgS2nhu4duIHbDoCDEkGnhu4F1IEtob+G6o24gY+G7p2EgQlRDIHbDoCBRdXkgxJDhu4tuaCBUaGFtIEdpYSBDaMawxqFuZyBUcsOsbmggxJHGsOG7o2MgZ2hpIHLDtSB04bqhaSBsaW5rIGLDoW4gdsOpLjwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPuKXj8KgwqDCoMKgVGlja2V0Ym94IGzDoCDEkcahbiB24buLIHBow6JuIHBo4buRaSB2w6kgY+G7p2Egc+G7sSBraeG7h24gQ+G6pk4gVEjGoCBY4oCZTUFTIE1UIEZFU1QuIEJUQyBraMO0bmcgZ2nhuqNpIHF1eeG6v3QgY8OhYyB0cmFuaCBjaOG6pXAgbGnDqm4gcXVhbiDEkeG6v24gdsOpIHRyYW8gdOG6t25nLCBjaHV54buDbiBuaMaw4bujbmcgZ2nhu69hIGPDoWMgYsOqbi48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7il4/CoMKgwqDCoMKgwqBN4buXaSB0w6BpIGtob+G6o24gxJHGsOG7o2MgbXVhIHThu5FpIMSRYSBtxrDhu51pICgxMCkgVsOpLiBN4buZdCAoMSkgTcOjIFbDqSBjw7MgZ2nDoSB0cuG7iyBz4butIGThu6VuZyBjaG8gbeG7mXQgKDEpIG5nxrDhu51pIHbDoCBt4buZdCAoMSkgbOG6p24gZHV5IG5o4bqldC48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7il4/CoMKgwqDCoMKgwqBRdXkgxJHhu4tuaCB24buBIMSR4buZIHR14buVaTogRMOgbmggY2hvIG3hu41pIGzhu6lhIHR14buVaS4gTmfGsOG7nWkgVGhhbSBE4buxIGTGsOG7m2kgMTQgdHXhu5VpIHBo4bqjaSBtYW5nIGdp4bqleSB04budIHTDuXkgdGjDom4gKGPEg24gY8aw4bubYyBjw7RuZyBkw6JuLCBraGFpIHNpbmgsIOKApsKgKGLhuqNuIHBob3RvY29weSBob+G6t2MgaMOsbmgg4bqjbmgpIHbDoCBjw7MgbmfGsOG7nWkgdGjDom4gZ2nDoW0gaOG7mSAodHLDqm4gMTggdHXhu5VpKSDEkWkgY8O5bmcgxJHhu4MgcXXhuqNuIGzDvSB2w6AgY2jhu4t1IGhvw6BuIHRvw6BuIHRyw6FjaCBuaGnhu4dtIG7hur91IGPDsyBi4bqldCBr4buzIHPhu7EgY+G7kSBuw6BvIHjhuqN5IHJhIHRyb25nIHPhu7Ega2nhu4duLiBN4buXaSB2w6kgY2jhu4kgZMOgbmggY2hvIG3hu5l0IGtow6FuIGdp4bqjIHRoYW0gZOG7sSAuIE5nxrDhu51pIGdpw6FtIGjhu5kgxJFpIGvDqG0gdGhlbyBraMOhbiBnaeG6oyB24buLIHRow6BuaCBuacOqbiBwaOG6o2kgbXVhIHbDqSDEkeG7gyB0aGFtIGThu7EuIEtodSB24buxYyBWVklQIGtow7RuZyBwaOG7pWMgduG7pSBraMOhbiBnaeG6oyBkxrDhu5tpIDE4IHR14buVaS48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7il48gUGjhu6UgbuG7ryBtYW5nIHRoYWkgdsOgIG5nxrDhu51pIGPDsyB24bqlbiDEkeG7gSB24buBIHPhu6ljIGtob+G6uyB04buxIGPDom4gbmjhuq9jIGtoaSB0aGFtIGdpYSBjaMawxqFuZyB0csOsbmguIEJUQyBraMO0bmcgY2jhu4t1IHRyw6FjaCBuaGnhu4dtIGNobyBz4buxIGPhu5EgbsOgbyB44bqjeSByYS48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7il4/CoMKgwqDCoMKgwqBWw6kgxJHDoyBtdWEgS0jDlE5HIMSR4buVaSwgdHLhuqMsIG7Dom5nIGPhuqVwLCBo4buneSBoYXkgaG/DoG4gdGnhu4FuIHRyb25nIGLhuqV0IGvDrCB0csaw4budbmcgaOG7o3AgbsOgby4gVsOpIGLhu4sgbeG6pXQgS0jDlE5HIMSRxrDhu6NjIHh14bqldCBs4bqhaS48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjwvcD4K",
+  "background": "https://salt.tkbcdn.com/ts/ds/fe/cf/f6/578b811f95c38f0803a923bbd615aecb.jpg",
+  "status": "event.available",
+  "ticketTotal": 500,
+  "ticketRemaining": 40,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Music"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "ticketName": "VIP",
+      "price": "3000000",
+      "description": "Vé VIP",
+      "quantity": 500,
+      "quantityRemaining": 40,
+      "currency": "VND",
+      "status": "ticket.soldout"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "675b0a6b4de9cfb6f2d9d3c7"
+  },
+  "name": "Những Thành Phố Mơ Màng Year End 2024",
+  "province": "Hà Nội",
+  "venue": "Công Viên Yên Sở",
+  "venue_address": "Công Viên Yên Sở QL1A Công Viên, Phường Yên Sở, Quận Hoàng Mai, Thành Phố Hà Nội",
+  "startingTime": "20:00",
+  "endingTime": "23:00",
+  "startingDate": "10/01/2025",
+  "endingDate": "10/01/2025",
+  "host_id": "org123",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+SS4gxJBJ4buAVSBLSeG7hk4gVsOAIMSQSeG7gFUgS0hP4bqiTiBNVUEgVsOJOjwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPuKXj8KgwqDCoMKgwqDCoEtoaSBtdWEgdsOpLCB04bupYyBsw6AgbmfGsOG7nWkgbXVhIMSRw6MgxJHhu5NuZyDDvSB24bubaSBjw6FjIMSQaeG7gXUgS2nhu4duIHbDoCDEkGnhu4F1IEtob+G6o24gY+G7p2EgQlRDIHbDoCBRdXkgxJDhu4tuaCBUaGFtIEdpYSBDaMawxqFuZyBUcsOsbmggxJHGsOG7o2MgZ2hpIHLDtSB04bqhaSBsaW5rIGLDoW4gdsOpLjwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPuKXj8KgwqDCoMKgVGlja2V0Ym94IGzDoCDEkcahbiB24buLIHBow6JuIHBo4buRaSB2w6kgY+G7p2Egc+G7sSBraeG7h24gQ+G6pk4gVEjGoCBY4oCZTUFTIE1UIEZFU1QuIEJUQyBraMO0bmcgZ2nhuqNpIHF1eeG6v3QgY8OhYyB0cmFuaCBjaOG6pXAgbGnDqm4gcXVhbiDEkeG6v24gdsOpIHRyYW8gdOG6t25nLCBjaHV54buDbiBuaMaw4bujbmcgZ2nhu69hIGPDoWMgYsOqbi48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7il4/CoMKgwqDCoMKgwqBN4buXaSB0w6BpIGtob+G6o24gxJHGsOG7o2MgbXVhIHThu5FpIMSRYSBtxrDhu51pICgxMCkgVsOpLiBN4buZdCAoMSkgTcOjIFbDqSBjw7MgZ2nDoSB0cuG7iyBz4butIGThu6VuZyBjaG8gbeG7mXQgKDEpIG5nxrDhu51pIHbDoCBt4buZdCAoMSkgbOG6p24gZHV5IG5o4bqldC48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7il4/CoMKgwqDCoMKgwqBRdXkgxJHhu4tuaCB24buBIMSR4buZIHR14buVaTogRMOgbmggY2hvIG3hu41pIGzhu6lhIHR14buVaS4gTmfGsOG7nWkgVGhhbSBE4buxIGTGsOG7m2kgMTQgdHXhu5VpIHBo4bqjaSBtYW5nIGdp4bqleSB04budIHTDuXkgdGjDom4gKGPEg24gY8aw4bubYyBjw7RuZyBkw6JuLCBraGFpIHNpbmgsIOKApsKgKGLhuqNuIHBob3RvY29weSBob+G6t2MgaMOsbmgg4bqjbmgpIHbDoCBjw7MgbmfGsOG7nWkgdGjDom4gZ2nDoW0gaOG7mSAodHLDqm4gMTggdHXhu5VpKSDEkWkgY8O5bmcgxJHhu4MgcXXhuqNuIGzDvSB2w6AgY2jhu4t1IGhvw6BuIHRvw6BuIHRyw6FjaCBuaGnhu4dtIG7hur91IGPDsyBi4bqldCBr4buzIHPhu7EgY+G7kSBuw6BvIHjhuqN5IHJhIHRyb25nIHPhu7Ega2nhu4duLiBN4buXaSB2w6kgY2jhu4kgZMOgbmggY2hvIG3hu5l0IGtow6FuIGdp4bqjIHRoYW0gZOG7sSAuIE5nxrDhu51pIGdpw6FtIGjhu5kgxJFpIGvDqG0gdGhlbyBraMOhbiBnaeG6oyB24buLIHRow6BuaCBuacOqbiBwaOG6o2kgbXVhIHbDqSDEkeG7gyB0aGFtIGThu7EuIEtodSB24buxYyBWVklQIGtow7RuZyBwaOG7pWMgduG7pSBraMOhbiBnaeG6oyBkxrDhu5tpIDE4IHR14buVaS48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7il48gUGjhu6UgbuG7ryBtYW5nIHRoYWkgdsOgIG5nxrDhu51pIGPDsyB24bqlbiDEkeG7gSB24buBIHPhu6ljIGtob+G6uyB04buxIGPDom4gbmjhuq9jIGtoaSB0aGFtIGdpYSBjaMawxqFuZyB0csOsbmguIEJUQyBraMO0bmcgY2jhu4t1IHRyw6FjaCBuaGnhu4dtIGNobyBz4buxIGPhu5EgbsOgbyB44bqjeSByYS48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7il4/CoMKgwqDCoMKgwqBWw6kgxJHDoyBtdWEgS0jDlE5HIMSR4buVaSwgdHLhuqMsIG7Dom5nIGPhuqVwLCBo4buneSBoYXkgaG/DoG4gdGnhu4FuIHRyb25nIGLhuqV0IGvDrCB0csaw4budbmcgaOG7o3AgbsOgby4gVsOpIGLhu4sgbeG6pXQgS0jDlE5HIMSRxrDhu6NjIHh14bqldCBs4bqhaS48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjwvcD4K",
+  "background": "https://salt.tkbcdn.com/ts/ds/6c/9c/a2/71b17526f06274ffa63d9f5f1041f938.png",
+  "status": "event.sold-out",
+  "ticketTotal": 500,
+  "ticketRemaining": 0,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Music"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "ticketName": "VIP",
+      "price": "3000000",
+      "description": "Vé VIP",
+      "quantity": 500,
+      "quantityRemaining": 0,
+      "currency": "VND",
+      "status": "ticket.soldout"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "675b0b464de9cfb6f2d9d3c8"
+  },
+  "name": "MT Fest Concert Tour",
+  "province": "Cần Thơ",
+  "venue": "Sân Vận Động Cần Thơ",
+  "venue_address": "Lê Lợi, Phường Cái Khế, Quận Ninh Kiều, Thành Phố Cần Thơ",
+  "startingTime": "20:00",
+  "endingTime": "23:00",
+  "startingDate": "09/01/2025",
+  "endingDate": "09/01/2025",
+  "host_id": "org123",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+SS4gxJBJ4buAVSBLSeG7hk4gVsOAIMSQSeG7gFUgS0hP4bqiTiBNVUEgVsOJOjwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPuKXj8KgwqDCoMKgwqDCoEtoaSBtdWEgdsOpLCB04bupYyBsw6AgbmfGsOG7nWkgbXVhIMSRw6MgxJHhu5NuZyDDvSB24bubaSBjw6FjIMSQaeG7gXUgS2nhu4duIHbDoCDEkGnhu4F1IEtob+G6o24gY+G7p2EgQlRDIHbDoCBRdXkgxJDhu4tuaCBUaGFtIEdpYSBDaMawxqFuZyBUcsOsbmggxJHGsOG7o2MgZ2hpIHLDtSB04bqhaSBsaW5rIGLDoW4gdsOpLjwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPuKXj8KgwqDCoMKgVGlja2V0Ym94IGzDoCDEkcahbiB24buLIHBow6JuIHBo4buRaSB2w6kgY+G7p2Egc+G7sSBraeG7h24gQ+G6pk4gVEjGoCBY4oCZTUFTIE1UIEZFU1QuIEJUQyBraMO0bmcgZ2nhuqNpIHF1eeG6v3QgY8OhYyB0cmFuaCBjaOG6pXAgbGnDqm4gcXVhbiDEkeG6v24gdsOpIHRyYW8gdOG6t25nLCBjaHV54buDbiBuaMaw4bujbmcgZ2nhu69hIGPDoWMgYsOqbi48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7il4/CoMKgwqDCoMKgwqBN4buXaSB0w6BpIGtob+G6o24gxJHGsOG7o2MgbXVhIHThu5FpIMSRYSBtxrDhu51pICgxMCkgVsOpLiBN4buZdCAoMSkgTcOjIFbDqSBjw7MgZ2nDoSB0cuG7iyBz4butIGThu6VuZyBjaG8gbeG7mXQgKDEpIG5nxrDhu51pIHbDoCBt4buZdCAoMSkgbOG6p24gZHV5IG5o4bqldC48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7il4/CoMKgwqDCoMKgwqBRdXkgxJHhu4tuaCB24buBIMSR4buZIHR14buVaTogRMOgbmggY2hvIG3hu41pIGzhu6lhIHR14buVaS4gTmfGsOG7nWkgVGhhbSBE4buxIGTGsOG7m2kgMTQgdHXhu5VpIHBo4bqjaSBtYW5nIGdp4bqleSB04budIHTDuXkgdGjDom4gKGPEg24gY8aw4bubYyBjw7RuZyBkw6JuLCBraGFpIHNpbmgsIOKApsKgKGLhuqNuIHBob3RvY29weSBob+G6t2MgaMOsbmgg4bqjbmgpIHbDoCBjw7MgbmfGsOG7nWkgdGjDom4gZ2nDoW0gaOG7mSAodHLDqm4gMTggdHXhu5VpKSDEkWkgY8O5bmcgxJHhu4MgcXXhuqNuIGzDvSB2w6AgY2jhu4t1IGhvw6BuIHRvw6BuIHRyw6FjaCBuaGnhu4dtIG7hur91IGPDsyBi4bqldCBr4buzIHPhu7EgY+G7kSBuw6BvIHjhuqN5IHJhIHRyb25nIHPhu7Ega2nhu4duLiBN4buXaSB2w6kgY2jhu4kgZMOgbmggY2hvIG3hu5l0IGtow6FuIGdp4bqjIHRoYW0gZOG7sSAuIE5nxrDhu51pIGdpw6FtIGjhu5kgxJFpIGvDqG0gdGhlbyBraMOhbiBnaeG6oyB24buLIHRow6BuaCBuacOqbiBwaOG6o2kgbXVhIHbDqSDEkeG7gyB0aGFtIGThu7EuIEtodSB24buxYyBWVklQIGtow7RuZyBwaOG7pWMgduG7pSBraMOhbiBnaeG6oyBkxrDhu5tpIDE4IHR14buVaS48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7il48gUGjhu6UgbuG7ryBtYW5nIHRoYWkgdsOgIG5nxrDhu51pIGPDsyB24bqlbiDEkeG7gSB24buBIHPhu6ljIGtob+G6uyB04buxIGPDom4gbmjhuq9jIGtoaSB0aGFtIGdpYSBjaMawxqFuZyB0csOsbmguIEJUQyBraMO0bmcgY2jhu4t1IHRyw6FjaCBuaGnhu4dtIGNobyBz4buxIGPhu5EgbsOgbyB44bqjeSByYS48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7il4/CoMKgwqDCoMKgwqBWw6kgxJHDoyBtdWEgS0jDlE5HIMSR4buVaSwgdHLhuqMsIG7Dom5nIGPhuqVwLCBo4buneSBoYXkgaG/DoG4gdGnhu4FuIHRyb25nIGLhuqV0IGvDrCB0csaw4budbmcgaOG7o3AgbsOgby4gVsOpIGLhu4sgbeG6pXQgS0jDlE5HIMSRxrDhu6NjIHh14bqldCBs4bqhaS48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjwvcD4K",
+  "background": "https://salt.tkbcdn.com/ts/ds/55/3b/22/3cf8695c5dfbe6595424c7ca23a7aea4.jpg",
+  "status": "event.sold-out",
+  "ticketTotal": 500,
+  "ticketRemaining": 0,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Music"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "ticketName": "VIP",
+      "price": "3000000",
+      "description": "Vé VIP",
+      "quantity": 500,
+      "quantityRemaining": 0,
+      "currency": "VND",
+      "status": "ticket.soldout"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "675b0b9d4de9cfb6f2d9d3c9"
+  },
+  "name": "GALAXY DAY - ANH TÚ ATUS FAN MEETING 2024",
+  "province": "Thành Phố Hồ Chí Minh",
+  "venue": "Sân Khấu C30 Hoà bình",
+  "venue_address": "141 Đ. Bắc Hải, Phường 14, Quận 10, Thành Phố Hồ Chí Minh",
+  "startingTime": "19:00",
+  "endingTime": "22:00",
+  "startingDate": "09/01/2025",
+  "endingDate": "09/01/2025",
+  "host_id": "org123",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+PGVtPsSQ4buDIMSRw6FwIGzhuqFpIHPhu7EgecOqdSBt4bq/biB2w6Ag4bunbmcgaOG7mSBj4bunYSBraMOhbiBnaeG6oyB0cm9uZyBzdeG7kXQgaMahbiAxMCBuxINtIGhv4bqhdCDEkeG7mW5nIG5naOG7hyB0aHXhuq10LCDEkeG6t2MgYmnhu4d0IGzDoCB04bqhaSBow6BuaCB0csOsbmgg4oCcQW5oIFRyYWkgU2F5IEhp4oCdIHbhu6thIHF1YSwgQW5oIFTDuiBBdHVzIGNow61uaCB0aOG7qWMgdOG7lSBjaOG7qWMgbeG7mXQgYnXhu5VpIGZhbiBtZWV0aW5nIMSR4bq3YyBiaeG7h3QgbWFuZyB0w6puICI8L2VtPjxzdHJvbmc+PGVtPkdhbGF4eSBEYXkgLSBBbmggVMO6IEF0dXMgRmFuIE1lZXRpbmcgMjAyNCI8L2VtPjwvc3Ryb25nPjwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjxlbT7inKggU+G7sSBraeG7h24gc+G6vSDEkcaw4bujYyB04buVIGNo4bupYyB04bqhaSBzw6JuIGto4bqldSBDMzAgSMOyYSBCw6xuaCwgVFAuSENNLCB04bqhaSDEkcOieSBmYW5kb20gR2FsYXh5IHPhur0gY8OzIGThu4twIGfhurdwIGfhu6EsIGdpYW8gbMawdSwgdsOgIGNoaWEgc+G6uyBuaOG7r25nIGtob+G6o25oIGto4bqvYyDEkcOhbmcgbmjhu5sgbsOgeSBjw7luZyB24bubaSBBbmggVMO6IEF0dXMuPC9lbT48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij48ZW0+4o+wVGjhu51pIGdpYW46IDE0aDAwIC0gMjEvMTIvMjAyNDwvZW0+PC9zcGFuPjxicj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjxlbT7wn5OMxJDhu4thIMSRaeG7g206IFPDom4ga2jhuqV1IEMzMCBIb8OgIELDrG5oIC0gMTQxIMSQLiBC4bqvYyBI4bqjaSwgUGjGsOG7nW5nIDE0LCBRdeG6rW4gMTAuPC9lbT48L3NwYW4+Jm5ic3A7PC9wPgo=",
+  "background": "https://salt.tkbcdn.com/ts/ds/66/bf/32/a0dd4d4c4e366db70180125d42b3fa10.png",
+  "status": "event.available",
+  "ticketTotal": 1000,
+  "ticketRemaining": 584,
+  "createdDate": {
+    "$date": "2024-12-08T18:02:32.437Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-18T10:12:07.725Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Music"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": {
+        "$oid": "67718b213112a05bfa6b4340"
+      },
+      "ticketName": "VIP",
+      "price": "1000000",
+      "description": "Vé VIP",
+      "quantity": 100,
+      "quantityRemaining": 93,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "675b0cfe4de9cfb6f2d9d3cb"
+  },
+  "name": "Hài Việt: Money Mic [Stand Up]",
+  "province": "Thành Phố Hồ Chí Minh",
+  "venue": "Hài Việt Money Mic",
+  "venue_address": "65-67 Hai Bà Trưng, Quận 1, Thành phố Hồ Chí Minh, Quận 1, Thành Phố Hồ Chí Minh",
+  "startingTime": "16:00",
+  "endingTime": "23:00",
+  "startingDate": "12/01/2025",
+  "endingDate": "12/01/2025",
+  "host_id": "org789",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48L3A+CjxpbWcgc3JjPSJodHRwczovL3N0YXRpYy54eC5mYmNkbi5uZXQvaW1hZ2VzL2Vtb2ppLnBocC92OS90N2UvMS8xNi8xZjNhNC5wbmciIGFsdD0i8J+OpCIgc3R5bGU9ImhlaWdodDogMTZweDt3aWR0aDogMTZweCIvPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij7hu54gxJHDonkgY8OhYyBkaeG7hW4gdmnDqm4gY8OzIGPGoSBo4buZaSB0b+G6oyBzw6FuZywgbWFuZyDEkeG6v27CoG5o4buvbmcgY8OidSBjaHV54buHbiBIw4BJIMSQ4buYQyBUSE/huqBJIGhheSBuaOG6pXQsIMSR4bq3YyBz4bqvYyBuaOG6pXQgY+G7p2EgbcOsbmggxJHhu4MgdHJhbmggxJHhuqV1IGNobyBwaOG6p24gdGjGsOG7n25nwqBjw7PCoHThu5VuZyB0cuG7iyBnacOhIGzDqm4gxJHhur9uwqA8c3Ryb25nPjExIFRSSeG7hlUgVk7EkDwvc3Ryb25nPsKg8J+kkS48L3NwYW4+PGJyPjxicj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+Q8OhYyBraMOhbiBnaeG6o8Kgc+G6vSDEkcaw4bujYyB04bqtbiBt4bqvdCBjaOG7qW5nIGtp4bq/bsKgbeG7mXQgY3Xhu5ljIHRoaSBow6BpIGPDuW5nIHbDtCB2w6BuwqBjw6J1IGNodXnhu4duIGPGsOG7nWkgZHV5w6puIGTDoW5nIHbDoCBjaOG6pXQgbMaw4bujbmcgxJHhur9uIHThu6sgbmjhu69uZyBkaeG7hW4gdmnDqm4gSMOASSDEkOG7mEMgVEhP4bqgSSB0cuG6uy4gTmdvw6BpIHJhwqA8c3Ryb25nPnBoaeG6v3UgYsOsbmggY2jhu41uIGPhu6dhwqBraMOhbiBnaeG6oyBz4bq9IHF1eeG6v3QgxJHhu4tuaMKgbmfGsOG7nWkgdGjhuq9uZyBjdeG7mWM8L3N0cm9uZz7CoGPhu6dhIGJ14buVaSB04buRaSBow7RtIMSRw7MuPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij4mbmJzcDs8L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPkjDoGkgVmnhu4d0IE1vbmV5IE1pYyBo4bupYSBo4bq5bsKgc+G6vSDEkWVtIGzhuqFpIGNobyBi4bqhbiBuaOG7r25nIHBow7p0IGdpw6J5IGPGsOG7nWkgxJHhuqd5IHPhuqNuZyBraG/DoWkgdsOgIHRoxrAgZ2nDo24gdHJvbmcga2jDtG5nIGdpYW4g4bqlbSBjw7puZyB2w6Agc2FuZyB0cuG7jW5nIGPhu6dhIEljb24gU2FpZ29uIC0gTGlmZXN0eWxlwqBIb3RlbC4gSMOjeSBjw7luZyBjaMO6bmcgbcOsbmggxJHDs24geGVtIGFpIHPhur0gbMOgIG5nxrDhu51pIMSRb+G6oXQgxJHGsOG7o2MgZ2nhuqNpIHRoxrDhu59uZyBjYW8gbmjhuqV0IG5ow6khIPCfpbM8L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij5T4buRIGzGsOG7o25nIMSRxINuZyBrw70gY8OzIGjhuqFuIG7Dqm4gY8OybiBuZ+G6oWkgZ8OsIG3DoCBraMO0bmcgxJHEg25nIGvDvSBuZ2F5IGPDoWMgYuG6oW4gxqFpISEhPC9zcGFuPjxicj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLTwvc3Bhbj48YnI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjxzdHJvbmc+Q2jDuiDDvTo8L3N0cm9uZz48L3NwYW4+PGJyPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4tIENoxrDGoW5nIHRyw6xuaCBz4bq9IGPDsyBu4buZaSBkdW5nwqA8c3Ryb25nPmtow7RuZyBwaMO5IGjhu6NwPC9zdHJvbmc+wqDEkeG7kWkgduG7m2kgdHLhursgZW3CoDxzdHJvbmc+ZMaw4bubaSAxOCB0deG7lWk8L3N0cm9uZz48L3NwYW4+PGJyPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4tIEtow6FuIGdp4bqjIHPhur0gYsOsbmggY2jhu41uIGNobyBjw6FjIGRp4buFbiB2acOqbiBxdWEg4bupbmcgZOG7pW5nwqA8L3NwYW4+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNC42NjY3O2ZvbnQtZmFtaWx5OiByb2JvdG8sIGFyaWFsLCBzYW5zLXNlcmlmOyI+U3VydmV5TW9ua2V5PC9zcGFuPjxicj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+LSBWPC9zcGFuPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogb3BlbiBzYW5zIiwgc2Fucy1zZXJpZjsiPnVpIGzDsm5nwqA8c3Ryb25nPmtow7RuZyBtYW5nIHRoZW8gxJHhu5MgxINuLCBuxrDhu5tjIHXhu5FuZzwvc3Ryb25nPsKgdOG7qyBiw6puIG5nb8OgaSB2w6BvIGNoxrDGoW5nIHRyw6xuaCB0aGVvIHF1eSDEkeG7i25oIGPhu6dhIMSR4buLYSDEkWnhu4NtIHThu5UgY2jhu6ljPC9zcGFuPiZuYnNwOzwvcD4K",
+  "background": "https://images.tkbcdn.com/2/1560/600/Upload/eventcover/2023/11/20/5C5E98.jpg",
+  "status": "event.available",
+  "ticketTotal": 2000,
+  "ticketRemaining": 1500,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-18T10:53:44.880Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Comedy"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": {
+        "$oid": "67718b273112a05bfa6b4341"
+      },
+      "ticketName": "VIP 2 ngày",
+      "price": "2500000",
+      "description": "Vé VIP tham dự 2 ngày",
+      "quantity": 1000,
+      "quantityRemaining": 750,
+      "currency": "VND",
+      "status": "ticket.available"
+    },
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "Thường 1 ngày",
+      "price": "800000",
+      "description": "Vé thường tham dự 1 ngày",
+      "quantity": 1000,
+      "quantityRemaining": 750,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "675b0d654de9cfb6f2d9d3cc"
+  },
+  "name": "Hài kịch: Yêu Ông Thầy",
+  "province": "Đà Nẵng",
+  "venue": "81 Trần Quốc Thảo",
+  "venue_address": " Hải Châu , Đà Nẵng",
+  "startingTime": "19:00",
+  "endingTime": "22:00",
+  "startingDate": "13/01/2025",
+  "endingDate": "13/01/2025",
+  "host_id": "org789",
+  "description": "PHA+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMCwwLDApO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNnB4O2ZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmLCBzYW5zLXNlcmlmOyI+8J+lsCDwnZCY8J2QhMyC8J2QlCDwnZCOzILwnZCN8J2QhiDwnZCT8J2Qh/CdkIDMgsyA8J2QmCDwn6WwPC9zcGFuPjxicj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigwLDAsMCk7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE2cHg7Zm9udC1mYW1pbHk6IHNhbnMtc2VyaWYsIHNhbnMtc2VyaWY7Ij5DaMOgbyDEkcOzbiBz4buxIHRy4bufIGzhuqFpIGPhu6dhIHbhu58gaMOgaSBr4buLY2ggduG7gSBuaOG7r25nIGNvbiBuZ8aw4budaSBz4buRbmcgbsahaSBtaeG7gW4gdMOieSBzw7RuZyBuxrDhu5tjIHbDoCBj4bqjIG5o4buvbmcgxJHhu5VpIG3hu5tpIGNobyBsw6BuZyBxdcOqIMSRxrDhu6NjIOG6pXAg4bunIGLhu59pIG5o4buvbmcgbmfGsOG7nWkgdHLhursgdHXhu5VpLCBuaGnhu4d0IGh1eeG6v3QuPC9zcGFuPjxicj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigwLDAsMCk7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE2cHg7Zm9udC1mYW1pbHk6IHNhbnMtc2VyaWYsIHNhbnMtc2VyaWY7Ij7wn4y+IFTDrG5oIGzDoG5nIG5naMSpYSB4w7NtIGPhu6dhIG5o4buvbmcgbmfGsOG7nWkgZMOibiB0aGnhu4d0IHRow6AsIGNo4bqldCBwaMOhdC48L3NwYW4+PGJyPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDAsMCwwKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTZweDtmb250LWZhbWlseTogc2Fucy1zZXJpZiwgc2Fucy1zZXJpZjsiPvCfjL4gVMOsbmggecOqdSBxdcOqIGjGsMahbmcsIGzDoG5nIHjDs208L3NwYW4+PGJyPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDAsMCwwKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTZweDtmb250LWZhbWlseTogc2Fucy1zZXJpZiwgc2Fucy1zZXJpZjsiPvCfjL4gVMOsbmggY+G6o20gxJHDtGkgbOG7qWEgduG7q2EgY2jhu5ttIG7hu588L3NwYW4+PGJyPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDAsMCwwKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTZweDtmb250LWZhbWlseTogc2Fucy1zZXJpZiwgc2Fucy1zZXJpZjsiPlThuqV0IGPhuqMgc+G6vSDEkcaw4bujYyBs4buTbmcgZ2jDqXAgdsO0IGPDuW5nIGR1ecOqbiBkw6FuZyB0cm9uZyB24bufIGjDoGkga+G7i2NoICLwnZCY8J2QhMyC8J2QlCDwnZCOzILwnZCN8J2QhiDwnZCT8J2Qh/CdkIDMgsyA8J2QmCIuwqA8L3NwYW4+PGJyPjxicj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigwLDAsMCk7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE2cHg7Zm9udC1mYW1pbHk6IHNhbnMtc2VyaWYsIHNhbnMtc2VyaWY7Ij48c3Ryb25nPsSQ4bqhbyBkaeG7hW46PC9zdHJvbmc+PC9zcGFuPiA8c3BhbiBzdHlsZT0iY29sb3I6IHJnYigwLDAsMCk7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE2cHg7Zm9udC1mYW1pbHk6IHNhbnMtc2VyaWYsIHNhbnMtc2VyaWY7Ij5RdeG7kWMgVGjhuqNvPC9zcGFuPjxicj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE2cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+PHN0cm9uZz5Uw6FjIGdp4bqjOjwvc3Ryb25nPsKgVMO0IFRoacOqbiBLaeG7gXU8L3NwYW4+Jm5ic3A7PC9wPgo=",
+  "background": "https://images.tkbcdn.com/2/1560/600/Upload/eventcover/2023/03/28/40FF76.jpg",
+  "status": "event.available",
+  "ticketTotal": 1000,
+  "ticketRemaining": 424,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.560Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-18T10:53:10.697Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Comedy"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": {
+        "$oid": "67718b2d3112a05bfa6b4342"
+      },
+      "ticketName": "VIP",
+      "price": "2000000",
+      "description": "Vé VIP",
+      "quantity": 1000,
+      "quantityRemaining": 999,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "675b0da74de9cfb6f2d9d3cd"
+  },
+  "name": "Hài Việt Stand Up Show",
+  "province": "Thành phố Hồ Chí Minh",
+  "venue": "Hài Việt Stand Up Show",
+  "venue_address": "65-67 Hai Bà Trưng, Quận 1, Tp. Hồ Chí Minh, Quận 1, Thành Phố Hồ Chí Minh",
+  "startingTime": "19:00",
+  "endingTime": "22:00",
+  "startingDate": "11/01/2025",
+  "endingDate": "11/01/2025",
+  "host_id": "org789",
+  "description": "PHA+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPlNhdSBt4buZdCB0deG6p24gZMOgaSBjxINuZyB0aOG6s25nIHbhu5tpIGjhu41jIHThuq1wIHbDoCBjw7RuZyB2aeG7h2MsIGLhuqFuIGPhuqduIG3hu5l0IGNow7p0IGdp4bqjaSB0csOtIHbDoCB0aMawIGdpw6NuIMSRw7puZyBraMO0bmc/wqA8c3Ryb25nPkjDgEkgVknhu4ZUIFNUQU5EIFVQPC9zdHJvbmc+PC9zcGFuPiZuYnNwOzwvcD4K",
+  "background": "https://images.tkbcdn.com/2/1560/600/Upload/eventcover/2023/12/13/F9721D.jpg",
+  "status": "event.available",
+  "ticketTotal": 1000,
+  "ticketRemaining": 601,
+  "createdDate": {
+    "$date": "2024-12-08T18:02:32.437Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-18T10:52:36.564Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Comedy"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": {
+        "$oid": "67718b323112a05bfa6b4343"
+      },
+      "ticketName": "VIP",
+      "price": "1000000",
+      "description": "Vé VIP",
+      "quantity": 100,
+      "quantityRemaining": 99,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "675b0e1f4de9cfb6f2d9d3ce"
+  },
+  "name": "[Saigon Sniper] Trải nghiệm bắn súng thể thao",
+  "province": "Thành phố Hồ Chí Minh",
+  "venue": "Saigon Sniper",
+  "venue_address": "25 Nguyễn Bỉnh Khiêm, Phường Bến Nghé, Quận 1",
+  "startingTime": "19:00",
+  "endingTime": "22:00",
+  "startingDate": "07/01/2025",
+  "endingDate": "07/01/2025",
+  "host_id": "org222",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+PHN0cm9uZz48ZW0+Ik1VzKNDIFRJw4pVIFRST05HIFTDgsyATSBOR8SCzIFNIjwvZW0+PC9zdHJvbmc+PC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+QuG7mSBtw7RuIGLhuq9uIHPDum5nIGThuqduIHRy4bufIG7Dqm4gdGjhu4tuaCBow6BuaCB04bqhaSBWaeG7h3QgTmFtIHbDoCDEkcaw4bujYyBraMOhIG5oaeG7gXUgYuG6oW4gdHLhursgaMaw4bufbmcg4bupbmcsIGzhu7FhIGNo4buNbiBsw6BtIMSR4buLYSDEkWnhu4NtIGzDvSB0xrDhu59uZyDEkeG7gyBjw7luZyBi4bqhbiBiw6gsIG5nxrDhu51pIHRow6JuIGdp4bqjaSB0csOtIHbDoCBsdXnhu4duIHThuq1wIG3hu5dpIGN14buRaSB0deG6p24uPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+VOG6oWkgU2FpZ29uIFNuaXBlciAtIG3hu5l0IHRyb25nIG5o4buvbmcgQ8OidSBM4bqhYyBC4buZIChDTEIpIGLhuq9uIHPDum5nIG7hu5VpIHRp4bq/bmcgdOG6oWkgU8OgaSBHw7JuLCBi4bqhbiBz4bq9IGPDsyBjxqEgaOG7mWkgxJHGsOG7o2MgdHLhuqNpIG5naGnhu4dtIGLhuq9uIHPDum5nIGtow7RuZyBraMOhYyBnw6wgY8OhYyB44bqhIHRo4bunIGNodXnDqm4gbmdoaeG7h3AuIE7hur91IGLhuqFuIGzhuqduIMSR4bqndSB0aGFtIGdpYSBi4bqvbiBzw7puZyB0aMOsIGPFqW5nIMSR4burbmcgcXXDoSBsbyBs4bqvbmcsIGPDoWMgaMaw4bubbmcgZOG6q24gdmnDqm4gc+G6vSBsdcO0biB0aGVvIHPDoXQgdsOgIGNo4buJIGThuqtuIGLhuqFuIG3hu5l0IGPDoWNoIHThuq1uIHTDrG5oLjwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPkzDoCBt4buZdCBtw7RuIHRo4buDIHRoYW8ga2jDtG5nIHF1w6Ega2jDsywgY2jhu4kgbeG6pXQgdOG6p20gMTAtMTUgcGjDunQgbMOgIGLhuqFuIMSRw6MgY8OzIHRo4buDIHThu7EgdGluIG5n4bqvbSBi4bqvbiBt4buZdCBjw6FjaCB0aMOgbmggdGjhuqFvLiBDdeG7kWkgdHXhuqduIG7DoHksIGjDo3kgxJHhur9uIFNhaWdvbiBTbmlwZXIgxJHhu4MgdHLhuqNpIG5naGnhu4dtIGPhuqNtIGdpw6FjIGPhu6dhIG3hu5l0IHjhuqEgdGjhu6cgY2h1ecOqbiBuZ2hp4buHcCB2w6AgxJHhu6tuZyBxdcOqbiDEkeG6t3QgZOG7i2NoIHbhu6UgdHLDqm4gVGlja2V0Ym94IMSR4buDIGNow7puZyBtw6xuaCBjaHXhuqluIGLhu4vCoMSRw7NuIHRp4bq/cCBi4bqhbiBjaHUgxJHDoW8gbmhhITwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoOCwyOCw1NCk7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE1cHg7Zm9udC1mYW1pbHk6IHNlZ29ldWlwYywgInNlZ29lIHVpIiwgInNhbiBmcmFuY2lzY28iLCAiaGVsdmV0aWNhIG5ldWUiLCBoZWx2ZXRpY2EsICJsdWNpZGEgZ3JhbmRlIiwgcm9ib3RvLCB1YnVudHUsIHRhaG9tYSwgIm1pY3Jvc29mdCBzYW5zIHNlcmlmIiwgYXJpYWwsIHNhbnMtc2VyaWY7Ij5MxrB1IMO9OiBDaGnhu4F1IGNhbyB04buRaSB0aGnhu4N1IMSR4buDIHRoYW0gZ2lhIGLhuq9uIHPDum5nIGzDoCAxbTQgdsOgIHRy4bq7IGVtIGTGsOG7m2kgNSB0deG7lWkgc+G6vSBraMO0bmcgxJHGsOG7o2MgdsOgbyBjw6J1IGzhuqFjIGLhu5kuwqA8L3NwYW4+Jm5ic3A7PC9wPgo=",
+  "background": "https://images.tkbcdn.com/2/1560/600/Upload/eventcover/2022/09/18/3EA439.jpg",
+  "status": "event.available",
+  "ticketTotal": 1600,
+  "ticketRemaining": 796,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.560Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-18T11:00:01.661Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Sport"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": {
+        "$oid": "67718b383112a05bfa6b4344"
+      },
+      "ticketName": "VIP",
+      "price": "2000000",
+      "description": "Vé VIP",
+      "quantity": 600,
+      "quantityRemaining": 396,
+      "currency": "VND",
+      "status": "ticket.available"
+    },
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "Thường",
+      "price": "500000",
+      "description": "Vé thường",
+      "quantity": 600,
+      "quantityRemaining": 296,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "675b0e954de9cfb6f2d9d3cf"
+  },
+  "name": "Chung Kết Muay Thai Rampage x Road to One - FINALE",
+  "province": "Đà Nẵng",
+  "venue": "Nhà thi đấu Đà Nẵng",
+  "venue_address": "Hòa Khánh , Đà Nẵng",
+  "startingTime": "19:00",
+  "endingTime": "22:00",
+  "startingDate": "07/01/2025",
+  "endingDate": "07/01/2025",
+  "host_id": "org222",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48L3A+CjxwPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij5VTkRFUiBDT0xPUiAtIE1VU0lDIFNIT1dDQVNFIMSQxq/hu6JDIENI4bucIMSQw5NOIE5I4bqkVCBUSMOBTkcgMTIhPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48L3A+CjxwPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4iVW5kZXIgQ29sb3IiIGzDoCBraMO0bmcgZ2lhbiDDom0gbmjhuqFjIMSR4buDIGPDoWMgbmdo4buHIHPEqSBjw7MgdGjhu4MgZ+G7rWkgZ+G6r20gY+G6o20geMO6YywgdMOsbmggecOqdSDDom0gbmjhuqFjIHPDonUgc+G6r2MgxJHhur9uIGfhuqduIGjGoW4gduG7m2kgxJHhuqFpIGNow7puZy4gS09CRSBUT1dOIHPhur0gY8O5bmcgY8OhYyBhbmggY2jhu4sgZW0gbmdo4buHIHPEqSB04bqhbyByYSBt4buZdCBideG7lWkgU2hvd2Nhc2UgxJHhurdjIGJp4buHdCBuaOG6pXQgY2hvIEdpw6FuZyBTaW5oIG7DoHkuPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48L3A+CjxwPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4yMDozMCBOZ8OgeSAyMC8xMiwgIlVuZGVyIENvbG9yIiBsw6AgbeG7mXQgxJHDqm0gbmjhuqFjIHbhu5tpIHPhu7Ega+G6v3QgaOG7o3AgZ2nhu69hIHBob25nIGPDoWNoIG5oaeG7h3QgxJHhu5tpIHbDoCBjaOG6pXQgxJHGsOG7nW5nIHBo4buRLCBuxqFpIG3hu5dpIG5naOG7hyBzxKkgbMOgIG3hu5l0IHPhuq9jIG3DoHUgxJHhu5ljIMSRw6FvIHRyb25nIGLhu6ljIHRyYW5oIHThu5VuZyB0aOG7gy4gVsOgIGjDo3kgbMOgIG3hu5l0IHRyb25nIG5o4buvbmcgbcOgdSBz4bqvYyBj4bunYSDEkcOqbSBuaOG6oWMgY+G7sWMgY2jDoXkgbsOgeSBuaMOpITwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PC9wPgo8cD48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+TElORSBVUDo8L3NwYW4+IDxhIGhyZWY9Imh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9raW1tZXNlZmFucGFnZT9fX2NmdF9fWzBdPUFaWHVEbVBwdEh5U1UwNnd3SDNyN3JVUjBGRklvVTgtUTE3ZndVMTNjNWtBc1NIZGdIUWZZV01Mb0FmcHBKZWFDRGwzcjlDTWkxQVlnWVJPdEU2QTROMGRCYU9kcTNYVHpKZG1UakRhQzZybDBwZk93UGNkZ0FiZ3lXYkxPWEZjMWlieDJNQVV5OGU1RldKSEtnNTEzWUQ4NFZqdG5HbFBzMk1HcWk4ZDloZnZIanRKdnpzNl94czh6Sk41ajZhTWgtMCZfX3RuX189LV1LLVIiIHRhcmdldD0iX3NlbGYiPjxzcGFuIHN0eWxlPSJjb2xvcjogaW5oZXJpdDtiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+S2ltbWVzZTwvc3Bhbj48L2E+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPiw8L3NwYW4+IDxhIGhyZWY9Imh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9idXRjaGltYXUubXVzaWM/X19jZnRfX1swXT1BWlh1RG1QcHRIeVNVMDZ3d0gzcjdyVVIwRkZJb1U4LVExN2Z3VTEzYzVrQXNTSGRnSFFmWVdNTG9BZnBwSmVhQ0RsM3I5Q01pMUFZZ1lST3RFNkE0TjBkQmFPZHEzWFR6SmRtVGpEYUM2cmwwcGZPd1BjZGdBYmd5V2JMT1hGYzFpYngyTUFVeThlNUZXSkhLZzUxM1lEODRWanRuR2xQczJNR3FpOGQ5aGZ2SGp0SnZ6czZfeHM4ekpONWo2YU1oLTAmX190bl9fPS1dSy1SIiB0YXJnZXQ9Il9zZWxmIj48c3BhbiBzdHlsZT0iY29sb3I6IGluaGVyaXQ7YmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPkLDunQgQ2jDrCBNw6B1PC9zcGFuPjwvYT48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+LDwvc3Bhbj4gPGEgaHJlZj0iaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL05vbmdEYW5CYW5kP19fY2Z0X19bMF09QVpYdURtUHB0SHlTVTA2d3dIM3I3clVSMEZGSW9VOC1RMTdmd1UxM2M1a0FzU0hkZ0hRZllXTUxvQWZwcEplYUNEbDNyOUNNaTFBWWdZUk90RTZBNE4wZEJhT2RxM1hUekpkbVRqRGFDNnJsMHBmT3dQY2RnQWJneVdiTE9YRmMxaWJ4Mk1BVXk4ZTVGV0pIS2c1MTNZRDg0Vmp0bkdsUHMyTUdxaThkOWhmdkhqdEp2enM2X3hzOHpKTjVqNmFNaC0wJl9fdG5fXz0tXUstUiIgdGFyZ2V0PSJfc2VsZiI+PHNwYW4gc3R5bGU9ImNvbG9yOiBpbmhlcml0O2JhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij5UaGUgRmFybWVyczwvc3Bhbj48L2E+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPiw8L3NwYW4+IDxhIGhyZWY9Imh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9ibWt0Y3I/X19jZnRfX1swXT1BWlh1RG1QcHRIeVNVMDZ3d0gzcjdyVVIwRkZJb1U4LVExN2Z3VTEzYzVrQXNTSGRnSFFmWVdNTG9BZnBwSmVhQ0RsM3I5Q01pMUFZZ1lST3RFNkE0TjBkQmFPZHEzWFR6SmRtVGpEYUM2cmwwcGZPd1BjZGdBYmd5V2JMT1hGYzFpYngyTUFVeThlNUZXSkhLZzUxM1lEODRWanRuR2xQczJNR3FpOGQ5aGZ2SGp0SnZ6czZfeHM4ekpONWo2YU1oLTAmX190bl9fPS1dSy1SIiB0YXJnZXQ9Il9zZWxmIj48c3BhbiBzdHlsZT0iY29sb3I6IGluaGVyaXQ7YmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPkLhu5l0IE3DoHUgS2hvYWkgVMOieSBDw6AgUuG7kXQ8L3NwYW4+PC9hPiZuYnNwOzwvcD4K",
+  "background": "https://salt.tkbcdn.com/ts/ds/49/41/95/e76f6cc9b2f136ec397cbe181ce82d43.jpg",
+  "status": "event.available",
+  "ticketTotal": 1000,
+  "ticketRemaining": 419,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.560Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-18T10:59:28.515Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Sport"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": {
+        "$oid": "67718b3e3112a05bfa6b4345"
+      },
+      "ticketName": "VIP",
+      "price": "2000000",
+      "description": "Vé VIP",
+      "quantity": 1000,
+      "quantityRemaining": 96,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "675b0ef64de9cfb6f2d9d3d0"
+  },
+  "name": "UNDER COLOR",
+  "province": "Thành Phố Hồ Chí Minh",
+  "venue": "KOBE TOWN",
+  "venue_address": "448/28 Phạm Văn Đồng, Phường 13, Quận Bình Thạnh, Thành Phố Hồ Chí Minh",
+  "startingTime": "16:00",
+  "endingTime": "23:00",
+  "startingDate": "06/01/2025",
+  "endingDate": "06/01/2025",
+  "host_id": "org222",
+  "description": "PHA+MTIzMTMyPC9wPgo=",
+  "background": "https://salt.tkbcdn.com/ts/ds/11/7b/46/9365b5f6c902995586ab03debb9424be.jpg",
+  "status": "event.available",
+  "ticketTotal": 2000,
+  "ticketRemaining": 1499,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Sport"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "VIP 2 ngày",
+      "price": "2500000",
+      "description": "Vé VIP tham dự 2 ngày",
+      "quantity": 1000,
+      "quantityRemaining": 749,
+      "currency": "VND",
+      "status": "ticket.available"
+    },
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "Thường 1 ngày",
+      "price": "800000",
+      "description": "Vé thường tham dự 1 ngày",
+      "quantity": 1000,
+      "quantityRemaining": 749,
+      "currency": "VND",
+      "status": "ticket.sold-out"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "675b0fb94de9cfb6f2d9d3d1"
+  },
+  "name": "Legal talk 9 - Cách thức xây dựng phương án sử dụng lao động hợp lý và thuyết ph...",
+  "province": "Thành Phố Hồ Chí Minh",
+  "venue": "Paris Hoang Kim",
+  "venue_address": "Căn A8.01F, Tầng Trệt, Block A - 31 Đường số 1, phường An Khánh, thành phố Thủ Đức, Thành phố Hồ Chí Minh, Việt Nam, Quận 2, Thành Phố Hồ Chí Minh, Quận 2",
+  "startingTime": "20:00",
+  "endingTime": "23:00",
+  "startingDate": "06/01/2025",
+  "endingDate": "06/01/2025",
+  "host_id": "org101",
+  "description": "PHA+MTIzMTMyPC9wPgo=",
+  "background": "https://images.tkbcdn.com/2/1560/600/Upload/eventcover/2023/10/13/2AB9B6.jpg",
+  "status": "event.sold-out",
+  "ticketTotal": 500,
+  "ticketRemaining": 0,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Conference"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "ticketName": "VIP",
+      "price": "3000000",
+      "description": "Vé VIP",
+      "quantity": 500,
+      "quantityRemaining": 0,
+      "currency": "VND",
+      "status": "ticket.soldout"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": {
+    "$oid": "675b106d4de9cfb6f2d9d3d2"
+  },
+  "name": "Public-Private Partnership (PPP): Contract And Dispute Resolutions / Đầu Tư Theo...",
+  "province": "Hà Nội",
+  "venue": "Phòng A901, Đại học Ngoại thương (FTU)",
+  "venue_address": "91 phố Chùa Láng, Phường Láng Thượng, Quận Đống Đa, Hà Nội, Quận Đống Đa, Thành Phố Hà Nội",
+  "startingTime": "20:00",
+  "endingTime": "23:00",
+  "startingDate": "06/01/2025",
+  "endingDate": "06/01/2025",
+  "host_id": "org101",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI",
+  "background": "https://images.tkbcdn.com/2/1560/600/Upload/eventcover/2023/03/10/7B7AB4.jpg",
+  "status": "event.available",
+  "ticketTotal": 500,
+  "ticketRemaining": 450,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Conference"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "ticketName": "VIP",
+      "price": "3000000",
+      "description": "Vé VIP",
+      "quantity": 500,
+      "quantityRemaining": 50,
+      "currency": "VND",
+      "status": "ticket.soldout"
+    }
+  ],
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "675b10f74de9cfb6f2d9d3d3"
+  },
+  "name": "Khóa Huấn Luyện TRỞ THÀNH BẬC THẦY KẾT NỐI ",
+  "province": "Thành Phố Hồ Chí Minh",
+  "venue": "Tòa Nhà Liên Hiệp Các Hội Khoa Học TpHCM",
+  "venue_address": "224 Điện Biên Phủ, Phường Võ Thị Sáu, Quận 3, Thành Phố Hồ Chí Minh",
+  "startingTime": "20:00",
+  "endingTime": "23:00",
+  "startingDate": "07/01/2025",
+  "endingDate": "07/01/2025",
+  "host_id": "org101",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+V2ludGVySm95IC0gTOG7hSBo4buZaSDDgm0gbmjhuqFjIHggVGjhu51pIHRyYW5nIGzhu5tuIG5o4bqldCBtw7lhIMSRw7RuZyAyMDI0IHThuqFpIHRydW5nIHTDom0gVHAuSENNLiBW4bubaSBjaHXhu5dpIHRy4bqjaSBuZ2hp4buHbSBi4bqldCB04bqtbiB04burIMOibSBuaOG6oWMsIHRo4budaSB0cmFuZywg4bqpbSB0aOG7sWMgZGnhu4VuIHJhIDQgbmfDoHkgbGnDqm4gdGnhur9wIDIxLDIyLDIzIHbDoCDEkcOqbSBHacOhbmcgc2luaCAyNC8xMi8yMDI0LsKgPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+xJDDs24gY2jhu50gMiDEkcOqbSBiaeG7g3UgZGnhu4VuIMOibSBuaOG6oWMgdsOgIHRo4budaSB0cmFuZyBkaeG7hW4gcmEgdsOgbyDEkcO6bmcgdGjhu51pIGto4bqvYyB44buLbiBuaOG6pXQ6IMSRw6ptIG5nw6B5IDIxLzEyIHbDoCAyNC8xMiB24bubaSBkw6BuIGxpbmUgdXAgY+G7sWMgY2jhuqV0LCBuaOG7r25nIG3DoG4gdHLDrG5oIGRp4buFbiDhuqVuIHTGsOG7o25nIGjhu6lhIGjhurluIHPhur0gImtodXluaCDEkeG6o28iIGdpw6FuZyBzaW5oIG7Eg20gbmF5Ljwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjxzdHJvbmc+TGluZSB1cCBuZ8OgeSAyMS8xMjo8L3N0cm9uZz48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4xLiBNT05PPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+Mi4gUEjGr8agTkcgTFk8L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4zLiBIVVJSWUtORzwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjQuIFBIw4FQIEtJ4buAVTwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjUuIELhu5ggU8avVSBU4bqsUCBUSOG7nEkgVFJBTkcgxJDhu5YgTeG6oE5IIEPGr+G7nE5HIFggV0lOVEVSSk9ZPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+Ni4gREogVC1USU5BICsgTUMgSFlQRSBMSU5IIFBBVEU8L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij43LiBNQyBUSEFOSCBOSMODPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij4mbmJzcDs8L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjxzdHJvbmc+TGluZSB1cCBuZ8OgeSAyNC8xMjo8L3N0cm9uZz48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4xLiBISUVVVEhVSEFJPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+Mi4gVFJBTkcgUEjDgVA8L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4zLiBMWUxZPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+NC4gSVNBQUM8L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij41LiBDSElMTElFUyBCQU5EPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+Ni4gREogQUxCRUUgKyBNQyBIWVBFIFRPUklTSDwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjcuIE1DIEhPw4BORyBSQVBQRVI8L3NwYW4+Jm5ic3A7PC9wPgo=",
+  "background": "https://salt.tkbcdn.com/ts/ds/e0/12/63/a7f2eecca6dd9982d21c680dac157069.png",
+  "status": "event.available",
+  "ticketTotal": 700,
+  "ticketRemaining": 450,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-11T10:36:28.562Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Conference"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "ticketName": "VIP",
+      "price": "3000000",
+      "description": "Vé VIP",
+      "quantity": 500,
+      "quantityRemaining": 34,
+      "currency": "VND",
+      "status": "ticket.soldout"
+    }
+  ],
+  "_class": ""
+},
+{
+  "_id": {
+    "$oid": "675b201e232bd5310a5d17b3"
+  },
+  "name": "WINTERJOY 2024",
+  "province": "Đà Nẵng",
+  "venue": "81 Trần Quốc Thảo",
+  "venue_address": " Hải Châu , Đà Nẵng",
+  "startingTime": "19:00",
+  "endingTime": "22:00",
+  "startingDate": "07/01/2025",
+  "endingDate": "07/01/2025",
+  "host_id": "org123",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+V2ludGVySm95IC0gTOG7hSBo4buZaSDDgm0gbmjhuqFjIHggVGjhu51pIHRyYW5nIGzhu5tuIG5o4bqldCBtw7lhIMSRw7RuZyAyMDI0IHThuqFpIHRydW5nIHTDom0gVHAuSENNLiBW4bubaSBjaHXhu5dpIHRy4bqjaSBuZ2hp4buHbSBi4bqldCB04bqtbiB04burIMOibSBuaOG6oWMsIHRo4budaSB0cmFuZywg4bqpbSB0aOG7sWMgZGnhu4VuIHJhIDQgbmfDoHkgbGnDqm4gdGnhur9wIDIxLDIyLDIzIHbDoCDEkcOqbSBHacOhbmcgc2luaCAyNC8xMi8yMDI0LsKgPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+xJDDs24gY2jhu50gMiDEkcOqbSBiaeG7g3UgZGnhu4VuIMOibSBuaOG6oWMgdsOgIHRo4budaSB0cmFuZyBkaeG7hW4gcmEgdsOgbyDEkcO6bmcgdGjhu51pIGto4bqvYyB44buLbiBuaOG6pXQ6IMSRw6ptIG5nw6B5IDIxLzEyIHbDoCAyNC8xMiB24bubaSBkw6BuIGxpbmUgdXAgY+G7sWMgY2jhuqV0LCBuaOG7r25nIG3DoG4gdHLDrG5oIGRp4buFbiDhuqVuIHTGsOG7o25nIGjhu6lhIGjhurluIHPhur0gImtodXluaCDEkeG6o28iIGdpw6FuZyBzaW5oIG7Eg20gbmF5Ljwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjxzdHJvbmc+TGluZSB1cCBuZ8OgeSAyMS8xMjo8L3N0cm9uZz48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4xLiBNT05PPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+Mi4gUEjGr8agTkcgTFk8L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4zLiBIVVJSWUtORzwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjQuIFBIw4FQIEtJ4buAVTwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjUuIELhu5ggU8avVSBU4bqsUCBUSOG7nEkgVFJBTkcgxJDhu5YgTeG6oE5IIEPGr+G7nE5HIFggV0lOVEVSSk9ZPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+Ni4gREogVC1USU5BICsgTUMgSFlQRSBMSU5IIFBBVEU8L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij43LiBNQyBUSEFOSCBOSMODPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij4mbmJzcDs8L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjxzdHJvbmc+TGluZSB1cCBuZ8OgeSAyNC8xMjo8L3N0cm9uZz48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4xLiBISUVVVEhVSEFJPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+Mi4gVFJBTkcgUEjDgVA8L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4zLiBMWUxZPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+NC4gSVNBQUM8L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij41LiBDSElMTElFUyBCQU5EPC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+Ni4gREogQUxCRUUgKyBNQyBIWVBFIFRPUklTSDwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMzksMzksNDIpO2JhY2tncm91bmQtY29sb3I6IHJnYigyNTUsMjU1LDI1NSk7Zm9udC1zaXplOiAxNHB4O2ZvbnQtZmFtaWx5OiBJbnRlciwgc2Fucy1zZXJpZjsiPjcuIE1DIEhPw4BORyBSQVBQRVI8L3NwYW4+Jm5ic3A7PC9wPgo=",
+  "background": "https://salt.tkbcdn.com/ts/ds/da/e1/b8/7a28783524f9e38bc4cd6d58ffbbd120.png",
+  "status": "event.available",
+  "ticketTotal": 1000,
+  "ticketRemaining": 222,
+  "createdDate": {
+    "$date": "2024-12-11T10:36:28.560Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-17T13:57:54.508Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Music"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": {
+        "$oid": "67718b433112a05bfa6b4346"
+      },
+      "ticketName": "VIP",
+      "price": "2000000",
+      "description": "Vé VIP",
+      "quantity": 1000,
+      "quantityRemaining": 997,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": "dem-noel-tai-van-phuc-watershow-8040",
+  "name": "Đêm Noel Tại Vạn Phúc WaterShow",
+  "province": "Thành phố Hồ Chí Minh",
+  "venue": "Quảng trường nhạc nước KĐT Vạn Phúc City",
+  "venue_address": "Đường Đinh Thị Thi, Phường Hiệp Bình Phước, Quận Thủ Đức, Thành Phố Hồ Chí Minh",
+  "startingTime": "21:01",
+  "endingTime": "21:01",
+  "startingDate": "07/01/2025",
+  "endingDate": "07/01/2025",
+  "host_id": "org789",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+VGjDoW5nIDEyIGtow7RuZyBjaOG7iSDEkcOhbmggZOG6pXUga+G6v3QgdGjDumMgbeG7mXQgbsSDbSBjxakgbcOgIGPDsm4gxJHDs24gY2jDoG8gbeG7mXQgbsSDbSBt4bubaSB24bubaSBuaGnhu4F1IG1heSBt4bqvbiDEkWFuZyDEkeG6v24gZ+G6p24gaMOyYSBjw7luZyBraMO0bmcga2jDrSBj4bunYSBuaOG7r25nIGzhu4UgaOG7mWkgcuG7sWMgcuG7oSB2w6Agc8O0aSDEkeG7mW5nLiBDw6FpIGzhuqFuaCBnacOhIGPhu6dhIG3DuWEgxJHDtG5nIGPFqW5nIGTGsOG7nW5nIG5oxrAgdHLhu58gbsOqbiDhuqVtIMOhcCBoxqFuIGJhbyBnaeG7nSBo4bq/dCBuaOG7nSBuaOG7r25nIMOhbmggxJHDqG4gbHVuZyBsaW5oIHbDoCB0aeG6v25nIG5o4bqhYyB2dWkgdMawxqFpIHRyb25nIGPDoWMgbOG7hSBo4buZaSwgdOG7qyBHacOhbmcgc2luaCB2dWkgbmjhu5luIMSR4bq/biDEkcOqbSBnaWFvIHRo4burYSB0xrBuZyBi4burbmcuLi4ga2hp4bq/biBhaSBjxaluZyBow6FvIGjhu6ljIMSRw7NuIGNo4budIG5o4buvbmcga2hv4bqjbmgga2jhuq9jIGjhuqFuaCBwaMO6YyBiw6puIG5o4buvbmcgbmfGsOG7nWkgdGjDom4gecOqdS48L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPiZuYnNwOzwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+SMOyYSBjw7luZyBraMO0bmcga2jDrSB2dWkgdMawxqFpIMSRw7MsIFZhbiBQaHVjIENpdHkgdOG7lSBjaOG7qWMgY2jGsMahbmcgdHLDrG5oIGJp4buDdSBkaeG7hW4gbmjhuqFjIG7GsOG7m2MgxJHhurdjIGJp4buHdCB24bubaSBjaOG7pyDEkeG7gSAiTcO5YSBj4bunYSBuaOG7r25nIGzhu4UgaOG7mWkiIMSR4buDICJjaGnDqnUgxJHDo2kiIHThuqV0IGPhuqMgY8OhYyBraMOhbiBnaeG6oy4gxJDDonkgc+G6vSBsw6AgbeG7mXQgaMOgbmggdHLDrG5oIG5naOG7hyB0aHXhuq10IMSR4bqneSBz4bqvYyBtw6B1IG1hbmcgbOG6oWkgbmnhu4FtIHZ1aSB2w6AgaHkgduG7jW5nIGNobyB04bqldCBj4bqjIG3hu41pIG5nxrDhu51pLjwvc3Bhbj48L3A+CjxwIHN0eWxlPSJ0ZXh0LWFsaWduOnN0YXJ0OyI+Jm5ic3A7PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPjxzcGFuIHN0eWxlPSJjb2xvcjogcmdiKDM5LDM5LDQyKTtiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LDI1NSwyNTUpO2ZvbnQtc2l6ZTogMTRweDtmb250LWZhbWlseTogSW50ZXIsIHNhbnMtc2VyaWY7Ij4tIFRo4budaSBnaWFuOiAxOWgzMCBuZ8OgeSAyNC8xMi8yMDI0IHbDoCAyNS8xMi8yMDI0PC9zcGFuPjwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+LSDEkOG7i2EgxJFp4buDbTogUXXhuqNuZyB0csaw4budbmcgRGlhbW9uZCwgS2h1IMSRw7QgdGjhu4sgVuG6oW4gUGjDumMsIFF14buRYyBs4buZIDEzLCBQLiBIaeG7h3AgQsOsbmggUGjGsOG7m2MsIFRQLiBUaOG7pyDEkOG7qWM8L3NwYW4+PC9wPgo8cCBzdHlsZT0idGV4dC1hbGlnbjpzdGFydDsiPiZuYnNwOzwvcD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigzOSwzOSw0Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwyNTUsMjU1KTtmb250LXNpemU6IDE0cHg7Zm9udC1mYW1pbHk6IEludGVyLCBzYW5zLXNlcmlmOyI+VHJvbmcgIk3DuWEgY+G7p2Egbmjhu69uZyBs4buFIGjhu5lpIiwgw6JtIHRoYW5oLCDDoW5oIHPDoW5nIHbDoCBoaeG7h3Ug4bupbmcga2jDs2kgbOG7rWEgbeG7nSDhuqNvIGjDsmEgcXV54buHbiBjw7luZyB2xakgxJFp4buHdSBuxrDhu5tjIHThuqFvIG7Dqm4ga2jDtG5nIGdpYW4gdsO0IGPDuW5nIGh1eeG7gW4g4bqjby4gUXXhuqNuZyB0csaw4budbmcgbmjhuqFjIG7GsOG7m2MgxJHhurNuZyBj4bqlcCBow6BuZyDEkeG6p3UgxJDDtG5nIE5hbSDDgSAtIG7GoWkgZGnhu4VuIHJhIGNoxrDGoW5nIHRyw6xuaCBz4bq9IGzDoCBi4buRaSBj4bqjbmggdHV54buHdCB24budaSBjaG8gbmjhu69uZyBtw6BuIHRyw6xuaCBkaeG7hW4gbmdo4buHIHRodeG6rXQgxJHhuqd5IGPhuqNtIHjDumMga2hp4bq/biBraMOhbiBnaeG6oyBuaMawIGzhuqFjIHbDoG8gbeG7mXQgdGjhur8gZ2nhu5tpIGzhu4UgaOG7mWkgxJHhuqd5IHPhuq9jIG3DoHUuPC9zcGFuPiZuYnNwOzwvcD4K",
+  "background": "https://res.cloudinary.com/meaning17/image/upload/v1734444171/lotus/user/uasyihyibkpyiivbaawc.jpg",
+  "status": "event.available",
+  "ticketTotal": 250,
+  "ticketRemaining": 250,
+  "createdDate": {
+    "$date": "2024-12-17T14:02:43.333Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-17T14:05:02.369Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Comedy"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": "SUP171220243489",
+      "ticketName": "VIP",
+      "price": "100000",
+      "description": "<p></p>\n",
+      "quantity": 250,
+      "quantityRemaining": 250,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": "dang-nghia-6443",
+  "name": "Đặng Nghĩa",
+  "province": "Thành phố Hồ Chí Minh",
+  "venue": "Quảng trường nhạc nước KĐT Vạn Phúc City",
+  "venue_address": " Hải Châu , Đà Nẵng",
+  "startingTime": "21:07",
+  "endingTime": "21:07",
+  "startingDate": "07/01/2025",
+  "endingDate": "07/01/2025",
+  "host_id": "675b1d72232bd5310a5d17ae",
+  "description": "PHA+MTIzMTMyPC9wPgo=",
+  "status": "event.available",
+  "ticketTotal": 112,
+  "ticketRemaining": 112,
+  "createdDate": {
+    "$date": "2024-12-17T14:07:40.109Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Conference"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": "SUP17122024633",
+      "ticketName": "VIP",
+      "price": "111",
+      "description": "",
+      "quantity": 112,
+      "quantityRemaining": 112,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": "zxcxczxczcxz-15931",
+  "name": "zxcxczxczcxz",
+  "province": "Lai Châu",
+  "venue": "Quảng trường nhạc nước KĐT Vạn Phúc City",
+  "venue_address": "Đường Đinh Thị Thi, Phường Hiệp Bình Phước, Quận Thủ Đức, Thành Phố Hồ Chí Minh",
+  "startingTime": "16:02",
+  "endingTime": "16:02",
+  "startingDate": "07/01/2025",
+  "endingDate": "07/01/2025",
+  "host_id": "675b1d72232bd5310a5d17ae",
+  "description": "PHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48L3A+CjxoMSBzdHlsZT0ibWFyZ2luLWxlZnQ6MHB4OyI+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMjQwLDI0NiwyNTIpO2JhY2tncm91bmQtY29sb3I6IHJnYigxMywxNywyMyk7Zm9udC1zaXplOiAyZW07Zm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgIlNlZ29lIFVJIiwgIk5vdG8gU2FucyIsIEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYsICJBcHBsZSBDb2xvciBFbW9qaSIsICJTZWdvZSBVSSBFbW9qaTsiPkJ1aWxkIGEgYm9va2luZyBldmVudCB3ZWIgYXBwbGljYXRpb248L3NwYW4+PC9oMT4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48L3A+CjxoMj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigyNDAsMjQ2LDI1Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDEzLDE3LDIzKTtmb250LXNpemU6IDEuNWVtO2ZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICJTZWdvZSBVSSIsICJOb3RvIFNhbnMiLCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmLCAiQXBwbGUgQ29sb3IgRW1vamkiLCAiU2Vnb2UgVUkgRW1vamk7Ij5UZWNobm9sb2dpZXMgdXNlZCBpbiB0aGUgcHJvamVjdDwvc3Bhbj48L2gyPgo8dWw+CjxsaT48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigyNDAsMjQ2LDI1Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDEzLDE3LDIzKTtmb250LXNpemU6IDE2cHg7Zm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgIlNlZ29lIFVJIiwgIk5vdG8gU2FucyIsIEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYsICJBcHBsZSBDb2xvciBFbW9qaSIsICJTZWdvZSBVSSBFbW9qaTsiPkZyb250ZW5kOjwvc3Bhbj4gPGEgaHJlZj0iaHR0cHM6Ly9yZWFjdGpzLm9yZy8iIHRhcmdldD0iX3NlbGYiPjxzcGFuIHN0eWxlPSJjb2xvcjogdmFyKC0tZmdDb2xvci1hY2NlbnQsdmFyKC0tY29sb3ItYWNjZW50LWZnKSk7YmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7Zm9udC1zaXplOiAxNnB4O2ZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICJTZWdvZSBVSSIsICJOb3RvIFNhbnMiLCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmLCAiQXBwbGUgQ29sb3IgRW1vamkiLCAiU2Vnb2UgVUkgRW1vamk7Ij48aW5zPlJlYWN0SlM8L2lucz48L3NwYW4+PC9hPjwvbGk+CjxsaT48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigyNDAsMjQ2LDI1Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDEzLDE3LDIzKTtmb250LXNpemU6IDE2cHg7Zm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgIlNlZ29lIFVJIiwgIk5vdG8gU2FucyIsIEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYsICJBcHBsZSBDb2xvciBFbW9qaSIsICJTZWdvZSBVSSBFbW9qaTsiPkJhY2tlbmQ6PC9zcGFuPiA8YSBocmVmPSJodHRwczovL3NwcmluZy5pby9wcm9qZWN0cy9zcHJpbmctYm9vdC8iIHRhcmdldD0iX3NlbGYiPjxzcGFuIHN0eWxlPSJjb2xvcjogdmFyKC0tZmdDb2xvci1hY2NlbnQsdmFyKC0tY29sb3ItYWNjZW50LWZnKSk7YmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7Zm9udC1zaXplOiAxNnB4O2ZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICJTZWdvZSBVSSIsICJOb3RvIFNhbnMiLCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmLCAiQXBwbGUgQ29sb3IgRW1vamkiLCAiU2Vnb2UgVUkgRW1vamk7Ij48aW5zPlNwcmluZyBCb290PC9pbnM+PC9zcGFuPjwvYT48L2xpPgo8bGk+PHNwYW4gc3R5bGU9ImNvbG9yOiByZ2IoMjQwLDI0NiwyNTIpO2JhY2tncm91bmQtY29sb3I6IHJnYigxMywxNywyMyk7Zm9udC1zaXplOiAxNnB4O2ZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICJTZWdvZSBVSSIsICJOb3RvIFNhbnMiLCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmLCAiQXBwbGUgQ29sb3IgRW1vamkiLCAiU2Vnb2UgVUkgRW1vamk7Ij5EYXRhYmFzZTo8L3NwYW4+IDxhIGhyZWY9Imh0dHBzOi8vd3d3Lm1vbmdvZGIuY29tLyIgdGFyZ2V0PSJfc2VsZiI+PHNwYW4gc3R5bGU9ImNvbG9yOiB2YXIoLS1mZ0NvbG9yLWFjY2VudCx2YXIoLS1jb2xvci1hY2NlbnQtZmcpKTtiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtmb250LXNpemU6IDE2cHg7Zm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgIlNlZ29lIFVJIiwgIk5vdG8gU2FucyIsIEhlbHZldGljYSwgQXJpYWwsIHNhbnMtc2VyaWYsICJBcHBsZSBDb2xvciBFbW9qaSIsICJTZWdvZSBVSSBFbW9qaTsiPjxpbnM+TW9uZ29EQjwvaW5zPjwvc3Bhbj48L2E+PC9saT4KPC91bD4KPHAgc3R5bGU9InRleHQtYWxpZ246c3RhcnQ7Ij48L3A+CjxoMj48c3BhbiBzdHlsZT0iY29sb3I6IHJnYigyNDAsMjQ2LDI1Mik7YmFja2dyb3VuZC1jb2xvcjogcmdiKDEzLDE3LDIzKTtmb250LXNpemU6IDEuNWVtO2ZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICJTZWdvZSBVSSIsICJOb3RvIFNhbnMiLCBIZWx2ZXRpY2EsIEFyaWFsLCBzYW5zLXNlcmlmLCAiQXBwbGUgQ29sb3IgRW1vamkiLCAiU2Vnb2UgVUkgRW1vamk7Ij5NYWluIGZlYXR1cmVzPC9zcGFuPiZuYnNwOzwvaDI+Cg==",
+  "background": "https://res.cloudinary.com/meaning17/image/upload/v1734512623/lotus/user/kxfidkapr8vu6dztqkyh.png",
+  "status": "event.deleted",
+  "ticketTotal": 123,
+  "ticketRemaining": 123,
+  "createdDate": {
+    "$date": "2024-12-18T09:03:36.329Z"
+  },
+  "updatedDate": {
+    "$date": "2024-12-18T09:06:10.008Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Conference"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": "SUP181220243899",
+      "ticketName": "cx",
+      "price": "123999",
+      "description": "",
+      "quantity": 123,
+      "quantityRemaining": 123,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+},
+{
+  "_id": "dlelelad-16126",
+  "name": "dlelelad",
+  "province": "Lâm Đồng",
+  "venue": "Quảng trường nhạc nước KĐT Vạn Phúc City",
+  "venue_address": "Đường Đinh Thị Thi, Phường Hiệp Bình Phước, Quận Thủ Đức, Thành Phố Hồ Chí Minh",
+  "startingTime": "16:21",
+  "endingTime": "16:21",
+  "startingDate": "07/01/2025",
+  "endingDate": "07/01/2025",
+  "host_id": "675b1d72232bd5310a5d17ae",
+  "description": "PHA+w6Fkc2RzZHNkc2RzZHNkc2RzZHNkPC9wPgo=",
+  "status": "event.deleted",
+  "ticketTotal": 1000,
+  "ticketRemaining": 1000,
+  "createdDate": {
+    "$date": "2024-12-18T09:22:46.288Z"
+  },
+  "modifyTimes": 0,
+  "eventCategoryList": [
+    {
+      "name": "Conference"
+    }
+  ],
+  "organizationTickets": [
+    {
+      "id": "SUP181220244192",
+      "ticketName": "VIP",
+      "price": "122",
+      "description": "",
+      "quantity": 1000,
+      "quantityRemaining": 1000,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "_class": "com.nghia.bookingevent.models.event.Event"
+}]

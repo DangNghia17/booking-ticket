@@ -1,0 +1,121 @@
+[{
+  "_id": "org123",
+  "biography": "Super Dream Entertainment là một công ty giải trí đa phương tiện, chuyên cung cấp các sản phẩm và dịch vụ sáng tạo, từ âm nhạc, phim ảnh, đến các chương trình truyền hình và sự kiện. Với tầm nhìn \"Biến ước mơ thành hiện thực\", chúng tôi luôn nỗ lực để đưa những sản phẩm giải trí đột phá, chất lượng cao, và phù hợp với xu hướng hiện đại đến với khán giả toàn cầu.",
+  "email": "org123@gmail.com",
+  "USDBalance": "12000",
+  "VNDBalance": "100250000",
+  "status": "ACCEPTED",
+  "eventList": [
+    "6755df38573d6173e7b42e1d",
+    "67596b2cc2c48ebbc411d2a5",
+    "67596b2cc2c48ebbc411d2a3",
+    "67596b2cc2c48ebbc411d2a6",
+    "67598fa1653648515f98f7d5",
+    "67599015653648515f98f7d6",
+    "675b0a6b4de9cfb6f2d9d3c7",
+    "675b0b464de9cfb6f2d9d3c8",
+    "675b0b9d4de9cfb6f2d9d3c9"
+  ],
+  "paymentPendings": [
+    {
+      "idEvent": "dem-noel-tai-van-phuc-watershow-8040",
+      "USDBalanceLock": "0",
+      "VNDBalanceLock": "0",
+      "status": "INPROGRESS"
+    },
+    {
+      "idEvent": "dang-nghia-6443",
+      "USDBalanceLock": "0",
+      "VNDBalanceLock": "0",
+      "status": "INPROGRESS"
+    },
+    {
+      "idEvent": "event-aaaqkqr",
+      "USDBalanceLock": "0",
+      "VNDBalanceLock": "0",
+      "status": "INPROGRESS"
+    },
+    {
+      "idEvent": "event1",
+      "USDBalanceLock": "0",
+      "VNDBalanceLock": "0",
+      "status": "INPROGRESS"
+    }
+  ],
+  "templateTickets": [],
+  "province": "Thành phố Hồ Chí Minh",
+  "venue": "Sân vận động Thống Nhất",
+  "address": "123 Nguyễn Thị Minh Khai",
+  "_class": "com.nghia.bookingevent.models.organization.Organization"
+},
+{
+  "_id": "org789",
+  "biography": "Sân khấu kịch Quốc Thảo được thành lập năm 2017, trực thuộc Trung tâm Đào tạo và Thực Văn học nghệ thuật TPHCM, hoạt động theo phương thức xã hội hóa lĩnh vực đào tạo và biểu diễn loại hình kịch nói. nhà tổ chức ở đây",
+  "email": "org789@gmail.com",
+  "USDBalance": "1209",
+  "VNDBalance": "12000000",
+  "status": "ACCEPTED",
+  "eventList": [
+    "675b0cfe4de9cfb6f2d9d3cb",
+    "675b0d654de9cfb6f2d9d3cc",
+    "675b0da74de9cfb6f2d9d3cd"
+  ],
+  "paymentPendings": [],
+  "templateTickets": [],
+  "province": "Hà Nội",
+  "venue": "Cung Văn hóa Hữu nghị Việt Xô",
+  "address": "91 Trần Hưng Đạo, Hoàn Kiếm",
+  "_class": "com.nghia.bookingevent.models.organization.Organization"
+},
+{
+  "_id": "org101",
+  "email": "org101@gmail.com",
+  "biography": "Công ty Luật Phước & Partners có lịch sử lâu dài và đáng tự hào với gần 20 năm cung cấp dịch vụ tư vấn và tranh tụng tại Việt Nam và hiện có một đội ngũ gần 80 chuyên gia giàu kinh nghiệm tại ba văn phòng của chúng tôi tại Thành phố Hồ Chí Minh, Hà Nội và Đà Nẵng. Chúng tôi là một công ty luật cung cấp dịch vụ đầy đủ, tập trung vào các hoạt động sau: Thuế, Lao động & Việc làm, Doanh nghiệp, M&A, Đầu tư nước ngoài, Thương mại, Bất động sản & Xây dựng, Ngân hàng & Tài chính, Sở hữu trí tuệ, Giải quyết tranh chấp cũng như Quy định & Thương mại.",
+  "USDBalance": "12311",
+  "VNDBalance": "2300000",
+  "status": "ACCEPTED",
+  "province": "Lâm Đồng",
+  "venue": "Quảng trường Lâm Viên",
+  "address": "Trần Quốc Toản, P.10",
+  "eventList": [
+    "675b0fb94de9cfb6f2d9d3d1",
+    "675b106d4de9cfb6f2d9d3d2",
+    "675b10f74de9cfb6f2d9d3d3"
+  ]
+},
+{
+  "_id": "org222",
+  "biography": "Shadow Entertainment là một công ty giải trí sáng tạo, chuyên cung cấp các sản phẩm và dịch vụ nghệ thuật đa dạng, từ âm nhạc, phim ảnh đến các chương trình truyền hình và sự kiện lớn. Với triết lý 'Khám phá vẻ đẹp trong bóng tối', chúng tôi mang đến những trải nghiệm giải trí độc đáo, gây ấn tượng mạnh mẽ và kết nối người xem với những câu chuyện đầy cảm xúc.",
+  "email": "org222@gmail.com",
+  "USDBalance": "9820",
+  "VNDBalance": "117838182",
+  "status": "ACCEPTED",
+  "eventList": [
+    "675b0e1f4de9cfb6f2d9d3ce",
+    "675b0e954de9cfb6f2d9d3cf",
+    "675b0ef64de9cfb6f2d9d3d0"
+  ],
+  "paymentPendings": [],
+  "templateTickets": [],
+  "province": "Thành phố Hồ Chí Minh",
+  "venue": "Sân vận động Thống Nhất",
+  "address": "123 Nguyễn Thị Minh Khai",
+  "_class": "com.nghia.bookingevent.models.organization.Organization"
+},
+{
+  "_id": {
+    "$oid": "67613b5cb499fa2af0d9dfa2"
+  },
+  "biography": "Lotus Ticket Admin Account Org",
+  "email": "lotusticket.vn@gmail.com",
+  "USDBalance": "1000",
+  "VNDBalance": "9089121",
+  "status": "ACCEPTED",
+  "eventList": [],
+  "paymentPendings": [],
+  "templateTickets": [],
+  "province": "Thành phố Đà Nẵng",
+  "venue": "Hoa hai",
+  "address": "08C Nguyen Duy Trinh",
+  "_class": "com.nghia.bookingevent.models.organization.Organization"
+}]

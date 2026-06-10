@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6755d2b5573d6173e7b42e04"
+  },
+  "name": "Music"
+},
+{
+  "_id": {
+    "$oid": "6755d2b5573d6173e7b42e05"
+  },
+  "name": "Sports"
+},
+{
+  "_id": {
+    "$oid": "6755da1c573d6173e7b42e0b"
+  },
+  "name": "Family"
+},
+{
+  "_id": {
+    "$oid": "6755da1c573d6173e7b42e0a"
+  },
+  "name": "Arts & Theatre"
+},
+{
+  "_id": {
+    "$oid": "6755da1c573d6173e7b42e0c"
+  },
+  "name": "Food & Drinks"
+},
+{
+  "_id": {
+    "$oid": "67586a7d7f6796775c05ac07"
+  },
+  "name": "Conference"
+}]

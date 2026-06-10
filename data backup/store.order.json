@@ -1,0 +1,234 @@
+[{
+  "_id": {
+    "$oid": "675f0ad8aa193131569a2ac4"
+  },
+  "idEvent": "675b0da74de9cfb6f2d9d3cd",
+  "email": "dnghia2002@gmail.com",
+  "totalPrice": "1000000",
+  "totalQuantity": 1,
+  "currency": "VND",
+  "customerTicketList": [
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "VIP",
+      "price": "1000000",
+      "description": "Vé VIP",
+      "quantity": 1,
+      "quantityRemaining": 0,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "createdDate": {
+    "$date": "2024-12-15T16:59:04.080Z"
+  },
+  "_class": "com.nghia.bookingevent.models.Order"
+},
+{
+  "_id": {
+    "$oid": "675f22f64681892be0c42593"
+  },
+  "idEvent": "675b0e954de9cfb6f2d9d3cf",
+  "email": "dnghia2002@gmail.com",
+  "totalPrice": "2000000",
+  "totalQuantity": 1,
+  "currency": "VND",
+  "customerTicketList": [
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "VIP",
+      "price": "2000000",
+      "description": "Vé VIP",
+      "quantity": 1000,
+      "quantityRemaining": 1000,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "createdDate": {
+    "$date": "2024-12-15T18:41:57.947Z"
+  },
+  "_class": "com.nghia.bookingevent.models.Order"
+},
+{
+  "_id": {
+    "$oid": "675f2d440935ce34d48f42b4"
+  },
+  "idEvent": "6755df38573d6173e7b42e1d",
+  "email": "dnghia2002@gmail.com",
+  "totalPrice": "3000000",
+  "totalQuantity": 3,
+  "currency": "VND",
+  "customerTicketList": [
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "VIP",
+      "price": "1000000",
+      "description": "Vé VIP",
+      "quantity": 3,
+      "quantityRemaining": 0,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "createdDate": {
+    "$date": "2024-12-15T19:25:55.731Z"
+  },
+  "_class": "com.nghia.bookingevent.models.Order"
+},
+{
+  "_id": {
+    "$oid": "675f2f690935ce34d48f42b6"
+  },
+  "idEvent": "675b0d654de9cfb6f2d9d3cc",
+  "email": "dnghia2002@gmail.com",
+  "totalPrice": "2000000",
+  "totalQuantity": 1,
+  "currency": "VND",
+  "customerTicketList": [
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "VIP",
+      "price": "2000000",
+      "description": "Vé VIP",
+      "quantity": 1,
+      "quantityRemaining": 0,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "createdDate": {
+    "$date": "2024-12-15T19:35:04.855Z"
+  },
+  "_class": "com.nghia.bookingevent.models.Order"
+},
+{
+  "_id": {
+    "$oid": "675f31b10935ce34d48f42ba"
+  },
+  "idEvent": "675b201e232bd5310a5d17b3",
+  "email": "dnghia2002@gmail.com",
+  "totalPrice": "6000000",
+  "totalQuantity": 3,
+  "currency": "VND",
+  "customerTicketList": [
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "VIP",
+      "price": "2000000",
+      "description": "Vé VIP",
+      "quantity": 3,
+      "quantityRemaining": 0,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "createdDate": {
+    "$date": "2024-12-15T19:44:49.216Z"
+  },
+  "_class": "com.nghia.bookingevent.models.Order"
+},
+{
+  "_id": {
+    "$oid": "675fe085abfd994648ee3dab"
+  },
+  "idEvent": "675b0e954de9cfb6f2d9d3cf",
+  "email": "dnghia2002@gmail.com",
+  "totalPrice": "2000000",
+  "totalQuantity": 1,
+  "currency": "VND",
+  "customerTicketList": [
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "VIP",
+      "price": "2000000",
+      "description": "Vé VIP",
+      "quantity": 1,
+      "quantityRemaining": 0,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "createdDate": {
+    "$date": "2024-12-16T08:10:45.082Z"
+  },
+  "_class": "com.nghia.bookingevent.models.Order"
+},
+{
+  "_id": {
+    "$oid": "675febb7abfd994648ee3db9"
+  },
+  "idEvent": "675b0e1f4de9cfb6f2d9d3ce",
+  "email": "dnghia2002@gmail.com",
+  "totalPrice": "1000000",
+  "totalQuantity": 2,
+  "currency": "VND",
+  "customerTicketList": [
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "Thường",
+      "price": "500000",
+      "description": "Vé thường",
+      "quantity": 2,
+      "quantityRemaining": 0,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "createdDate": {
+    "$date": "2024-12-16T08:58:31.041Z"
+  },
+  "_class": "com.nghia.bookingevent.models.Order"
+},
+{
+  "_id": {
+    "$oid": "675ff708abfd994648ee3dc9"
+  },
+  "idEvent": "675b0b9d4de9cfb6f2d9d3c9",
+  "email": "dnghia2002@gmail.com",
+  "totalPrice": "1000000",
+  "totalQuantity": 1,
+  "currency": "VND",
+  "customerTicketList": [
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "VIP",
+      "price": "1000000",
+      "description": "Vé VIP",
+      "quantity": 1,
+      "quantityRemaining": 0,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "createdDate": {
+    "$date": "2024-12-16T09:46:47.589Z"
+  },
+  "_class": "com.nghia.bookingevent.models.Order"
+},
+{
+  "_id": {
+    "$oid": "6761f5f3614e616acbba4301"
+  },
+  "idEvent": "6755df38573d6173e7b42e1d",
+  "email": "dnghia1710@gmail.com",
+  "totalPrice": "3000000",
+  "totalQuantity": 3,
+  "currency": "VND",
+  "customerTicketList": [
+    {
+      "id": "675997476d6dc1f70c8e3382",
+      "ticketName": "VIP",
+      "price": "1000000",
+      "description": "Vé VIP",
+      "quantity": 3,
+      "quantityRemaining": 0,
+      "currency": "VND",
+      "status": "ticket.available"
+    }
+  ],
+  "createdDate": {
+    "$date": "2024-12-17T22:06:42.810Z"
+  },
+  "_class": "com.nghia.bookingevent.models.Order"
+}]
