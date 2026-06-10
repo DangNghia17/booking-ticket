@@ -2,6 +2,10 @@
 
 **Lotus Ticket** (tên repo: `booking-ticket`) là hệ thống đặt vé sự kiện full-stack, gồm cổng người dùng, bảng điều khiển quản trị/nhà tổ chức và REST API backend. Dự án hỗ trợ tìm kiếm sự kiện, đặt vé, thanh toán (PayPal & VNPay), đánh giá, chatbot AI và quản lý cho admin/nhà tổ chức.
 
+**Demo production:**
+- User Console: https://bookingticketvn.netlify.app/
+- Admin Console: https://bookingticketvn-admin.netlify.app/
+
 ---
 
 ## Mục lục
@@ -44,7 +48,7 @@
 
 | Thành phần | Mô tả |
 |---|---|
-| **User Console** | Giao diện công khai cho khách hàng: xem sự kiện, đặt vé, thanh toán, hồ sơ cá nhân |
+| **User Console** | Giao diện công khai cho khách hàng: xem sự kiện, đặt vé, thanh toán, hồ sơ cá nhân, chatbot AI |
 | **Admin Console** | Bảng điều khiển cho Admin và Nhà tổ chức (Organizer) |
 | **Backend API** | Spring Boot REST API, xác thực JWT + OAuth2 Google |
 | **MongoDB** | Cơ sở dữ liệu chính |
@@ -57,31 +61,31 @@
 ### Khách hàng (Customer)
 - Đăng ký / đăng nhập (email + mật khẩu hoặc Google OAuth)
 - Quên mật khẩu qua OTP email
-- Duyệt trang chủ, danh sách sự kiện, chi tiết sự kiện
-- Tìm kiếm & lọc sự kiện theo tỉnh/thành, danh mục, thời gian
+- Duyệt trang chủ (carousel, top sự kiện, sự kiện nổi bật), danh sách sự kiện, chi tiết sự kiện
+- Tìm kiếm & lọc sự kiện theo tỉnh/thành, danh mục, thời gian, trạng thái
 - Đặt vé, thanh toán qua **PayPal** hoặc **VNPay**
-- Xem vé đã mua (QR code, xuất PDF)
+- Xem vé đã mua (QR code, barcode, xuất PDF)
 - Wishlist sự kiện yêu thích
-- Theo dõi nhà tổ chức
+- Theo dõi nhà tổ chức, xem hồ sơ công khai organizer
 - Đánh giá sự kiện sau khi kết thúc
-- Chatbot hỗ trợ (OpenAI fine-tuned)
+- Chatbot hỗ trợ (OpenAI fine-tuned — widget toàn cục trên User Console)
 - Đa ngôn ngữ (i18n)
 
 ### Nhà tổ chức (Organizer)
 - Đăng ký tổ chức (chờ Admin duyệt)
 - Tạo / chỉnh sửa sự kiện, upload ảnh nền (Cloudinary)
-- Quản lý loại vé và số lượng
+- Quản lý loại vé và số lượng, lưu mẫu vé
 - Xem đơn hàng, danh sách khách hàng, người theo dõi
 - Thống kê doanh thu & vé theo ngày/tuần/tháng/năm
 - Lịch sự kiện (Calendar)
-- Quản lý thanh toán
+- Quản lý thanh toán, xuất Excel
 
 ### Quản trị viên (Admin)
+- Dashboard tổng quan (thống kê tài khoản, sự kiện theo tỉnh/thành)
 - Quản lý tài khoản người dùng
 - Duyệt / từ chối đăng ký nhà tổ chức
 - Quản lý danh mục sự kiện
 - Xem trạng thái thanh toán toàn hệ thống
-- Dashboard tổng quan
 
 ---
 
@@ -96,11 +100,11 @@
 | Spring OAuth2 Client | Đăng nhập Google |
 | Spring Data MongoDB | Cơ sở dữ liệu |
 | Spring Mail + FreeMarker | Gửi email (OTP, thông báo) |
-| Swagger / Springfox | Tài liệu API |
+| Swagger / Springfox + springdoc | Tài liệu API |
 | Cloudinary | Upload & lưu trữ ảnh |
 | PayPal REST SDK | Thanh toán quốc tế |
 | VNPay | Thanh toán nội địa |
-| OpenAI API | Chatbot hỗ trợ |
+| OpenAI API | Chatbot hỗ trợ (fine-tuned GPT-3.5) |
 | Lombok | Giảm boilerplate |
 | Cucumber | BDD testing (demo) |
 
@@ -116,7 +120,7 @@
 | i18next | Đa ngôn ngữ |
 | Axios | HTTP client |
 | jsPDF + QR Code | Xuất vé |
-| Socket.io / STOMP | Real-time (client-side) |
+| Socket.io / STOMP | Real-time (client-side stub) |
 | Sass + Tailwind CSS | Styling |
 | Netlify | Deploy production |
 
@@ -143,10 +147,14 @@ booking-ticket/
 │       │   ├── src/main/java/com/nghia/bookingevent/
 │       │   │   ├── controllers/    # REST controllers
 │       │   │   ├── services/       # Business logic
+│       │   │   ├── Implement/      # Service interfaces
 │       │   │   ├── models/         # MongoDB documents
 │       │   │   ├── repository/     # Data access
+│       │   │   ├── mapper/         # DTO mappers
 │       │   │   ├── config/         # Security, CORS, Swagger, ...
 │       │   │   ├── security/       # JWT, OAuth2
+│       │   │   ├── filters/        # Auth & event filters
+│       │   │   ├── exception/      # Global exception handler
 │       │   │   └── payload/        # Request/Response DTOs
 │       │   ├── src/main/resources/
 │       │   │   └── templates/      # Email templates (FreeMarker)
@@ -156,7 +164,12 @@ booking-ticket/
 ├── frontend/
 │   ├── user-console/               # Cổng người dùng (port 3000)
 │   └── admin-console/              # Bảng điều khiển Admin/Organizer (port 3001)
-├── screenshot/                     # Ảnh chụp màn hình demo
+├── screenshot/                     # Ảnh chụp màn hình (trích từ báo cáo/tài liệu dự án)
+├── data backup/                    # MongoDB dump + dữ liệu fine-tune chatbot
+├── help_building_project/          # Tài liệu hỗ trợ xây dựng dự án
+├── Report_Final_BookingTicket_DangChiNghia_20IT544.pdf   # Báo cáo đồ án
+├── PresentFinalProject.pptx        # Slide thuyết trình
+├── Deploy.txt                      # URL triển khai production
 └── README.md
 ```
 
@@ -338,7 +351,7 @@ Sau khi backend chạy, truy cập Swagger UI:
 | `/api/admin/*` | Quản trị hệ thống (Admin) |
 | `/api/payment/*` | PayPal & VNPay |
 | `/api/review/*` | Đánh giá sự kiện |
-| `/api/chat/*` | Chatbot AI |
+| `/api/chat/*` | Chatbot AI (send, history, sessions) |
 | `/oauth2/authorization/google` | Đăng nhập Google OAuth2 |
 
 ### Collections MongoDB
@@ -360,6 +373,8 @@ Sau khi backend chạy, truy cập Swagger UI:
 ---
 
 ## Ảnh chụp màn hình
+
+> Các ảnh được trích xuất từ báo cáo đồ án (`Report_Final_BookingTicket_DangChiNghia_20IT544.pdf`, `.docx`) và tài liệu thuyết trình (`PresentFinalProject.pptx`).
 
 ### Trang công khai
 
@@ -385,6 +400,7 @@ Sau khi backend chạy, truy cập Swagger UI:
 | Đặt vé | ![Booking Ticket](screenshot/authenticated/customer/Booking%20Ticket.png) |
 | Hồ sơ | ![Profile](screenshot/authenticated/customer/Profile.png) |
 | Đổi mật khẩu | ![Change Password](screenshot/authenticated/customer/Change%20Password.png) |
+| Đơn hàng đã mua | ![My Orders](screenshot/authenticated/customer/My%20Orders.png) |
 
 ### Nhà tổ chức (đã đăng nhập)
 
@@ -394,6 +410,22 @@ Sau khi backend chạy, truy cập Swagger UI:
 | Tạo / cập nhật sự kiện | ![Create Update Event Page](screenshot/authenticated/organzier/Create%20Update%20Event%20Page.png) |
 | Hồ sơ | ![Organizer Profile](screenshot/authenticated/organzier/Profile.png) |
 | Đổi mật khẩu | ![Organizer Change Password](screenshot/authenticated/organzier/Change%20Password.png) |
+
+### Quản trị viên (Admin)
+
+| | |
+|---|---|
+| Dashboard tổng quan | ![Admin Dashboard](screenshot/authenticated/admin/Admin%20Dashboard.png) |
+| Quản lý tài khoản | ![Account Management](screenshot/authenticated/admin/Account%20Management.png) |
+| Quản lý danh mục | ![Category Management](screenshot/authenticated/admin/Category%20Management.png) |
+
+### Tính năng nổi bật
+
+| | |
+|---|---|
+| Chatbot AI | ![Chatbot](screenshot/features/Chatbot.png) |
+| Thanh toán VNPay | ![VNPay](screenshot/features/VNPay%20Payment.png) |
+| Thanh toán PayPal | ![PayPal](screenshot/features/PayPal%20Payment.png) |
 
 ---
 
@@ -409,7 +441,19 @@ npm run build
 npm run deploy   # netlify deploy --prod
 ```
 
-### Backend — Heroku / VPS
+URL production: https://bookingticketvn.netlify.app/
+
+### Admin Console — Netlify
+
+```bash
+cd frontend/admin-console
+npm run build
+npm run deploy   # netlify deploy --prod
+```
+
+URL production: https://bookingticketvn-admin.netlify.app/
+
+### Backend — Heroku / VPS / Railway
 
 Script build cho môi trường deploy:
 
@@ -426,6 +470,7 @@ File `system.properties` chỉ định Java 11 cho Heroku.
 ## Ghi chú bổ sung
 
 - **Kafka Demo:** Module `backend/booking-event/kafka-demo` là phần thử nghiệm gửi message qua Kafka, tách biệt với API chính. Cần cài đặt Kafka broker riêng nếu muốn chạy.
+- **Chatbot:** Sử dụng OpenAI fine-tuned model, widget hiển thị toàn cục trên User Console, API tại `/api/chat/*`.
 - **Bảo mật:** Không commit `application.properties`, `.env` hoặc API keys lên Git. Các secret hiện hardcode trong source (MailConfig, CloudinaryConfig) nên được chuyển sang biến môi trường trước khi public/deploy.
 - **Tests:** Backend dùng Cucumber BDD (`src/test/resources/features/`). Maven được cấu hình `skipTests=true` mặc định khi build.
 - **Liên hệ:** lotusticket.vn@gmail.com
